@@ -2,7 +2,9 @@
   "name": "hugo-kogakure.de",
   "version": "0.0.1",
   "description": "Relaunch of kogakure.de with Hugo",
-  "scripts": {},
+  "scripts": {
+    "start": "gulp"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kogakure/website-hugo-kogakure.de.git"
@@ -18,6 +20,8 @@
   },
   "homepage": "https://kogakure.de",
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
     "gulp": "^3.9.1"
   }
 }
