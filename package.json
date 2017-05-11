@@ -1,0 +1,19 @@
+{
+  "name": "hugo-kogakure.de",
+  "version": "0.0.1",
+  "description": "Relaunch of kogakure.de with Hugo",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kogakure/website-hugo-kogakure.de.git"
+  },
+  "keywords": ["hugo"],
+  "author": "",
+  "license": "CC-BY-NC-SA",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/kogakure/website-hugo-kogakure.de/issues"
+  },
+  "homepage": "https://kogakure.de"
+}
