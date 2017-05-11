@@ -25,6 +25,12 @@ After cloning the repository run:
 $ yarn install
 ```
 
+## Time Counter
+
+To find out how long the relaunch took, I’ll use the [pomodoro technique][pomodoro] to work in focused bits of 25 minutes on my project, whenever I find some time:
+
+🍅
+
 ## Licence
 
 All content is copyrighted by [Stefan Imhoff][si] unless otherwise stated. Feel free to learn from the source code and reuse code for your projects. The only thing which is not allowed is the usage of my design (the unique combination of layout, fonts, images), private photos and logo.
@@ -36,3 +42,4 @@ In easier words: **This is not a free theme**. Learn from it. Remix. Reuse. Buil
 [gulp]: http://gulpjs.com/
 [yarn]: https://yarnpkg.com
 [si]: https://stefanimhoff.de
+[pomodoro]: https://cirillocompany.de/pages/pomodoro-technique
