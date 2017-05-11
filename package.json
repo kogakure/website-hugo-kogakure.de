@@ -1,24 +1,24 @@
 {
   "name": "hugo-kogakure.de",
+  "private": true,
   "version": "0.0.1",
   "description": "Relaunch of kogakure.de with Hugo",
+  "author": "Stefan Imhoff",
+  "license": "CC-BY-NC-SA",
   "scripts": {
     "start": "gulp"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kogakure/website-hugo-kogakure.de.git"
   },
   "keywords": [
     "hugo"
   ],
-  "author": "",
-  "license": "CC-BY-NC-SA",
-  "private": true,
+  "homepage": "https://kogakure.de",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kogakure/website-hugo-kogakure.de.git"
+  },
   "bugs": {
     "url": "https://github.com/kogakure/website-hugo-kogakure.de/issues"
   },
-  "homepage": "https://kogakure.de",
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
