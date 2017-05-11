@@ -1,0 +1,18 @@
+baseURL      = "http://kogakure.de/"
+languageCode = "de"
+title        = "kogakure.de - Ninja, Ninjutsu und Kampfkunst"
+
+paginate        = 0
+buildDrafts     = true
+buildFuture     = true
+disable404      = true
+enableRobotsTXT = true
+watch           = true
+
+archetypedir = "app/archetypes"
+contentdir   = "app/content"
+dataDir      = "app/data"
+layoutdir    = "app/layouts"
+staticdir    = "app/static"
+themesdir    = "app/themes"
+publishdir   = "dist"
