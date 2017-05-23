@@ -6,7 +6,7 @@
   "author": "Stefan Imhoff",
   "license": "CC-BY-NC-SA",
   "scripts": {
-    "start": "gulp server",
+    "start": "gulp",
     "hugo": "gulp hugo"
   },
   "keywords": [

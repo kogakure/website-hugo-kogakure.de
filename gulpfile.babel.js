@@ -20,7 +20,9 @@ function buildSite(callback, options) {
   });
 }
 
-gulp.task('server', () =>{
+gulp.task('hugo', (callback) => buildSite(callback));
+
+gulp.task('server', () => {
   browserSync.init({
     server: {
       baseDir: './dist'
@@ -32,5 +34,4 @@ gulp.task('server', () =>{
   });
 });
 
-gulp.task('hugo', (callback) => buildSite(callback));
-
+gulp.task('default', gulp.parallel('hugo', 'server'));
