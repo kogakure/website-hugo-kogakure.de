@@ -25,6 +25,18 @@ After cloning the repository run:
 $ yarn install
 ```
 
+## Tasks
+
+These tasks are provided:
+
+```bash
+$ yarn start
+$ yarn run hugo
+```
+
+- To create the Hugo site and start the server run `yarn start`
+- To build the Hugo site run `yarn run hugo`
+
 ## Time Counter
 
 To find out how long the relaunch took, I’ll use the [pomodoro technique][pomodoro] to work in focused bits of 25 minutes on my project, whenever I find some time:
