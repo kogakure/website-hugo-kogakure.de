@@ -6,7 +6,7 @@
   "author": "Stefan Imhoff",
   "license": "CC-BY-NC-SA",
   "scripts": {
-    "start": "gulp"
+    "start": "gulp server"
   },
   "keywords": [
     "hugo"
@@ -22,6 +22,7 @@
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.12",
     "gulp": "gulpjs/gulp.git#4.0"
   }
 }
