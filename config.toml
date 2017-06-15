@@ -5,7 +5,7 @@ title        = "kogakure.de - Ninja, Ninjutsu und Kampfkunst"
 paginate        = 0
 buildDrafts     = true
 buildFuture     = true
-disable404      = true
+disableKinds    = ["404"]
 enableRobotsTXT = true
 watch           = true
 
