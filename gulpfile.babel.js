@@ -1,6 +1,9 @@
 import gulp from 'gulp';
 import cp from 'child_process';
+import gutil from 'gulp-util';
 import BrowserSync from 'browser-sync';
+import webpack from 'webpack';
+import webpackConfig from './webpack.conf';
 
 const browserSync = BrowserSync.create();
 const hugoBin = 'hugo';
@@ -22,6 +25,22 @@ function buildSite(callback, options) {
 
 gulp.task('hugo', (callback) => buildSite(callback));
 
+gulp.task('js', (callback) => {
+  const myConfig = Object.assign({}, webpackConfig);
+
+  webpack(myConfig, (error, stats) => {
+    if (error) {
+      throw new gutil.PluginError('webpack', error);
+    }
+    gutil.log('[webpack]', stats.toString({
+      colors: true,
+      progress: true
+    }));
+    browserSync.reload();
+    callback();
+  });
+});
+
 gulp.task('server', () => {
   browserSync.init({
     server: {
@@ -34,4 +53,4 @@ gulp.task('server', () => {
   });
 });
 
-gulp.task('default', gulp.parallel('hugo', 'server'));
+gulp.task('default', gulp.parallel('hugo', 'server', 'js'));
