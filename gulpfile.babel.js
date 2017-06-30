@@ -51,6 +51,9 @@ gulp.task('server', () => {
       port: 8887
     }
   });
+
+  gulp.watch('./src/js/**/*.js', gulp.series('js'));
+  gulp.watch('./app/**/*', gulp.series('hugo'));
 });
 
 gulp.task('default', gulp.parallel('hugo', 'server', 'js'));
