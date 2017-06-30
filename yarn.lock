@@ -444,6 +444,21 @@ babel-plugin-check-es2015-constants@^6.22.0:
   dependencies:
     babel-runtime "^6.22.0"
 
+babel-plugin-syntax-class-properties@^6.8.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-class-properties/-/babel-plugin-syntax-class-properties-6.13.0.tgz#d7eb23b79a317f8543962c505b827c7d6cac27de"
+
+babel-plugin-syntax-object-rest-spread@^6.8.0:
+  version "6.13.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-syntax-object-rest-spread/-/babel-plugin-syntax-object-rest-spread-6.13.0.tgz#fd6536f2bce13836ffa3a5458c4903a597bb3bf5"
+
+babel-plugin-transform-class-properties@6.10.2:
+  version "6.10.2"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-class-properties/-/babel-plugin-transform-class-properties-6.10.2.tgz#849c20334cac2917267e03fcc37b88d98bf3de0d"
+  dependencies:
+    babel-plugin-syntax-class-properties "^6.8.0"
+    babel-runtime "^6.9.1"
+
 babel-plugin-transform-es2015-arrow-functions@^6.22.0:
   version "6.22.0"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-es2015-arrow-functions/-/babel-plugin-transform-es2015-arrow-functions-6.22.0.tgz#452692cb711d5f79dc7f85e440ce41b9f244d221"
@@ -612,6 +627,19 @@ babel-plugin-transform-es2015-unicode-regex@^6.24.1:
     babel-runtime "^6.22.0"
     regexpu-core "^2.0.0"
 
+babel-plugin-transform-object-assign@6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-assign/-/babel-plugin-transform-object-assign-6.8.0.tgz#76e17f2dc0f36f14f548b9afd7aaef58d29ebb75"
+  dependencies:
+    babel-runtime "^6.0.0"
+
+babel-plugin-transform-object-rest-spread@6.8.0:
+  version "6.8.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-transform-object-rest-spread/-/babel-plugin-transform-object-rest-spread-6.8.0.tgz#03d1308e257a9d8e1a815ae1fd3db21bdebf08d9"
+  dependencies:
+    babel-plugin-syntax-object-rest-spread "^6.8.0"
+    babel-runtime "^6.0.0"
+
 babel-plugin-transform-regenerator@^6.24.1:
   version "6.24.1"
   resolved "https://registry.yarnpkg.com/babel-plugin-transform-regenerator/-/babel-plugin-transform-regenerator-6.24.1.tgz#b8da305ad43c3c99b4848e4fe4037b770d23c418"
@@ -666,7 +694,7 @@ babel-register@^6.24.1:
     mkdirp "^0.5.1"
     source-map-support "^0.4.2"
 
-babel-runtime@^6.18.0, babel-runtime@^6.22.0:
+babel-runtime@^6.0.0, babel-runtime@^6.18.0, babel-runtime@^6.22.0, babel-runtime@^6.9.1:
   version "6.23.0"
   resolved "https://registry.yarnpkg.com/babel-runtime/-/babel-runtime-6.23.0.tgz#0a9489f144de70efb3ce4300accdb329e2fc543b"
   dependencies:
