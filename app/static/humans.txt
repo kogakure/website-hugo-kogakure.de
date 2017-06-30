@@ -1,0 +1,16 @@
+/* The Humans Responsible & Colophon */
+/* humanstxt.org */
+
+/* TEAM */
+Designer:    Stefan Imhoff
+Developer:   Stefan Imhoff
+Site:        stefan [at] imhoff.name
+Twitter:     @kogakure
+Location:    Hamburg, Germany
+
+/* SITE */
+Language:    German
+Doctype:     HTML5
+Standards:   HTML5, CSS3
+Components:  Hugo, PostCSS, Lost, JavaScript, Webpack, Gulp.js, Babel, Markdown, ...
+Software:    Vim, Affinity Designer, Photoshop, iTerm 2, Git, Chrome Developer Tools
