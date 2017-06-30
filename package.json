@@ -7,7 +7,9 @@
   "license": "CC-BY-NC-SA",
   "scripts": {
     "start": "gulp",
-    "hugo": "gulp hugo"
+    "hugo": "gulp hugo",
+    "build": "gulp build",
+    "build-preview": "gulp build-preview"
   },
   "keywords": [
     "hugo"

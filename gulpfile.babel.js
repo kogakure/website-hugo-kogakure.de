@@ -23,8 +23,6 @@ function buildSite(callback, options) {
   });
 }
 
-gulp.task('hugo', (callback) => buildSite(callback));
-
 gulp.task('js', (callback) => {
   const myConfig = Object.assign({}, webpackConfig);
 
@@ -56,4 +54,10 @@ gulp.task('server', () => {
   gulp.watch('./app/**/*', gulp.series('hugo'));
 });
 
-gulp.task('default', gulp.parallel('hugo', 'server', 'js'));
+gulp.task('hugo', (callback) => buildSite(callback));
+gulp.task('hugo-preview', (callback) => buildSite(callback, ['--buildDrafts', '--buildFuture']));
+
+gulp.task('build', gulp.series(gulp.parallel('js', 'hugo')));
+gulp.task('build-preview', gulp.series(gulp.parallel('js', 'hugo-preview')));
+
+gulp.task('default', gulp.parallel('build'));
