@@ -10,7 +10,9 @@
     "hugo": "gulp hugo",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
-    "lint": "eslint src"
+    "lint": "yarn run lint:js && yarn run lint:css",
+    "lint:js": "eslint src/**/*.js",
+    "lint:css": "stylelint src/**/*.css"
   },
   "keywords": [
     "hugo"
@@ -31,14 +33,21 @@
     "browser-sync": "^2.18.12",
     "child_process": "^1.0.2",
     "css-loader": "^0.28.2",
-    "eslint": "3.1.1",
+    "escope": "^3.6.0",
+    "eslint": "4.1.1",
     "eslint-plugin-import": "1.11.1",
     "exports-loader": "^0.6.3",
     "file-loader": "^0.11.1",
     "gulp": "gulpjs/gulp.git#4.0",
+    "gulp-eslint": "^4.0.0",
+    "gulp-postcss": "6.1.1",
     "gulp-util": "^3.0.7",
     "imports-loader": "^0.7.1",
     "json-loader": "^0.5.4",
+    "postcss-cssnext": "2.7.0",
+    "postcss-import": "10.0.0",
+    "postcss-reporter": "1.4.1",
+    "stylelint": "7.1.0",
     "url-loader": "^0.5.7",
     "webpack": "^2.6.0",
     "whatwg-fetch": "^1.0.0"

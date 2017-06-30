@@ -1,0 +1,8 @@
+:root {
+  --mainColor: #f5f5dc;
+}
+
+body {
+  background-color: var(--mainColor);
+  color: color(#ff0000 blackness(80%));
+}

@@ -32,16 +32,26 @@ These tasks are provided:
 ```bash
 $ yarn start
 $ yarn run hugo
+$ yarn run build
+$ yarn run build-preview
+$ yarn run lint
+$ yarn run lint:js
+$ yarn run lint:css
 ```
 
 - To create the Hugo site and start the server run `yarn start`
 - To build the Hugo site run `yarn run hugo`
+- To create a build run `yarn run build`
+- To create a build with preview options run `yarn run build-preview`
+- To check JavaScript and CSS for errors run `yarn run lint`
+- To check JavaScript for errors run `yarn run lint:js`
+- To check CSS for errors run `yarn run lint:css`
 
 ## Time Counter
 
 To find out how long the relaunch took, I’ll use the [pomodoro technique][pomodoro] to work in focused bits of 25 minutes on my project, whenever I find some time:
 
-🍅🍅🍅 
+🍅🍅🍅🍅🍅
 
 ## Licence
 
