@@ -1,6 +1,6 @@
 ---
 title: "Impressum"
-description: "Das Impressum dieser Seite, mit Kontaktinformationen, Haftungshinweis und Quellenangabe für verwendete Grafiken."
+description: "Das Impressum dieser Seite, mit Kontaktinformationen, Haftungshinweis und Quellenangabe für verwendete Grafiken. Außerdem Hinweise zu Datenschutz, Cookies, Auskunftsrecht und Webanalyse."
 permalink: "/impressum/"
 robots: "noindex,follow"
 ---
