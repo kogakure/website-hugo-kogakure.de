@@ -1,7 +1,7 @@
 ---
 title: "Impressum"
 description: "Das Impressum dieser Seite, mit Kontaktinformationen, Haftungshinweis und Quellenangabe für verwendete Grafiken. Außerdem Hinweise zu Datenschutz, Cookies, Auskunftsrecht und Webanalyse."
-permalink: "/impressum/"
+url: "/impressum/"
 robots: "noindex,follow"
 ---
 
