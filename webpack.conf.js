@@ -36,7 +36,7 @@ export default {
   },
 
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'dist/assets/js/'),
     publicPath: '/',
     filename: '[name].js'
   },

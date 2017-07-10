@@ -1,11 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title></title>
-</head>
-<body>
-  {{ block "main" . }}{{ end }}
-</body>
-</html>
+<html lang="{{ .Site.LanguageCode }}">
+  {{ partial "head" . }}
 
+  <body{{ if .IsHome }} class="home"{{ else if isset .Params "body_class" }} class="{{ .Params.body_class }}"{{ end }}>
+
+    <div class="svg-icons">
+      {{ partial "svg/icons.svg" . }}
+    </div>
+
+    <div class="container">
+      {{ partial "header" . }}
+      <div class="wrapper">
+        {{ partial "navigation" . }}
+        <div class="content">
+          {{ block "main" . }}{{ end }}
+          {{ partial "footer" . }}
+        </div>
+      </div>
+    </div>
+
+    {{ partial "scripts" . }}
+  </body>
+</html>

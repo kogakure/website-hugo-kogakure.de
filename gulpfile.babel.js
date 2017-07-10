@@ -40,7 +40,7 @@ gulp.task('css', () => {
       }),
       cssnext()
     ]))
-    .pipe(gulp.dest('./dist'))
+    .pipe(gulp.dest('./dist/assets/css/'))
     .pipe(browserSync.stream());
 });
 
