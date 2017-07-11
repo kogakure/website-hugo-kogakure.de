@@ -3,13 +3,13 @@
   publish = "dist"
 
 [build.enviroment]
-  HUGO_VERSION = "0.25.1"
+  HUGO_VERSION = "0.25"
 
 [context.production.environment]
-  HUGO_VERSION = "0.25.1"
+  HUGO_VERSION = "0.25"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.25.1"
+  HUGO_VERSION = "0.25"
 
 [context.branch-deploy.enviroment]
-  HUGO_VERSION = "0.25.1"
+  HUGO_VERSION = "0.25"

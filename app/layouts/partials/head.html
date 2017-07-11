@@ -51,7 +51,13 @@
   {{ end }}
 
   <!-- Description -->
-  <meta name="description" content="{{ if isset .Params "description" }}{{ .Params.description }}{{ else }}{{ .Site.Data.settings.seo.description }}{{ end }}">
+  {{ if isset .Params "description" }}
+    <meta name="description" content="{{ .Params.description }}">
+  {{ else if isset .Params "excerpt" }}
+    <meta name="description" content="{{ .Params.excerpt }}">
+  {{ else }}
+    <meta name="description" content="{{ .Site.Data.settings.seo.description }}">
+  {{ end }}
 
   <!-- Twitter Card -->
   {{ if .IsHome }}

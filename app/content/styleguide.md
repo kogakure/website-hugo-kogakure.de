@@ -117,61 +117,61 @@ Zusätzlich dazu kann auch das Element `cite` verwendet werden, um ein Werk zu m
 
 #### Einfaches Blockzitat
 
-{% blockquote %}
+{{% blockquote %}}
 Dies ist ein Zitat.
-{% endblockquote %}
+{{% /blockquote %}}
 
 ```html
-{% blockquote %}
+{{%/* blockquote %}}
 Dies ist ein Zitat.
-{% endblockquote %}{% endraw %}
+{{% /blockquote */%}}
 ```
 
 
 #### Zitat aus einem gedruckten Werk
 
-{% blockquote J.R.R. Tolkien, Der Herr der Ringe %}
+{{% blockquote author="J.R.R. Tolkien" cite="Der Herr der Ringe" %}}
 Drei Ringe den Elben, hoch im Licht. Sieben den Zwergen in ihren Hallen aus Stein. Den Sterblichen, ewig dem Tode verfalln: Neun. Ein Ring sie zu knechten, sie alle zu finden, ins Dunkel zu treiben und ewig zu binden. Im Lande Mordor, wo die Schatten drohn.
-{% endblockquote %}
+{{% /blockquote %}}
 
-{% blockquote Douglas Adams, The Hichhikers Guide to the Galaxy %}
+{{% blockquote author="Douglas Adams" cite="The Hichhikers Guide to the Galaxy" %}}
 Flying is learning how to throw yourself at the ground and miss.
-{% endblockquote %}
+{{% /blockquote %}}
 
 ```html
-{% blockquote Douglas Adams, The Hichhikers Guide to the Galaxy %}
+{{%/* blockquote author="Douglas Adams" cite="The Hichhikers Guide to the Galaxy" %}}
 …
-{% endblockquote %}{% endraw %}
+{{% /blockquote */%}}
 ```
 
 
 #### Zitat von Twitter
 
-{% blockquote @allanbranch https://twitter.com/allanbranch/status/90766146063712256 %}
+{{% blockquote author="@allanbranch" url="https://twitter.com/allanbranch/status/90766146063712256" %}}
 Over the past 24 hours I've been reflecting on my life & I've realized only one thing. I need a medieval battle axe.
-{% endblockquote %}
+{{% /blockquote %}}
 
 ```html
-{% blockquote @allanbranch https://twitter.com/allanbranch/status/90766146063712256 %}
+{{%/* blockquote author="@allanbranch" url="https://twitter.com/allanbranch/status/90766146063712256" %}}
 …
-{% endblockquote %}{% endraw %}
+{{% /blockquote */%}}
 ```
 
 
 #### Zitat aus einem Artikel im Internet
 
-{% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %}
+{{% blockquote author="Seth Godin" url="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" cite="Welcome to Island Marketing" %}}
 Every interaction is both precious and an opportunity to delight.
-{% endblockquote %}
+{{% /blockquote %}}
 
-{% blockquote Winston Churchill http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206a Speech to the House of Commons %}
+{{% blockquote author="Winston Churchill" url="http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206a" cite="Speech to the House of Commons" %}}
 Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
-{% endblockquote %}
+{{% /blockquote %}}
 
 ```html
-{% blockquote Seth Godin http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html Welcome to Island Marketing %}
+{{%/* blockquote author="Seth Godin" url="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" cite="Welcome to Island Marketing" %}}
 …
-{% endblockquote %}{% endraw %}
+{{% /blockquote */%}}
 ```
 
 
@@ -232,37 +232,37 @@ Luke führte weiter aus, <q>Und sie nannte ihn einen <q>total blöd-aussehenen I
 
 Gedichte und Verse sollen so geschrieben werden, wie sie vom Autor gedacht waren und außerdem in der Seite zentriert stehen. Dafür gibt es einen Stil:
 
-{% verse Lewis Carroll, Jabberwocky (1832-98) %}
+{{< verse author="Lewis Carroll" cite="Jabberwocky (1832-98)" >}}
 ‘Twas brillig, and the slithy toves
 Did gyre and gimble            in the wabe;
 All mimsy     were     the borogoves,
 And       the mome     raths            outgrabe.
-{% endverse %}
+{{< /verse >}}
 
 ```html
-{% verse Lewis Carroll, Jabberwocky (1832-98) %}
+{{</* verse author="Lewis Carroll" cite="Jabberwocky (1832-98)" >}}
 ‘Twas brillig, and the slithy toves
 Did gyre and gimble            in the wabe;
 All mimsy     were     the borogoves,
 And       the mome     raths            outgrabe.
-{% endverse %}{% endraw %}
+{{< /verse */>}}
 ```
 
 
 ## Randbemerkungen
 
-{% aside %}
+{{% aside %}}
 <h4 class="aside-headline">Überschrift</h4>
-<p>Dies ist eine Randbemerkung.</p>
-{% endaside %}
+Dies ist eine Randbemerkung.
+{{% /aside %}}
 
 Manchmal möchte man mitten im Text etwas erklären, was nicht direkt zum Text gehört, aber das zum Verständnis des Textes beitragen kann. Diese Randbemerkungen wurden im Print üblicherweise in den Rand der Publikation gedruckt und hatten eine kleinere Schrift. Manchmal kann man diese aber auch im Text selbst stehen sehen, und sie werden durch eine andere Farbe oder einen Rand als Nebenbemerkung gekennzeichnet. Auf dieser Website stehen die Randbemerkungen (`aside`) im Rand und zwar im rechten Rand. Als Überschrift (wenn nötig) sollte minimal eine `h4` verwendet werden.
 
 ```html
-{% aside %}
+{{%/* aside %}}
 <h4 class="aside-headline">Überschrift</h4>
-<p>Dies ist eine Randbemerkung.</p>
-{% endaside %}{% endraw %}
+Dies ist eine Randbemerkung.
+{{% /aside */%}}
 ```
 
 ## Listen
@@ -343,7 +343,7 @@ Manchmal soll eine Liste auch Blockelemente enthalten, üblicherweise einen Absa
 ### Definitionslisten
 
 
-Das Element `dl` ist ein weiterer Typ von Liste, nämlich eine Defintionsliste. Anstelle von Listeneinträgen besteht eine `dl` aus Paaren von `dt` (Defintion Term) und `dd` (Definition Description). 
+Das Element `dl` ist ein weiterer Typ von Liste, nämlich eine Defintionsliste. Anstelle von Listeneinträgen besteht eine `dl` aus Paaren von `dt` (Defintion Term) und `dd` (Definition Description).
 
 Dies ist eine Bezeichnung
 : Dies ist die Definition für die Bezeichnung
@@ -723,50 +723,50 @@ Ein einfaches Bild:
 
 ## Abbildungen
 
-{% figure "Dies ist der Untertitel, die <code>figcaption</code>." %}
+{{% figure caption="Dies ist der Untertitel, die <code>figcaption</code>." %}}
   <img src="http://lorempixel.com/680/408/fashion/" alt="Example image">
-{% endfigure %}
+{{% /figure %}}
 
 ```html
-{% figure "Dies ist der Untertitel, die <code>figcaption</code>." %}
+{{%/* figure caption="Dies ist der Untertitel, die <code>figcaption</code>." %}}
   <img src="http://lorempixel.com/680/408/fashion/" alt="Example image">
-{% endfigure %}{% endraw %}
+{{% /figure */%}}
 ```
 
 ### Abbildung mit erzwungender Umrandung
 
-{% figure image-figure-border %}
+{{% figure class="image-figure-border" %}}
   <img src="http://lorempixel.com/680/408/nature/" alt="Example image">
-{% endfigure %}
+{{% /figure %}}
 
 ```html
-{% figure image-figure-border %}
+{{%/* figure class="image-figure-border" %}}
   <img src="http://lorempixel.com/680/408/nature/" alt="Example image">
-{% endfigure %}{% endraw %}
+{{% /figure */%}}
 ```
 
 ### Abbildung mit entfernter Umrandung
 
-{% figure image-figure-noborder %}
+{{% figure class="image-figure-noborder" %}}
   <img src="http://lorempixel.com/680/408/food/" alt="Example image">
-{% endfigure %}
+{{% /figure %}}
 
 ```html
-{% figure image-figure-noborder %}
+{{%/* figure class="image-figure-noborder" %}}
   <img src="http://lorempixel.com/680/408/food/" alt="Example image">
-{% endfigure %}{% endraw %}
+{{% /figure */%}}
 ```
 
 ### Abbildung mit Schatten
 
-{% figure image-figure-shadow %}
+{{% figure class="image-figure-shadow" %}}
   <img src="http://lorempixel.com/680/408/animals/" alt="Example image">
-{% endfigure %}
+{{% /figure %}}
 
 ```html
 {% figure image-figure-shadow %}
   <img src="http://lorempixel.com/680/408/animals/" alt="Example image">
-{% endfigure %}{% endraw %}
+{% endfigure %}
 ```
 
 ## Videos
@@ -775,26 +775,26 @@ Es ist auch möglich Videos einzubetten, und zwar als natives HTML5, direkt von 
 
 ### Native HTML5-Videos
 
-{% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 640 420 http://s3.imathis.com/video/zero-to-fancy-buttons.png %}
+{{< video source="http://s3.imathis.com/video/zero-to-fancy-buttons.mp4" width="640" height="420" poster="http://s3.imathis.com/video/zero-to-fancy-buttons.png" type="mp4" >}}
 
 ```html
-{% video http://s3.imathis.com/video/zero-to-fancy-buttons.mp4 640 420 http://s3.imathis.com/video/zero-to-fancy-buttons.png %}{% endraw %}
+{{</* video source="http://s3.imathis.com/video/zero-to-fancy-buttons.mp4" width="640" height="420" poster="http://s3.imathis.com/video/zero-to-fancy-buttons.png" type="mp4" */>}}
 ```
 
 ### YouTube-Videos
 
-{% youtube zY_D2ZZAZIo %}
+{{< youtube zY_D2ZZAZIo >}}
 
 ```html
-{% youtube zY_D2ZZAZIo %}{% endraw %}
+{{</* youtube zY_D2ZZAZIo */>}}
 ```
 
 ### Vimeo-Videos
 
-{% vimeo 29413609 %}
+{{< vimeo 29413609 >}}
 
 ```html
-{% vimeo 29413609 %}{% endraw %}
+{{</* vimeo 29413609 */>}}
 ```
 
 
@@ -809,67 +809,27 @@ Dieses wird oft zusammen mit dem Element `pre` verwendet.
 
 ### Codeblöcke
 
-
-#### Ohne Highlighting
-
 Einfache Codeblöcke ohne Sprachangabe und Highlighting können so geschrieben werden:
 
     Mein fantastischer Code
 
-{% highlight text %}
+```html
     Mein fantastischer Code
 ```
 
-Diese werden einfach in ein `<pre>` und ein `<code>` eingeschlossen.
-
-
-#### Mit Hightlighting
-
-{% highlight sh %}
+```sh
 $ chmod a+x *.txt
 ```
 
-{% highlight ruby %}
+```ruby
 def index
   puts "Hallo Welt"
 end
 ```
-
-```html
-{% highlight sh %}
-$ chmod a+x *.txt
-```
-
-{% highlight ruby %}
-def index
-  puts "Hallo Welt"
-end
-```
-{% endraw %}```
-
-
-#### Mit Hightlighting und Zeilennummerierung
-
-{% highlight ruby linenos %}
-def index
-  puts "Hallo Welt"
-end
-```
-
-```html
-
-{% highlight ruby linenos %}
-def index
-  puts "Hallo Welt"
-end
-```
-{% endraw %}
-```
-
 
 #### Längere Beispiele
 
-{% highlight ruby %}
+```ruby
 namespace :images do
 
   desc "Crush all images"
@@ -885,7 +845,7 @@ namespace :images do
 end
 ```
 
-{% highlight css %}
+```css
 /**
  * CSS/Markup: Flexbox
  */

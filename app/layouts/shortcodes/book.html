@@ -1,0 +1,27 @@
+{{ $books := .Site.Data.books }}
+{{ $asin := .Get 0 }}
+
+{{ range $books }}
+  {{ if eq .asin $asin }}
+  <aside class="recommendation-item" itemscope itemtype="http://schema.org/Book">
+    <img class="recommendation-image" width="80" src="/assets/images/{{ .cover }}" alt="{{ .title }}" itemprop="image">
+    <h4 class="recommendation-title" itemprop="name">
+      {{ .title }}
+    </h4>
+
+    {{ $len := len .contributors }}
+    <p class="recommendation-contributors">
+      <i>von</i>
+      {{ range $i, $c := .contributors }}
+      <span itemprop="author">
+        {{- .name -}}
+      </span>{{ if lt (add $i 1) $len }}, {{ end }}
+      {{ end }}
+    </p>
+
+    <a class="recommendation-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" target="_blank" rel="nofollow">
+      Kaufen
+    </a>
+  </aside>
+  {{ end }}
+{{ end }}

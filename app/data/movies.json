@@ -1,0 +1,287 @@
+[
+  {
+    "title": "Akira Kurosawa - Samurai Edition",
+    "cover": "kaufempfehlungen/fullsize/filme/akira-kurosawa-samurai-edition.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/akira-kurosawa-samurai-edition.jpg",
+    "asin": "B0031BRLTS",
+    "year": "1954-1962",
+    "duration": "593 Minuten",
+    "director": "Akira Kurosawa",
+    "rating": "16",
+    "recommendation": true,
+    "genres": [
+      "Abenteuer",
+      "Action",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "title": "Die sieben Samurai",
+    "originalTitle": "Shichinin no samurai",
+    "cover": "kaufempfehlungen/fullsize/filme/sieben-samurai.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/sieben-samurai.jpg",
+    "asin": "B004N6XW3E",
+    "year": "1954",
+    "duration": "348 Minuten",
+    "director": "Akira Kurosawa",
+    "rating": "16",
+    "recommendation": true,
+    "notes": "Kurosawas bekanntester Film, wurde für das Genre des Western als „Die glorreichen Sieben“ neu aufgelegt",
+    "genres": [
+      "Abenteuer",
+      "Drama"
+    ]
+  },
+  {
+    "title": "Das Schloß im Spinnwebwald",
+    "originalTitle": "Kumonosu-jô",
+    "cover": "kaufempfehlungen/fullsize/filme/throne-of-blood.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/throne-of-blood.jpg",
+    "asin": "B002S1PABS",
+    "year": "1957",
+    "duration": "105 Minuten",
+    "director": "Akira Kurosawa",
+    "rating": "12",
+    "notes": "Kurosawas Interpretation von Shakespears „Macbeth“",
+    "genres": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "title": "Die Verborgene Festung",
+    "originalTitle": "Kakushi-toride no san-akunin",
+    "cover": "kaufempfehlungen/fullsize/filme/hidden-fortress.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/hidden-fortress.jpg",
+    "asin": "B002ZWMR98",
+    "year": "1958",
+    "duration": "134 Minuten",
+    "director": "Akira Kurosawa",
+    "rating": "16",
+    "notes": "Inspirationsquelle für George Lucas' Star Wars - A New Hope (Anfangssequenz mit R2D2/C3PO)",
+    "genres": [
+      "Abenteuer",
+      "Drama"
+    ]
+  },
+  {
+    "title": "Die Leibwache",
+    "originalTitle": "Yôjinbô",
+    "cover": "kaufempfehlungen/fullsize/filme/yojinbo.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/yojinbo.jpg",
+    "asin": "B002S1PADQ",
+    "year": "1961",
+    "duration": "107 Minuten",
+    "director": "Akira Kurosawa",
+    "rating": "12",
+    "notes": "Dieser Film wurde zweimal mit gleicher Geschichte neuverfilmt: „Für eine Handvoll Dollar“ (Clint Eastwood) und „Last Man Standing“ (Bruce Willis)",
+    "genres": [
+      "Action",
+      "Abenteuer",
+      "Drama"
+    ]
+  },
+  {
+    "title": "Rashomon",
+    "cover": "kaufempfehlungen/fullsize/filme/rashomon.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/rashomon.jpg",
+    "asin": "3866153198",
+    "year": "1950",
+    "duration": "83 Minuten",
+    "director": "Akira Kurosawa",
+    "rating": "16",
+    "genres": [
+      "Krimi",
+      "Drama",
+      "Rätsel"
+    ]
+  },
+  {
+    "title": "Sanjuro",
+    "originalTitle": "Tsubaki Sanjûrô",
+    "cover": "kaufempfehlungen/fullsize/filme/sanjuro.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/sanjuro.jpg",
+    "asin": "B0007PLFBG",
+    "year": "1962",
+    "duration": "96 Minuten",
+    "director": "Akira Kurosawa",
+    "rating": "12",
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "title": "Kagemusha - Der Schatten des Kriegers",
+    "originalTitle": "Kagemusha",
+    "cover": "kaufempfehlungen/fullsize/filme/kagemusha.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/kagemusha.jpg",
+    "asin": "B00008OX3W",
+    "year": "1980",
+    "duration": "153 Minuten",
+    "director": "Akira Kurosawa",
+    "rating": "12",
+    "recommendation": true,
+    "genres": [
+      "Drama",
+      "Geschichte",
+      "Krieg"
+    ]
+  },
+  {
+    "title": "Ran",
+    "cover": "kaufempfehlungen/fullsize/filme/ran.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/ran.jpg",
+    "asin": "B00030EJJA",
+    "year": "1985",
+    "duration": "156 Minuten",
+    "director": "Akira Kurosawa",
+    "rating": "12",
+    "recommendation": true,
+    "notes": "Kurosawas Interpretation von Shakespears „König Lear“",
+    "genres": [
+      "Action",
+      "Drama",
+      "Krieg"
+    ]
+  },
+  {
+    "title": "Last Samurai",
+    "originalTitle": "The Last Samurai",
+    "cover": "kaufempfehlungen/fullsize/filme/last-samurai.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/last-samurai.jpg",
+    "asin": "B0001G6PZC",
+    "year": "2003",
+    "duration": "148 Minuten",
+    "director": "Edward Zwick",
+    "rating": "16",
+    "genres": [
+      "Action",
+      "Drama",
+      "Geschichte"
+    ]
+  },
+  {
+    "title": "Lady Snowblood",
+    "originalTitle": "Shurayukihime",
+    "cover": "kaufempfehlungen/fullsize/filme/lady-snowblood.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/lady-snowblood.jpg",
+    "asin": "B0006VBJPI",
+    "year": "1973",
+    "duration": "93 Minuten",
+    "director": "Toshiya Fujita",
+    "rating": "16",
+    "genres": [
+      "Action",
+      "Drama",
+      "Thriller"
+    ]
+  },
+  {
+    "title": "Zatoichi - Der blinde Samurai",
+    "originalTitle": "Zatôichi",
+    "cover": "kaufempfehlungen/fullsize/filme/zatoichi.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/zatoichi.jpg",
+    "asin": "B0006SN4W2",
+    "year": "2003",
+    "duration": "111 Minuten",
+    "director": "Takeshi Kitano",
+    "rating": "16",
+    "genres": [
+      "Action",
+      "Komödie",
+      "Krimi"
+    ]
+  },
+  {
+    "title": "Samurai der Dämmerung",
+    "originalTitle": "Tasogare Seibei",
+    "cover": "kaufempfehlungen/fullsize/filme/twilight-samurai.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/twilight-samurai.jpg",
+    "asin": "B000L42W88",
+    "year": "2002",
+    "duration": "127 Minuten",
+    "director": "Yôji Yamada",
+    "rating": "16",
+    "genres": [
+      "Drama",
+      "Romanze"
+    ]
+  },
+  {
+    "title": "Samurai Fiction",
+    "originalTitle": "SF: Episode One",
+    "cover": "kaufempfehlungen/fullsize/filme/samurai-fiction.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/samurai-fiction.jpg",
+    "asin": "B0001E3AM0",
+    "year": "1998",
+    "duration": "108 Minuten",
+    "director": "Hiroyuki Nakano",
+    "rating": "16",
+    "genres": [
+      "Action",
+      "Abenteuer",
+      "Komödie"
+    ]
+  },
+  {
+    "title": "Lone Wolf & Cub",
+    "originalTitle": "Kozure ôkami",
+    "cover": "kaufempfehlungen/fullsize/filme/kozure-okami.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/kozure-okami.jpg",
+    "asin": "B000C9CYF8",
+    "year": "1973-1976",
+    "duration": "507 Minuten",
+    "rating": "18",
+    "genres": [
+      "Serie"
+    ]
+  },
+  {
+    "title": "Shogun",
+    "cover": "kaufempfehlungen/fullsize/filme/shogun.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/shogun.jpg",
+    "asin": "B0001BG4C6",
+    "year": "1980",
+    "duration": "526 Minuten",
+    "director": "Jerry London",
+    "rating": "12",
+    "genres": [
+      "Mini-Serie"
+    ]
+  },
+  {
+    "title": "Hero",
+    "originalTitle": "Ying xiong",
+    "cover": "kaufempfehlungen/fullsize/filme/hero.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/hero.jpg",
+    "asin": "B000JGW828",
+    "year": "2002",
+    "duration": "105 Minuten",
+    "director": "Yimou Zhang",
+    "rating": "12",
+    "genres": [
+      "Action",
+      "Drama",
+      "Geschichte"
+    ]
+  },
+  {
+    "title": "Ghost Dog - Der Weg des Samurai",
+    "originalTitle": "Ghost Dog: The Way of the Samurai",
+    "cover": "kaufempfehlungen/fullsize/filme/ghost-dog.jpg",
+    "thumbnail": "kaufempfehlungen/thumbs/filme/ghost-dog.jpg",
+    "asin": "B00004U9Q9",
+    "year": "1999",
+    "duration": "111 Minuten",
+    "director": "Jim Jarmusch",
+    "rating": "16",
+    "genres": [
+      "Action",
+      "Krimi",
+      "Drama"
+    ]
+  }
+]

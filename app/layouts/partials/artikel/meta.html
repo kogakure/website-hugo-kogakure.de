@@ -1,0 +1,21 @@
+<header class="article-header">
+  <h1 class="article-title">
+    {{ .Title }}
+  </h1>
+
+  {{ if not (eq .Params.meta false) }}
+  <div class="article-meta">
+    <span class="article-author">
+      <em class="article-author-byline">Von</em>
+      {{ if isset .Params "author" }}
+        {{ .Params.author }}
+      {{ else }}
+        {{ .Site.Data.settings.author }}
+      {{ end }}
+      {{ if isset .Params "translator" }}
+        <em class="article-author-byline">Übersetzt von</em> {{ .Params.translator }}
+      {{ end }}
+    </span>
+  </div>
+  {{ end }}
+</header>

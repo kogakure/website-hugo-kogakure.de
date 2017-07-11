@@ -51,7 +51,7 @@ $ yarn run lint:css
 
 To find out how long the relaunch took, I’ll use the [pomodoro technique][pomodoro] to work in focused bits of 25 minutes on my project, whenever I find some time:
 
-🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
+🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
 
 ## Licence
 
