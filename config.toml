@@ -17,6 +17,9 @@ staticdir    = "app/static"
 themesdir    = "app/themes"
 publishdir   = "dist"
 
+[permalinks]
+artikel = "/artikel/:slug/"
+
 # Main Navigation
 [[menu.main]]
 name   = "Startseite"
