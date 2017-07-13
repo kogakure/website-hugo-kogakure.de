@@ -1,7 +1,8 @@
+title        = "kogakure.de - Ninja, Ninjutsu und Kampfkunst"
 baseURL      = "http://0.0.0.0:8888/"
 languageCode = "de"
-title        = "kogakure.de - Ninja, Ninjutsu und Kampfkunst"
 
+metaDataFormat  = "yaml"
 paginate        = 0
 buildDrafts     = true
 buildFuture     = true
@@ -16,6 +17,12 @@ layoutdir    = "app/layouts"
 staticdir    = "app/static"
 themesdir    = "app/themes"
 publishdir   = "dist"
+
+[blackfriday]
+smartypants     = false
+plainIDAnchors  = true
+hrefTargetBlank = true
+extensions      = [""]
 
 [permalinks]
 artikel = "/artikel/:slug/"
