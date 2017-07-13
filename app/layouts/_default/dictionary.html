@@ -1,0 +1,37 @@
+{{ define "main" }}
+  <h1>
+    {{ .Title }}
+  </h1>
+
+  {{ .Content }}
+
+  <div class="dictionary">
+    {{ range sort .Site.Data.dictionary ".sort" "asc" }}
+    <dl class="dictionary-item">
+      {{ if or .japanese .chinese .sanskrit }}
+      <dt class="dictionary-term">
+        {{ .japanese }}{{ .chinese }}{{ .sanskrit }}
+      </dt>
+      {{ end }}
+      {{ if .title }}
+      <dd class="dictionary-romanji">
+        {{ .title }}
+      </dd>
+      {{ end }}
+      {{ if .german }}
+      <dd class="dictionary-translation">
+        <q>{{ .german }}</q>
+      </dd>
+      {{ end }}
+      {{ if .description }}
+      <dd class="dictionary-description">
+        {{ if .sanskrit }}(Sanskrit). {{ end }}
+        {{ if .chinese }}(Chinesisch). {{ end }}
+        {{ .description | safeHTML }}
+      </dd>
+      {{ end }}
+    </dl>
+    {{ end }}
+  </div>
+
+{{ end }}
