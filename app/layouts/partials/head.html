@@ -4,6 +4,10 @@
   <title>
     {{ if .IsHome }}
       {{ .Site.Data.settings.title }}
+    {{ else if .IsNode }}
+      {{ if eq .Page.Type "artikel" }}
+      Artikelverzeichnis - {{ .Site.Data.settings.title }}
+      {{ end }}
     {{ else }}
       {{ .Title | plainify }} - {{ .Site.Data.settings.title }}
     {{ end }}
