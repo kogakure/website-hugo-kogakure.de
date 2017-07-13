@@ -20,36 +20,5 @@ publishdir   = "dist"
 [permalinks]
 artikel = "/artikel/:slug/"
 
-# Main Navigation
-[[menu.main]]
-name   = "Startseite"
-url    = "/"
-weight = 1
-
-[[menu.main]]
-name   = "Artikel"
-url    = "/artikel/"
-weight = 2
-
-[[menu.main]]
-name   = "Lexikon"
-url    = "/lexikon/"
-weight = 3
-
-[[menu.main]]
-name   = "Zitate"
-url    = "/zitate/"
-weight = 4
-
-[[menu.main]]
-name   = "Empfehlungen"
-url    = "/empfehlungen/"
-weight = 5
-
-[[menu.main]]
-name   = "Information"
-url    = "/info/"
-weight = 6
-
 [params]
 tracking = false
