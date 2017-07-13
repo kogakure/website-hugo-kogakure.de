@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /sprueche/
+Disallow: /error/
+
+Sitemap: {{ .Site.BaseURL  }}sitemap.xml
