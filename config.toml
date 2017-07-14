@@ -18,6 +18,8 @@ staticdir    = "app/static"
 themesdir    = "app/themes"
 publishdir   = "dist"
 
+[taxonomies]
+
 [blackfriday]
 smartypants     = false
 plainIDAnchors  = true
