@@ -1,0 +1,129 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+
+  {{ .Content }}
+
+  <h2>Bücher</h2>
+
+  <ul class="books recommendation">
+    {{ range .Site.Data.books }}
+    <li class="recommendation-item">
+      <figure class="recommendation-layer" itemscope itemtype="http://schema.org/Book">
+        <img class="recommendation-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
+
+        <figcaption class="recommendation-info">
+          <h3 class="recommendation-info-title" itemprop="name">
+            {{ .title }}
+          </h3>
+
+          {{ $len := len .contributors }}
+          <p class="recommendation-info-contributors">
+            <i>von</i>
+            {{ range $i, $c := .contributors }}
+            <span itemprop="author">
+              {{- .name -}}
+            </span>{{ if lt (add $i 1) $len }}, {{ end }}
+            {{ end }}
+          </p>
+
+          <dl class="recommendation-info-details">
+            <dt class="recommendation-info-details-title">
+              Seiten
+            </dt>
+            <dd class="recommendation-info-details-definition" itemprop="numberOfPages">
+              {{ .pages }}
+            </dd>
+            <dt class="recommendation-info-details-title">
+              Sprache
+            </dt>
+            <dd class="recommendation-info-details-definition" itemprop="inLanguage">
+              {{ .language }}
+            </dd>
+          </dl>
+
+          {{ if .asin }}
+            <a class="recommendation-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="nofollow" target="_blank">
+              Kaufen
+            </a>
+          {{ end }}
+        </figcaption>
+      </figure>
+
+      {{ if .new }}
+        <div class="recommendation-new">
+          Neu
+        </div>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+
+  <h2>Filme</h2>
+
+  <ul class="movies recommendation">
+    {{ range .Site.Data.movies }}
+    <li class="recommendation-item">
+      <figure class="recommendation-layer" itemscope itemtype="http://schema.org/Movie">
+        <img class="recommendation-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
+
+        <figcaption class="recommendation-info">
+          <h3 class="recommendation-info-title" itemprop="name">
+            {{ .title }}
+          </h3>
+
+          <dl class="recommendation-info-details">
+            <dt class="recommendation-info-details-title">
+              Regisseur
+            </dt>
+            <dd class="recommendation-info-details-definition" itemprop="director">
+              <span itemprop="name">{{ .director }}</span>
+            </dd>
+            <dt class="recommendation-info-details-title">
+              Veröffentlichung
+            </dt>
+            <dd class="recommendation-info-details-definition" itemprop="datePublished">
+              {{ .year }}
+            </dd>
+            <dt class="recommendation-info-details-title">
+              Dauer
+            </dt>
+            <dd class="recommendation-info-details-definition" itemprop="duration">
+              {{ .duration }}
+            </dd>
+            <dt class="recommendation-info-details-title">
+              Genre
+            </dt>
+            <dd class="recommendation-info-details-definition" itemprop="genre">
+              {{ delimit .genres ", " }}
+            </dd>
+            <dt class="recommendation-info-details-title">
+              Freigegeben ab
+            </dt>
+            <dd class="recommendation-info-details-definition" itemprop="contentRating">
+              {{ .rating }}
+            </dd>
+          </dl>
+
+          {{ if .asin }}
+            <a class="recommendation-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="nofollow" target="_blank">
+              Kaufen
+            </a>
+          {{ end }}
+
+          {{ if .imdb }}
+            <a class="recommendation-link" href="http://www.imdb.com/title/{{ .imdb }}/" rel="nofollow" target="_blank">
+              Informationen
+            </a>
+          {{ end }}
+        </figcaption>
+      </figure>
+
+      {{ if .new }}
+        <div class="recommendation-new">
+          Neu
+        </div>
+      {{ end }}
+    </li>
+    {{ end }}
+  </ul>
+{{ end }}
