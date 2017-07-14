@@ -1,7 +1,7 @@
 ---
 layout: error
 title: Serverfehler!
-url: "/error/500/"
+url: "/500.html"
 robots: "noindex,follow"
 body_class: "page-error-500"
 sitemap_exclude: true

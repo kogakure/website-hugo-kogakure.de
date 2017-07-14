@@ -1,7 +1,7 @@
 ---
 layout: error
 title: Seite entfernt!
-url: "/error/410/"
+url: "/410.html"
 robots: "noindex,follow"
 body_class: "page-error-410"
 sitemap_exclude: true
