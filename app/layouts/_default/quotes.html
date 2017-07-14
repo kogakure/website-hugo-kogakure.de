@@ -1,30 +1,27 @@
 {{ define "main" }}
-  <h1>
-    {{ .Title }}
-  </h1>
+  <h1>{{ .Title }}</h1>
 
   {{ .Content }}
 
   {{ range .Site.Data.quotes }}
-  <blockquote class="quote">
-    <p>{{ replace .text "\n" "<br>" | safeHTML }}</p>
+    <blockquote class="quote">
+      <p>{{ replace .text "\n" "<br>" | safeHTML }}</p>
 
-    <footer class="quote-footer">
-      {{- if .author -}}
-      <strong class="quote-author">
-        {{- .author -}}
-      </strong>
-      {{- end -}}
+      <footer class="quote-footer">
+        {{- if .author -}}
+        <strong class="quote-author">
+          {{- .author -}}
+        </strong>
+        {{- end -}}
 
-      {{ if and .author .cite }}, {{ end }}
+        {{ if and .author .cite }}, {{ end }}
 
-      {{ if .cite }}
-      <cite class="quote-cite">
-        {{ .cite }}
-      </cite>
-      {{ end }}
-    </footer>
-  </blockquote>
+        {{ if .cite }}
+        <cite class="quote-cite">
+          {{ .cite }}
+        </cite>
+        {{ end }}
+      </footer>
+    </blockquote>
   {{ end }}
-
 {{ end }}
