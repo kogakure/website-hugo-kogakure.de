@@ -1,7 +1,7 @@
 ---
 layout: error
 title: Nicht gefunden!
-url: "/error/404/"
+url: "/404.html"
 robots: "noindex,follow"
 body_class: "page-error-404"
 sitemap_exclude: true
