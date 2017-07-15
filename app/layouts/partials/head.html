@@ -121,8 +121,9 @@
   {{ partial "critical" . }}
 
   <!-- Feeds -->
-  <link href="{{ .Site.Data.settings.social.feedburner_url }}" rel="alternate" title="{{ .Site.Data.settings.title }}" type="application/rss+xml">
-  <link href="{{ .Site.Data.settings.social.feedburner_url }}" rel="feed" title="{{ .Site.Data.settings.title }}" type="application/rss+xml">
+  <link href="{{ .Site.Data.settings.feeds.feedburner_url }}" rel="alternate" title="{{ .Site.Data.settings.title }}" type="application/rss+xml">
+  <link href="{{ .Site.Data.settings.feeds.feedburner_url }}" rel="feed" title="{{ .Site.Data.settings.title }}" type="application/rss+xml">
+  <link href="{{ .Site.Data.settings.feeds.jsonfeed_url }}" rel="alternate" title="{{ .Site.Data.settings.title }}" type="application/json">
 
   <!-- Generator -->
   {{ .Hugo.Generator }}

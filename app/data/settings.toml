@@ -1,5 +1,6 @@
 title = "kogakure.de - Ninja, Ninjutsu und Kampfkunst"
 author = "Stefan Imhoff"
+url = "https://stefanimhoff.de"
 email = "mail@kogakure.de"
 
 [seo]
@@ -9,4 +10,7 @@ description = "Fachmagazin für Ninja, Ninjutsu und Kampfkunst. Seit 1999 bietet
 [social]
 twitter = "@kogakure"
 googleplus = "104687479698350625994"
+
+[feeds]
 feedburner_url = "http://feeds.feedburner.com/kogakure"
+jsonfeed_url = "https://kogakure.de/feed.json"
