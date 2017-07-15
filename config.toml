@@ -20,6 +20,15 @@ publishdir   = "dist"
 
 [taxonomies]
 
+[outputs]
+home = ["html", "rss", "jsonfeed"]
+page = ["html"]
+
+[outputFormats.jsonfeed]
+mediaType   = "application/json"
+baseName    = "feed"
+isPlainText = true
+
 [blackfriday]
 smartypants     = false
 plainIDAnchors  = true
