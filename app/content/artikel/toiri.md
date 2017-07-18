@@ -4,6 +4,7 @@ slug: "toiri"
 date: 2006-04-02T14:59:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Die Toiri-Taktiken wurden vom Ninja zu Friedenszeiten angewendet. Sie enthalten vor allem Spionage und vorbeugende Taktiken."
+body_class: "grid--small"
 categories:
 - Strategie
 - Taktik

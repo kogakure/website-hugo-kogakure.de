@@ -4,6 +4,7 @@ slug: "hatsumi-masaaki"
 date: 2006-04-02T15:02:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Hatsumi Masaaki ist Oberhaupt des Bujinkan, der Organisation, die er gegründete, um die neun Schulen als Einheit zu lehren. Er ist ein hochgeachteter Mann, dem weltweit zahlreichen Ehrungen verliehen wurden."
+body_class: "grid--small"
 categories:
 - Biographie
 ---
@@ -30,7 +31,7 @@ Danach gründete er eine Praxis für Osteopathie. Während er auf der Universit�
 
 ## Jūdō-Training mit Amerikanern
 
-![Hatsumi Masaaki](/assets/images/artikel/hatsumi1.jpg)
+![Hatsumi Masaaki](/assets/images/articles/hatsumi1.jpg)
 
 Er wurde gefragt, ob er Judo mit den amerikanischen Soldaten in der Yokote Armeebasis trainieren könnte.
 
@@ -45,7 +46,7 @@ Nach drei Jahren hatte er den Stil gemeistert und sein Lehrer sagte, daß er ihm
 
 ## Zusammentreffen mit Takamatsu
 
-![Hatsumi Masaaki](/assets/images/artikel/hatsumi2.jpg)
+![Hatsumi Masaaki](/assets/images/articles/hatsumi2.jpg)
 
 Als Hatsumi 26 Jahre alt war, traf er auf Takamatsu Toshitsugu, der Moko no Tora (mongolischer Tiger) genannt wurde.
 
@@ -70,7 +71,7 @@ Er entschied sich, daß Hatsumi der fähigste seiner Schüler sei und deshalb da
 
 ## Gründung des Bujinkan
 
-![Hatsumi Masaaki](/assets/images/artikel/hatsumi3.jpg)
+![Hatsumi Masaaki](/assets/images/articles/hatsumi3.jpg)
 
 Seinem Lehrer zu Ehren nannte er das *honbu* *dōjō* Bujinkan *dōjō*. Das Dojo ist in seinem Haus gewesen. In neuerer Zeit hat er ein neues Dojo gebaut und mittlerweile lebt er in einem Haus auf dem Land.
 
@@ -90,7 +91,7 @@ Er hat zahlreiche militärische und öffentliche Auszeichnungen weltweit erhalte
 
 Er ist Wissenschaftler, Maler, Schauspieler, Musiker, Sänger und Author, hat schon unzählige Kolumnen in Zeitungen und Magazinen geschrieben, hat viele Bücher über Ninjutsu geschrieben und publizierte das Bujinkan Magazin *sanmyaku* (Gebirgskette).
 
-![Hatsumi Masaaki mit den Schauspielern aus Jiraya](/assets/images/artikel/hatsumi4.jpg)
+![Hatsumi Masaaki mit den Schauspielern aus Jiraya](/assets/images/articles/hatsumi4.jpg)
 
 Er hat schon mehr als 25 Videos gedreht und an vielen Filmen teilgenommen: **Shinobi no Mono**, **You live only twice** (James Bond), 50 Folgen der beliebten Kinderserie **Jiraya** und **Suteki no Mama**.
 

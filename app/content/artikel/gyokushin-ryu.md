@@ -4,6 +4,7 @@ slug: "gyokushin-ryu"
 date: 2006-04-02T15:11:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Gyokushin-ryū ninpō – Die Schule des mit Juwelen geschmückten Herzens, ein geheimnisvoller Ninja-ryū, der bekannt für den Gebrauch des Lasso war."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Schulen

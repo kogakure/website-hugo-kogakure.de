@@ -4,6 +4,7 @@ slug: "moderne-geschichte"
 date: 2006-03-27T19:35:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Nach dem Zweiten Weltkrieg durften Kampfkünste nicht mehr ausgeübt werden, viele wurden zu Sportarten umgewandelt. Nur durch Zufall ging das Wissen der letzten Ninja nicht verloren, sondern wurde von Ishitani und Toda an Takamatsu weitergegeben, der dann Hatsumi trainierte."
+body_class: "grid--small"
 categories:
 - Biographie
 - Geschichte

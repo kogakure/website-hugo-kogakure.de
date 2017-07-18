@@ -5,124 +5,106 @@
 
   <h2>Bücher</h2>
 
-  <ul class="books recommendation">
+  <ul class="books recommendations">
     {{ range .Site.Data.books }}
-    <li class="recommendation-item">
-      <figure class="recommendation-layer" itemscope itemtype="http://schema.org/Book">
-        <img class="recommendation-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
+    <li class="recommendations-item" itemscope itemtype="http://schema.org/Book">
+      <div class="recommendations-image-container">
+        {{ if .asin }}
+          <a class="recommendations-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="nofollow" target="_blank">
+            <img class="recommendations-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
+          </a>
+        {{ end }}
+      </div>
 
-        <figcaption class="recommendation-info">
-          <h3 class="recommendation-info-title" itemprop="name">
-            {{ .title }}
-          </h3>
+      <div class="recommendations-info">
+        {{ if .new }}
+          <div class="recommendations-new">
+            Neu
+          </div>
+        {{ end }}
 
-          {{ $len := len .contributors }}
-          <p class="recommendation-info-contributors">
-            <i>von</i>
-            {{ range $i, $c := .contributors }}
-            <span itemprop="author">
-              {{- .name -}}
-            </span>{{ if lt (add $i 1) $len }}, {{ end }}
-            {{ end }}
-          </p>
+        <h3 class="recommendations-info-title" itemprop="name">
+          {{ .title }}
+        </h3>
 
-          <dl class="recommendation-info-details">
-            <dt class="recommendation-info-details-title">
-              Seiten
-            </dt>
-            <dd class="recommendation-info-details-definition" itemprop="numberOfPages">
-              {{ .pages }}
-            </dd>
-            <dt class="recommendation-info-details-title">
-              Sprache
-            </dt>
-            <dd class="recommendation-info-details-definition" itemprop="inLanguage">
-              {{ .language }}
-            </dd>
-          </dl>
-
-          {{ if .asin }}
-            <a class="recommendation-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="nofollow" target="_blank">
-              Kaufen
-            </a>
+        {{ if .contributors }}
+        {{ $len := len .contributors }}
+        <p class="recommendations-info-contributors">
+          <i>von</i>
+          {{ range $i, $c := .contributors }}
+          <b itemprop="author">
+            {{- .name -}}
+          </b>{{ if lt (add $i 1) $len }}, {{ end }}
           {{ end }}
-        </figcaption>
-      </figure>
+        </p>
+        {{ end }}
 
-      {{ if .new }}
-        <div class="recommendation-new">
-          Neu
-        </div>
-      {{ end }}
+        {{ if .pages }}
+          <p class="recommendations-info-pages">
+            {{ .pages }} Seiten
+          </p>
+        {{ end }}
+
+        {{ if .language }}
+          <p class="recommendations-info-language">
+            {{ .language }}
+          </p>
+        {{ end }}
+      </div>
     </li>
     {{ end }}
   </ul>
 
   <h2>Filme</h2>
 
-  <ul class="movies recommendation">
+  <ul class="movies recommendations">
     {{ range .Site.Data.movies }}
-    <li class="recommendation-item">
-      <figure class="recommendation-layer" itemscope itemtype="http://schema.org/Movie">
-        <img class="recommendation-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
+    <li class="recommendations-item" itemscope itemtype="http://schema.org/Movie">
+      <div class="recommendations-image-container">
+        {{ if .asin }}
+        <a class="recommendations-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="nofollow" target="_blank">
+          <img class="recommendations-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
+        </a>
+        {{ end }}
 
-        <figcaption class="recommendation-info">
-          <h3 class="recommendation-info-title" itemprop="name">
-            {{ .title }}
-          </h3>
+        {{ if and (.imdb) (not .asin) }}
+        <a class="recommendations-link" href="https://www.imdb.com/title/{{ .imdb }}" rel="nofollow" target="_blank">
+          <img class="recommendations-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
+        </a>
+        {{ end }}
+      </div>
 
-          <dl class="recommendation-info-details">
-            <dt class="recommendation-info-details-title">
-              Regisseur
-            </dt>
-            <dd class="recommendation-info-details-definition" itemprop="director">
-              <span itemprop="name">{{ .director }}</span>
-            </dd>
-            <dt class="recommendation-info-details-title">
-              Veröffentlichung
-            </dt>
-            <dd class="recommendation-info-details-definition" itemprop="datePublished">
-              {{ .year }}
-            </dd>
-            <dt class="recommendation-info-details-title">
-              Dauer
-            </dt>
-            <dd class="recommendation-info-details-definition" itemprop="duration">
-              {{ .duration }}
-            </dd>
-            <dt class="recommendation-info-details-title">
-              Genre
-            </dt>
-            <dd class="recommendation-info-details-definition" itemprop="genre">
-              {{ delimit .genres ", " }}
-            </dd>
-            <dt class="recommendation-info-details-title">
-              Freigegeben ab
-            </dt>
-            <dd class="recommendation-info-details-definition" itemprop="contentRating">
-              {{ .rating }}
-            </dd>
-          </dl>
+      <div class="recommendations-info">
+        {{ if .new }}
+          <div class="recommendations-new">
+            Neu
+          </div>
+        {{ end }}
 
-          {{ if .asin }}
-            <a class="recommendation-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="nofollow" target="_blank">
-              Kaufen
-            </a>
-          {{ end }}
+        <h3 class="recommendations-info-title" itemprop="name">
+          {{ .title }}
+        </h3>
 
-          {{ if .imdb }}
-            <a class="recommendation-link" href="http://www.imdb.com/title/{{ .imdb }}/" rel="nofollow" target="_blank">
-              Informationen
-            </a>
-          {{ end }}
-        </figcaption>
-      </figure>
+        {{ if .director }}
+          <p class="recommendations-info-contributors">
+            <i>von</i>
+            <b itemprop="name">{{ .director }}</b>
+          </p>
+        {{ end }}
 
-      {{ if .new }}
-        <div class="recommendation-new">
-          Neu
-        </div>
-      {{ end }}
+        {{ if .year }}
+          <p class="recommendations-info-year">
+            ({{ .year }})
+          </p>
+        {{ end }}
+
+        {{ if .duration }}
+          <p class="recommendations-info-duration">
+            {{ .duration }}
+          </p>
+        {{ end }}
+      </div>
+
     </li>
     {{ end }}
   </ul>

@@ -1,10 +1,12 @@
 {{ define "main" }}
+  <h1>Artikel</h1>
+
   <section class="article-list">
-    <p>Die Artikel auf dieser Website lassen sich <strong>chronologisch</strong> lesen: Zuerst erkläre ich die Grundlagen des Ninjutsu, wichtige Personen und Clans, dann historische Ereignisse in Zentraljapan und den Niedergang der Ninja. Hinterher folgen Kampf- und Trainingsprinzipien, Waffen und Werkzeuge, philosophische Konzepte, Strategie und Taktik. Im Anschluss daran Biographien von <em>modernen</em> Ninja, Bujinkan, die 9 Schulen und weitere Regeln und Konzepte.</p>
+    <div class="article-list-intro">
+      <p>Die Artikel auf dieser Website lassen sich <strong>chronologisch</strong> lesen: Zuerst erkläre ich die Grundlagen des Ninjutsu, wichtige Personen und Clans, dann historische Ereignisse in Zentraljapan und den Niedergang der Ninja. Hinterher folgen Kampf- und Trainingsprinzipien, Waffen und Werkzeuge, philosophische Konzepte, Strategie und Taktik. Im Anschluss daran Biographien von <em>modernen</em> Ninja, Bujinkan, die 9 Schulen und weitere Regeln und Konzepte. Es gibt auch eine <strong>alphabetische</strong> Liste.</p>
+    </div>
 
-    <p>Es gibt aber auch eine <strong>alphabetische</strong> Liste und eine Gruppierung nach <strong>Kategorie</strong>.</p>
-
-    <div class="layout-articles layout-articles-chronological">
+    <div class="articles-list-chronological">
       <h2>Chronologisch</h2>
       <ul>
         {{ range where .Data.Pages.ByDate "Type" "artikel" }}
@@ -15,7 +17,7 @@
       </ul>
     </div>
 
-    <div class="layout-articles layout-articles-alphabetical">
+    <div class="article-list-alphabetical">
       <h2>Alphabetisch</h2>
       <ul>
         {{ range where .Data.Pages.ByTitle "Type" "artikel" }}

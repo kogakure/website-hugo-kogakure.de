@@ -3,7 +3,8 @@ title: "Der Siebte Sinn"
 slug: "der-siebte-sinn"
 date: 2006-04-02T14:43:00+02:00
 author: "Stefan Imhoff"
-excerpt: "Die Ninja trainierten und achteten auf die Gefühle, die jeder Mensch hin- und wieder hat. Wenn man spürt, dass einen das Unterbewußtsein zu einer bestimmten Entscheidung drängt, oder wir eine Art „Vorahnung“ haben."
+excerpt: "Die Ninja trainierten und achteten auf die Gefühle, die jeder Mensch hin- und wieder hat. Wenn man spürt, dass einen das Unterbewußtsein zu einer bestimmten Entscheidung drängt, oder wir eine Art 'Vorahnung' haben."
+body_class: "grid--small"
 categories:
 - Training
 ---

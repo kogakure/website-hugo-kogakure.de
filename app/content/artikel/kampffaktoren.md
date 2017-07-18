@@ -4,6 +4,7 @@ slug: "kampffaktoren"
 date: 2006-03-28T17:21:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Verschiedene geistige und körperliche Aspekte wie z. B. Atmung, Rhythmus oder Fluß gehören zum Taijutsu, und sollten für einen erfolgreichen Ausgang eines Kampfes unbedingt beachtet werden."
+body_class: "grid--small"
 categories:
 - Strategie
 - Taktik
@@ -37,16 +38,16 @@ Mit der fließenden Handlung eng verbunden ist *ritsudō*. Der Rhythmus ist das 
 
 Von vielen vernachlässigt ist *kokyūhō* (Atmung) aber eine wichtige Komponente des Kampfes. Die meisten erwachsenen Menschen atmen in Brustatmung oder gar mit dem Hals. Doch diese Art des Atmens ist unnatürlich.
 
-> Der wahre Mensch atmet mit den Fersen, der einfältige Mensch mit der Kehle.
->
-> – **Chuang Tzu**
+{{% blockquote author="Chuang Tzu" %}}
+Der wahre Mensch atmet mit den Fersen, der einfältige Mensch mit der Kehle.
+{{% /blockquote %}}
 
 Sowohl Kinder, als auch *wahre* Menschen atmen mit dem Zwerchfell, führen also Bauchatmung aus. Auf diese Weise bleibt der Körper ruhig und entspannt und die Organe werden außerdem noch massiert und leicht bewegt. Die meisten Menschen atmen durch den Mund, was sehr ungesund ist. Die Nase sollte sowohl zum Ein- als auch zum Ausatmen benutzt werden, da so die Luft gefiltert, angefeuchtet und erwärmt wird.
 
 Beim Einatmen in der Bauchatmung wölbt sich der Bauch nach außen, beim Ausatmen wird er nach innen gewölbt.
 
-{{% aside aside-full %}}
-  <h4 class="aside-headline">Bauchatmung lernen</h4>
+{{% aside hint-full %}}
+  <h4 class="hint-headline">Bauchatmung lernen</h4>
 
   Um die Bauchatmung zu erlernen wurde früher eine einfache Übung angewendet: Man umwickelte den Bauch fest mit einem Tuch.
 

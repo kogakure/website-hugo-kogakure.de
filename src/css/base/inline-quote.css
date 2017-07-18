@@ -1,0 +1,36 @@
+/* Inline Quote
+ ***************/
+
+q {
+  font-style: italic;
+
+  &::before {
+    content: open-quote;
+  }
+
+  &::after {
+    content: close-quote;
+  }
+}
+
+/** Language-specific Quotes */
+:lang(de) > q,
+q[lang|=de] {
+  quotes: "»" "«" "›" "‹";
+}
+
+:lang(en) > q,
+q[lang|=en] {
+  quotes: "“" "”" "‘" "’";
+}
+
+:lang(fr) > q,
+q[lang|=fr] {
+  quotes: "« " " »" "“" "”";
+}
+
+:lang(ja) > q,
+q[lang|=ja] {
+  font-style: normal;
+  quotes: "「" "」," "『" "』";
+}

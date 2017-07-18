@@ -4,6 +4,7 @@ slug: "ninjakleidung"
 date: 2006-04-01T17:50:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Der Tarnanzug der Ninja bestand aus dunklem Stoff und wurde Nachts zur Tarnung eingesetzt, im Winter bestand er aus grau-weißem Stoff. Alle Bestandteile hatten eine spezielle Funktion und waren für den Einsatz von großer Bedeutung."
+body_class: "grid--small"
 categories:
 - Werkzeuge
 ---
@@ -20,21 +21,21 @@ In einigen Schlachten, in denen Ninja in Kampfanzügen mitkämpften wurden Kette
 
 ## Chikatabi
 
-![Chikatabi](/assets/images/artikel/werkzeuge-tabi.jpg)
+![Chikatabi](/assets/images/articles/werkzeuge-tabi.jpg)
 
 Die Schuhe mit dem separaten Zeh und griffiger Sohle wurden getragen, weil sie einen sicheren Halt, leises Fortbewegen und besseres Klettern ermöglichten. An Seilen konnte der Ninja sich mit dem *tabi* schnell hoch bewegen. Dazu klemmte er das Seil einfach zwischen den separaten Zeh des Schuhs und *ging* einfach am Seil hoch.
 
 
 ## Geta
 
-![Geta](/assets/images/artikel/werkzeuge-geta.jpg)
+![Geta](/assets/images/articles/werkzeuge-geta.jpg)
 
 Auch *yuki waraki*. Unter den *tabi* trugen die Ninja meist noch Strohsandalen oder Holzsandalen – *geta*. Unter denen wurden im Winter Stahl- oder Holzklingen befestigt, um auf Neuschnee oder Eis sicher laufen zu können. So übte der Ninja auch eine seiner wichtigen Fähigkeiten, den Gleichgewichtssinn.
 
 
 ## Hakama
 
-![Hakama](/assets/images/artikel/werkzeuge-hakama.jpg)
+![Hakama](/assets/images/articles/werkzeuge-hakama.jpg)
 
 Die Hose der Ninja wurde am Knie und am Knöchel abgebunden, damit man bessere Bewegungsfreiheit hatte.
 
@@ -51,14 +52,14 @@ Auch *tengugui* oder *hokamuri*.
 
 ## Obi
 
-![Obi](/assets/images/artikel/werkzeuge-obi.jpg)
+![Obi](/assets/images/articles/werkzeuge-obi.jpg)
 
 Der Gürtel wurde eigentlich nicht benutzt, sondern kam erst in neuere Zeit hinzu, und zeigt heute an, ob man Schüler oder Meister ist. Vielmehr war an der Hose schon eine Art Gürtel angenäht.
 
 
 ## Tebukuro
 
-![Tebukuro](/assets/images/artikel/werkzeuge-tebukuro.jpg)
+![Tebukuro](/assets/images/articles/werkzeuge-tebukuro.jpg)
 
 Dieser Handschutz bedeckte die Außenseiten der Hände und die Unterarme. Wenn man Fäuste machte waren in der Dunkelheit keine Teile der Arme mehr zu sehen.
 
@@ -70,7 +71,7 @@ Auch *hokamuri* oder *kaiki*. Dieses ca. 80 cm lange Tuch konnte zur Maske gebun
 
 ## Uwagi
 
-![Uwagi](/assets/images/artikel/werkzeuge-uwagi.jpg)
+![Uwagi](/assets/images/articles/werkzeuge-uwagi.jpg)
 
 Die Jacke wurde in die Hose gesteckt und hatte noch verstecke Innentaschen, in denen z. B. *shuriken* versteckt waren.
 

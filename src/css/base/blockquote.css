@@ -1,0 +1,12 @@
+/* Blockquote
+ *************/
+
+blockquote {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/** Cite */
+cite {
+  font-style: italic;
+}

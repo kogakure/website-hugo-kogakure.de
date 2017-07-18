@@ -1,0 +1,47 @@
+/* Navigation
+ *************/
+
+.nav {
+  font-range: 400px 920px;
+  font-size: responsive 18px 24px;
+  grid-area: navigation;
+  margin-top: var(--default-spacing-top);
+  text-align: center;
+}
+
+.nav-menu {
+  list-style: none;
+  margin-bottom: 2em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.nav-link {
+  color: var(--color-very-dark-magenta);
+  display: inline-block;
+  text-decoration: none;
+  transition: color 0.2s;
+
+  &:visited {
+    color: var(--color-very-dark-magenta);
+  }
+
+  &:hover {
+    color: var(--color-dark-moderate-green);
+  }
+
+  &:active {
+    color: var(--color-dark-moderate-green);
+  }
+
+  &:focus {
+    color: var(--color-dark-moderate-green);
+  }
+}

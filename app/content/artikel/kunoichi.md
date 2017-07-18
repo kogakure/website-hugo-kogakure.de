@@ -4,6 +4,7 @@ slug: "kunoichi"
 date: 2006-03-28T16:26:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Takeda Shingen baute ein Netz von weiblichen Agenten auf, die als Informanten und Spione dienten und Gegener mit anderen, subtileren Methoden beeinflussen konnten, was dem Ninja nicht möglich war. Trotzdem genossen die weiblichen Agenten eine ähnliche Grundausbildung wie die Männer."
+body_class: "grid--small"
 categories:
 - Organisation
 - Training

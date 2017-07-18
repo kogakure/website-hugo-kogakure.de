@@ -3,7 +3,8 @@ title: "Sanmitsu"
 slug: "sanmitsu"
 date: 2006-04-02T14:35:00+02:00
 author: "Stefan Imhoff"
-excerpt: "Mikkyo enthält drei Faktoren, die als „Die Drei Geheimnisse“ bekannt sind. Diese sind Gedanke, Wort und Tat. Sie werden durch Mandala, Mantra und Mudra dargestellt."
+excerpt: "Mikkyo enthält drei Faktoren, die als 'Die Drei Geheimnisse' bekannt sind. Diese sind Gedanke, Wort und Tat. Sie werden durch Mandala, Mantra und Mudra dargestellt."
+body_class: "grid--small"
 categories:
 - Philosophie
 - Religion
@@ -22,7 +23,7 @@ Die eine Möglichkeit besteht darin den Lauf des Universums von Innen zu betrach
 
 ### Taizokai-Mandala
 
-![Taizokai-Mandala](/assets/images/artikel/mandala-taizokai.jpg)
+![Taizokai-Mandala](/assets/images/articles/mandala-taizokai.jpg)
 
 Um die materielle Welt, die *Welt des Nährbodens* zu begreifen, kann der Ninja das Taizokai-Mandala betrachten und über den Sinn des Kunstwerkes nachdenken.
 
@@ -33,7 +34,7 @@ Die andere Möglichkeit besteht darin, den Geist über das Universum zu erheben,
 
 ### Kongokai-Mandala
 
-![Kongokai-Mandala](/assets/images/artikel/mandala-kongokai.jpg)
+![Kongokai-Mandala](/assets/images/articles/mandala-kongokai.jpg)
 
 Um die geistige Welt, die *Welt des Diamanten* zu begreifen, kann der Ninja das Kongokai-Mandala betrachten.
 
@@ -70,7 +71,7 @@ Das *kuji kiri* oder *kuji goshin hō* stammt der Sage nach vom gottähnlichen K
 
 Dabei ahmt der Ninja das flammende Schwert des *fudōmyō* nach, des furchterregenden mythischen Beschützers des Willens, der Gesetze und der Integrität des Universums.
 
-![Kuji goshin hō](/assets/images/artikel/kujikiri.jpg)
+![Kuji goshin hō](/assets/images/articles/kujikiri.jpg)
 
 Die rechte, positive und linke, negative Hand werden vor der Brust zusammengebracht und stellen das Schwert dar. Eine Beschwörungsformel wird mehrmals wiederholt und dann tritt der Ninja einen Schritt vor und zeichnet mit seinem symbolischen Schwert abwechselnd waagerechte und senkrechte Schnitte in die Luft. Die geistige Klinge wird abwechselnd von links nach rechts und von oben nach unten bewegt, bis die neun Schnitte ein Gitter bilden. Dabei spricht der Ninja die neun Silben des *kuji goshin hō*. Nach belieben kann noch eine weitere zehnte Silbe beigefügt werden, bevor das Gitter mit einem Handschlag zertrennt wird und das symbolische Schwert wieder zurück ins *saya* gesteckt wird.
 

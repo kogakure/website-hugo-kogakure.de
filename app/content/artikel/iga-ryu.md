@@ -5,6 +5,7 @@ date: 2006-03-26T20:20:00+02:00
 author: "Peter Carlsson"
 translator: "Stefan Imhoff"
 excerpt: "Der Iga ryū entstand in einer der günstigsten strategischen Lagen der Region, in unzugänglichen Gebirgs- und Waldregionen, nahe wichtiger Hauptverkehrswege."
+body_class: "grid--small"
 categories:
 - Biographie
 - Geschichte
@@ -12,7 +13,7 @@ categories:
 
 ## Lage der Region Iga
 
-![Iga-Ueno Castle, by 利用者:＋－](/assets/images/artikel/iga-ueno-castle.jpg "Iga-Ueno Castle, by 利用者:＋－")
+![Iga-Ueno Castle, by 利用者:＋－](/assets/images/articles/iga-ueno-castle.jpg "Iga-Ueno Castle, by 利用者:＋－")
 
 Der Ursprung des Iga-*ryū-ninjutsu* kann nur verstanden werden, wenn man die Region Iga näher betrachtet. Von Anfang an gehörte die Iga-Region zur Ise-Provinz, aber ungefähr im Jahr 680 wurden sie zweigeteilt. Ise war immer schon eine der wichtigsten Regionen in Japan, weil sie eine lange Küste hatte und die Tokaidō-Straße zwischen Edo und Kyōto durch diese Region führte. Die Iga-Provinz entwickelte sich zu einer relativ abgeschlossenen Region, umgeben von Bergen an allen Seiten, außer an der Nordseite, nahe der Kōga-Region im Süden der Omi-Provinz. In diesen Regionen wurde die *ninpō*-Kultur entwickelt. Beide Regionen, die Iga- und Kōga-Region waren relativ sicher gelegen, nur ein wenig südöstlich von Kyōto, der Hauptstadt Japans und südlich der Tokaidō-Straße. Diese Regionen lagen also sehr zentral und spielten eine wichtige Rolle in der Geschichte Japans.
 
@@ -27,9 +28,9 @@ Im Iga-*ryū* gab es viele andere *ryū* mit ihren eigenen Spezialitäten und Tr
 
 Aber es gibt ein Problem mit dieser Theorie. Nach Meister Hatsumi und anderen Quellen im Bujinkan, floh Ikai aus China irgendwann zwischen den Jahren 1040 und 1050. Die Gründe für seine Flucht waren, dass er mit den Bewohnern von Kitan und Xia gegen König Jinso (Song-Dynastie in China) gekämpft hatte und besiegt wurde. Nach den Geschichtsbüchern waren die Staaten Kitan und Xia zu dieser Zeit aber noch siegreich, und erst als sich der Kaiser Hui Zong mit Aguda von den Ruzhen zwischen 1123 und 1125 verbündete konnten die Staaten Kitan und Xia besiegt werden. Also müssen entweder die Daten von Hatsumi umgewertet werden oder es muss nach einer Verbindung zwischen Yo Gyokko und dem Sturz der Tang-Dynastie herausgefunden werden und wer *koshi jutsu* nach Japan brachte.
 
-> Es kann auch so gewesen sein, dass Yo Gyokko *koshi jutsu* und Ikai das Wissen über Strategie und Hicho Kakuregata nach Japan brachte und sich aus beiden Systemen der Ursprung der Kriegskünste in Iga ergab.
->
-> – **Hatsumi Masaaki**
+{{% blockquote author="Hatsumi Masaaki" %}}
+Es kann auch so gewesen sein, dass Yo Gyokko *koshi jutsu* und Ikai das Wissen über Strategie und Hicho Kakuregata nach Japan brachte und sich aus beiden Systemen der Ursprung der Kriegskünste in Iga ergab.
+{{% /blockquote %}}
 
 Garyū Doshi führte den Hakuun-*ryū* ein, eine Schule die von Hakuun Doshi entwickelt und benannt wurde. Hachiryū Nyudo ist ein andere Name, der erwähnt werden sollte, weil er wahrscheinlich Garyūs Wissen zu Tozawa Hakuunsai weitergab, dem ersten offiziellen Großmeister des Gyokko-*ryū*. Gyokko-*ryū* wird in den meisten Fällen als eine *koshi jutsu*-Schule gesehen, aber es ist auch eine offizielle *ninpō*-Schule.
 

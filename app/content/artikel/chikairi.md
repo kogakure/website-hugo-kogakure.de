@@ -4,6 +4,7 @@ slug: "chikairi"
 date: 2006-04-02T15:00:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Die Chi kai ri-Taktiken wurden vom Ninja während oder zu Begin einer Konfrontation angewendet. Sie enthalten vor allem Sabotage und Infiltrationstechniken."
+body_class: "grid--small"
 categories:
 - Strategie
 - Taktik

@@ -4,6 +4,7 @@ slug: "essenz-des-ninjutsu"
 date: 2006-04-02T15:19:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Takamatsu Toshitsugu und Hatsumi Masaaki äußern sich zur Essenz des Ninjutsu, zu dem was es ausmacht ein Ninja zu sein."
+body_class: "grid--small"
 categories:
 - Philosophie
 - Richtlinien

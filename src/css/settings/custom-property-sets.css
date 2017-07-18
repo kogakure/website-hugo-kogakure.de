@@ -1,0 +1,94 @@
+/* Custom property sets
+ ***********************/
+
+:root {
+  /** Fonts */
+  --base-font {
+    font-family: var(--base-font-family);
+  }
+
+  --base-font-wf {
+    font-family: var(--base-font-family-wf);
+  }
+
+  --mono-font {
+    font-family: Menlo, Monaco, "Andale Mono", "Lucida console", "Courier New", monospace;
+  }
+
+  --japanese-font {
+    font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+  }
+
+  --japanese-font-serif {
+    font-family: "Hiragino Mincho ProN", serif;
+  }
+
+  /** Image-Replacement (Kellum Method) */
+  --text-hidden {
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+  }
+
+  /** Hide text visually */
+  --visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  /** Full box link, parent element needs: `position: relative` */
+  --full-box-link {
+    font-size: 0;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    text-indent: 200%;
+    top: 0;
+    white-space: nowrap;
+    width: 100%;
+  }
+
+  /** Background-Patterns */
+
+  /** 594x594, 16 KB (Background) */
+  --pattern-bright-squares {
+    background-color: var(--color-site-background);
+    background-image: url(/assets/images/stylesheets/patterns/bright_squares_@2X.jpg);
+    background-size: 297px 297px;
+  }
+
+  --pattern-bright-squares-bamboo {
+    background-color: var(--color-site-background);
+    background-image: url(/assets/images/svg/bamboo.svg), url(/assets/images/stylesheets/patterns/bright_squares_@2X.jpg);
+    background-repeat: no-repeat, repeat;
+    background-size: 400px 252px, 297px 297px;
+
+    @media (--breakpoint-min-small) {
+      background-size: 500px calc(500px / 1.57), 297px 297px;
+    }
+
+    @media (--breakpoint-min-medium) {
+      background-size: 650px calc(650px / 1.57), 297px 297px;
+    }
+
+    @media (--breakpoint-min-large) {
+      background-size: 750px calc(750px / 1.57), 297px 297px;
+    }
+
+    @media (--breakpoint-min-xlarge) {
+      background-size: 820px calc(820px / 1.57), 297px 297px;
+    }
+  }
+
+  --card-shadow {
+    background-color: var(--color-white);
+    box-shadow: 0 5px 30px -10px var(--color-card-shadow);
+  }
+}

@@ -4,6 +4,7 @@ slug: "die-regeln-der-ninja"
 date: 2006-04-02T15:20:00+02:00
 author: "Stefan Imhoff"
 excerpt: "10 Regeln, von Hatsumi Masaaki aufgestellt, die zeitlos sind und für alle Ninja gelten sollen."
+body_class: "grid--small"
 categories:
 - Richtlinien
 ---

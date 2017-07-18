@@ -1,0 +1,24 @@
+/* Logo
+ *******/
+
+.logo {
+  @apply --text-hidden;
+  background-color: rgba(var(--color-site-background), 0.7);
+  background-image: url(/assets/images/svg/logo.svg);
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  background-size: 60px;
+  border-radius: 10px;
+  display: inline-block;
+  height: 65px;
+  position: relative;
+  top: 50px;
+  transition: all 1s ease-in-out;
+  width: 70px;
+
+  @media (--breakpoint-min-xxlarge) {
+    background-color: transparent;
+    position: absolute;
+    right: 50px;
+  }
+}

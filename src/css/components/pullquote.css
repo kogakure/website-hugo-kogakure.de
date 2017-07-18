@@ -1,0 +1,41 @@
+/* Pullquote
+ ************/
+
+.pullquote {
+  border: 0;
+  font-size: var(--modular-scale-4);
+  font-style: normal;
+  line-height: 1.5;
+  margin: 0.5em;
+  padding: 0;
+  text-align: center;
+
+  & p:first-child::before {
+    content: open-quote;
+  }
+
+  & p:last-child::after {
+    content: close-quote;
+  }
+
+  & > p {
+    border: 0;
+    padding: 0;
+  }
+
+  @media (--breakpoint-min-small) {
+    margin: var(--default-spacing);
+  }
+}
+
+.pullquote[lang|=de] {
+  quotes: "„" "“" "‚" "‘";
+}
+
+.pullquote[lang|=en] {
+  quotes: "“" "”" "‘" "’";
+}
+
+.pullquote[lang|=ja] {
+  quotes: "「" "」" "『" "』";
+}

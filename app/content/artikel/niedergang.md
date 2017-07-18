@@ -4,6 +4,7 @@ slug: "niedergang"
 date: 2006-03-27T19:26:01+02:00
 author: "Stefan Imhoff"
 excerpt: "Nachdem Tokugawa den Bürgerkrieg beendete, waren die Dienste von Spionen und Attentätern nicht länger nötig. Viele Ninja wurden in die Staatspolizei eingegliedert oder dienten im Verborgenen Fürsten als Leibwächter. Bei einigen Einsätzen gegen die Christen-Samurai und Ausländer wurden die Dienste zum letzten Mal eingesetzt."
+body_class: "grid--small"
 categories:
 - Geschichte
 ---

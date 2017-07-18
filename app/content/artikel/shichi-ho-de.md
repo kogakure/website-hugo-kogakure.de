@@ -4,6 +4,7 @@ slug: "shichi-ho-de"
 date: 2006-04-02T14:51:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Bei der Methode des Shichi hō de, den sieben Wegen des Gehens, wird man zwar vom Gegner gesehen, jedoch nicht wahrgenommen. Den Filter, der einen normalen Menschen vor Reizüberflutung schützt, kann von einem Ninja ausgenutzt werden, um in der Masse unterzutauchen."
+body_class: "grid--small"
 categories:
 - Strategie
 - Taktik

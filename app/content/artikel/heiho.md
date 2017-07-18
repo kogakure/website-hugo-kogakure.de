@@ -4,6 +4,7 @@ slug: "heiho"
 date: 2006-04-02T14:56:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Um an sein Ziel zu gelangen, standen dem Ninja zahlreichen Strategien und Taktiken zur Verfügung, mit denen er leichter durch feindliches Gebiet gelangen konnte oder in bewachte Anlagen eindringen konnte."
+body_class: "grid--small"
 categories:
 - Strategie
 - Taktik

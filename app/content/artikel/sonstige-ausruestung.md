@@ -4,13 +4,14 @@ slug: "sonstige-ausruestung"
 date: 2006-04-01T17:51:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Die Ninja kannten noch eine Vielzahl weiterer Werkzeuge, die sie auf ihren Einsätzen benutzten. Vom Fernglas, über Kompass bis hin zur Reiseapotheke."
+body_class: "grid--small"
 categories:
 - Werkzeuge
 ---
 
 ## Bōenkyō
 
-![Bōenkyō](/assets/images/artikel/werkzeuge-boenkyo.jpg)
+![Bōenkyō](/assets/images/articles/werkzeuge-boenkyo.jpg)
 
 Die Ninja benutzten eine Art Fernrohr auf ihren Einsätzen. So war es ihnen möglich ohne große Gefahr das feindliche Heer zu beobachten. Manchmal war das Fernglas als *tantō* getarnt.
 
@@ -32,7 +33,7 @@ Dieser Stahlspiegel wurde benutzt, um Signale an Teamkameraden oder Verbündete 
 
 ## Kishiyaku
 
-![Kishiyaku](/assets/images/artikel/werkzeuge-kishiyaku.jpg)
+![Kishiyaku](/assets/images/articles/werkzeuge-kishiyaku.jpg)
 
 Der Kompass wurde wahrscheinlich von Piraten entwickelt, aber auch von den Ninja benutzt, die in engem Kontakt mit den *wako* (Japanische Piraten) standen. In einer Schale mit Wasser schwamm ein Stück Holz mit einem magnetisierten Eisenstück. So war es dem Ninja möglich sich sehr genau zu orientieren. Aber auch der Kompass ohne Wasserschale wurde wahrscheinlich benutzt.
 
@@ -44,7 +45,7 @@ Die Ninja kannten eine Pille, die das Durstgefühl für einige Tage verhindern k
 
 ## Onibi
 
-![Onibi](/assets/images/artikel/werkzeuge-onibi.jpg)
+![Onibi](/assets/images/articles/werkzeuge-onibi.jpg)
 
 Mit grausigen Holzmasken konnte der Ninja seine Verfolger in Schrecken versetzten und sie von einer Verfolgung abhalten oder sie wenigsten moralisch demobilisieren.
 

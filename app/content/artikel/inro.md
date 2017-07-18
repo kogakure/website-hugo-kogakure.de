@@ -4,6 +4,7 @@ slug: "inro"
 date: 2006-04-02T14:53:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Inrō war die Reiseaphotheke des Ninja. Mit dieser Ausrüstung mischte er seine Gifte und Heilmittel zusammen."
+body_class: "grid--small"
 categories:
 - Werkzeuge
 ---

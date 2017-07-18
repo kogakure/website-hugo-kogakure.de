@@ -4,6 +4,7 @@ slug: "kumogakure-ryu"
 date: 2006-04-02T15:15:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Kumogakure-ryū ninpō – Die Schule der verborgenen Wolke, ein Ninja-Ryu, der für die Gebrauch mit dem Kama yari bekannt war, und dessen Ninja in Rüstung in die Schlacht zogen."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Schulen

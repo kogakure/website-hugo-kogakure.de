@@ -2,6 +2,7 @@
 title: "Informationen"
 description: "Informationen über diese Seite, warum es sie gibt, was der Domain-Name bedeutet, wie ich kontaktiert werden kann, FAQs und mit welchen Tools die Website erstellt wurde."
 url: "/info/"
+body_class: "grid--small"
 ---
 
 ## Fachmagazin für Ninja, Ninjutsu und Kampfkunst
@@ -46,31 +47,31 @@ Meine vorherige Seite hatte ein Kontakt-Formular, doch habe ich mich entschieden
 
 ### Wo kann ich trainieren?
 
-Um ein Dōjō für Bujinkan Budō Taijutsu zu finden, solltet ihr am besten in Google nach „Bujinkan“ in Verbindung mit einer Stadt in eurer Nähe suchen. Aber mit Sicherheit wird es keine so gute Abdeckung mit Dōjō wie bei Jūdō oder Karate geben. Auf der Bujinkai-Seite gibt es eine sehr umfangreiche [Dōjō-Liste].
+Um ein Dōjō für Bujinkan Budō Taijutsu zu finden, solltet ihr am besten in Google nach **Bujinkan** in Verbindung mit einer Stadt in eurer Nähe suchen. Aber mit Sicherheit wird es keine so gute Abdeckung mit Dōjō wie bei Jūdō oder Karate geben. Auf der Bujinkai-Seite gibt es eine sehr umfangreiche [Dōjō-Liste].
 
 Ich selbst habe **kein** eigenes Dōjō und biete kein Training an.
 
-  [Dōjō-Liste]: http://www.bujinkai.de/dojoliste-bujinkan.html
+  [Dōjō-Liste]: http://www.bujinkan-deutschland.de/dojoliste-bujinkan.html
 
 
 ### Was für Bücher gibt es?
 
-Eine Menge ;-) Der größte Teil ist jedoch auf Japanisch oder Englisch. Am besten einfach mal in meine [Kaufempfehlungen] schauen.
+Eine Menge ;-) Der größte Teil ist jedoch auf Japanisch oder Englisch. Am besten einfach mal in meine [Empfehlungen] schauen.
 
-  [Kaufempfehlungen]: /kaufempfehlungen/
+  [Empfehlungen]: /empfehlungen/
 
 
 ### Welche Bücher kannst du mir empfehlen?
 
-Zuerst lege ich euch die Bücher von Dr. Masaaki <dfn title="Großmeister und Gründer des Bujinkan">Hatsumi</dfn> ans Herz. Andrew Adams „Ninja“ ist gut, um einen Gesamtüberblick zu bekommen. Hayes hat sehr viele philosophische Aspekte in seinen Büchern (z. B. Tendai, Shugendō, Mikkyō), da ihn dies persönlich sehr interessiert, er ist sogar genau wie Takamatsu zum Mönch des Tendai ernannt worden.
+Zuerst lege ich euch die Bücher von Dr. Masaaki <dfn title="Großmeister und Gründer des Bujinkan">Hatsumi</dfn> ans Herz. Andrew Adams <cite>Ninja</cite> ist gut, um einen Gesamtüberblick zu bekommen. Hayes hat sehr viele philosophische Aspekte in seinen Büchern (z. B. Tendai, Shugendō, Mikkyō), da ihn dies persönlich sehr interessiert, er ist sogar genau wie Takamatsu zum Mönch des Tendai ernannt worden.
 
 
 ### Wo bekomme ich Bücher über Ninjutsu her?
 
-Seit es Buchversender wie z. B. [Amazon] gibt, sollte es keine Problem mehr darstellen, Bücher aus dem Ausland zu bekommen. Auf der Seite [Kaufempfehlungen] habe ich eine Liste von Büchern und Filmen zusammengestellt, die ich empfehlen kann.
+Seit es Buchversender wie z. B. [Amazon] gibt, sollte es keine Problem mehr darstellen, Bücher aus dem Ausland zu bekommen. Auf der Seite [Empfehlungen] habe ich eine Liste von Büchern und Filmen zusammengestellt, die ich empfehlen kann.
 
   [Amazon]: http://www.amazon.de/exec/obidos/redirect?link_code=ur2&camp=1638&tag=kogakurede-21&creative=6742&path=tg%2Fbrowse%2F-%2F301128%3Fsite-redirect%3Dde "Amazon.de"
-  [Kaufempfehlungen]: /kaufempfehlungen/
+  [Empfehlungen]: /empfehlungen/
 
 
 ### Wo bekomme ich Ausrüstung her?
@@ -83,7 +84,7 @@ Spezielle Ausrüstung, Waffen und Kleidung für Bujinkan z. B. im [Bujinkan-Sho
 
 ### Ich möchte auf eine Seite verlinken. Was ist zu beachten?
 
-Es ist generell untersagt die Verlinkung in einem Frame zu verwirklichen, bei dem „kogakure.de“ nicht mehr als Urheber erkennbar ist. Du darfst gerne auf jede Seite dieser Domain verlinken.
+Es ist generell untersagt die Verlinkung in einem Frame zu verwirklichen, bei dem **kogakure.de** nicht mehr als Urheber erkennbar ist. Du darfst gerne auf jede Seite dieser Domain verlinken.
 
 Bilder, Photos und andere Medien dürfen **nicht direkt verlinkt werden**, wohl aber heruntergeladen und auf eigene Server gestellt werden (so lange die Regeln der Creative Commons Lizenz eingehalten werden).
 
@@ -95,7 +96,7 @@ Bilder, Photos und andere Medien dürfen **nicht direkt verlinkt werden**, wohl 
 Eine kommerzielle Nutzung – in welcher Form auch immer – ist nur mit schriftlicher Genehmigung möglich.
 
 
-## Die üblichen technischen Infos
+## Technische Informationen
 
 Wer es bis hier hin durchgehalten hat, den interessieren wahrscheinlich auch die technischen Details zu dieser Seite.
 

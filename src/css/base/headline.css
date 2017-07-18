@@ -1,0 +1,82 @@
+/* Headline
+ ***********/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table caption {
+  clear: both;
+  color: var(--color-strong-green);
+  font-feature-settings: "liga", "dlig";
+  font-weight: var(--weight-normal);
+  hyphens: manual;
+  line-height: 1.2;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  color: var(--color-dark-moderate-green);
+  font-size: var(--modular-scale-3);
+
+  @nest .page-post & {
+    margin-bottom: 0.2em;
+  }
+
+  @nest .page-categories & {
+    text-transform: capitalize;
+  }
+
+  @media (--breakpoint-min-medium) {
+    font-size: var(--modular-scale-4);
+  }
+
+  @media (--breakpoint-min-large) {
+    font-size: var(--modular-scale-5);
+  }
+}
+
+h2 {
+  font-size: var(--modular-scale-2);
+
+  @media screen and (--breakpoint-min-medium) {
+    font-size: var(--modular-scale-3);
+  }
+
+  @media screen and (--breakpoint-min-large) {
+    font-size: var(--modular-scale-4);
+  }
+
+  @nest .page-home & {
+    font-size: var(--modular-scale-1);
+  }
+
+  @nest .article-list & {
+    font-size: var(--modular-scale-2);
+
+    @media screen and (--breakpoint-min-large) {
+      font-size: var(--modular-scale-3);
+    }
+  }
+}
+
+h3 {
+  font-size: var(--modular-scale-2);
+
+  @media screen and (--breakpoint-min-medium) {
+    font-size: var(--modular-scale-2);
+  }
+
+  @media screen and (--breakpoint-min-large) {
+    font-size: var(--modular-scale-3);
+  }
+}
+
+h4,
+h5,
+h6,
+table caption {
+  font-size: var(--modular-scale-2);
+}

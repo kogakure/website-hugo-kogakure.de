@@ -1,0 +1,22 @@
+/* Link
+ *******/
+
+a {
+  color: var(--color-link);
+
+  &:visited {
+    color: var(--color-link);
+  }
+
+  &:hover {
+    color: var(--color-link-hover);
+  }
+
+  &:active {
+    color: var(--color-link);
+  }
+
+  &:focus {
+    color: var(--color-link);
+  }
+}

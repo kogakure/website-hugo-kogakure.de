@@ -4,6 +4,7 @@ slug: "entstehung-der-ryu"
 date: 2006-03-26T19:09:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Für die ninja bedeutete der japanische Bürgerkrieg eine große Nachfrage nach ihren Fähigkeiten, was zur Gründung von über hundert Schulen in Japan führte."
+body_class: "grid--small"
 categories:
 - Geschichte
 ---
@@ -14,7 +15,7 @@ Mit Aufkommen der Samurai-Kriegerkaste, sowie des *bakufu* (Regierungszentrum de
 
 Die Hattori- und Oe-Clans beherrschten die Iga-Provinz, während die Kōga-Provinz von mehr als 50 Familien beherrscht wurde.
 
-![Zeichnung einer Schlacht im Genpei-Krieg](/assets/images/artikel/genpei-krieg.jpg)
+![Zeichnung einer Schlacht im Genpei-Krieg](/assets/images/articles/genpei-krieg.jpg)
 
 Im 14. Jahrhundert wurde Japan von erbitterten Kämpfen erschüttert. 1392 wurde Japan unter einem Kaiser vereinigt. Doch schon 75 Jahre später brachen erneut Unruhen aus. Die lokalen Herrscher, *daimyō*, Männer, deren Clans in den Jahrhunderten Macht und Einfluss ausgebaut hatten, hatten in Japans die Kontrolle übernommen und der *shōgun* war nur noch eine machtlose Marionette.
 
@@ -45,7 +46,7 @@ Wenn es ihm in einer Gegend zu gefährlich wurde, wechselte er einfach seinen Wo
 
 ## Das massenhafte Entstehen von Schulen
 
-![Historische Karte von Japan](/assets/images/artikel/historische-karte.svg)
+![Historische Karte von Japan](/assets/images/articles/historische-karte.svg)
 
 
 ### Städte, Straßen und Gebiete

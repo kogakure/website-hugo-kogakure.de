@@ -4,6 +4,7 @@ slug: "organisation-der-ryu"
 date: 2006-03-28T16:09:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Die Ninja hielten ihre Geheimdienststruktur durch ein spezielles Rangsystem von Anführern, Mittelmännern und ausführenden Agenten vor Verrat sicher. Die ausübenden Agenten kannten ihre Auftraggeber im besten Fall nicht einmal, und konnten so auch nichts über sie preisgeben."
+body_class: "grid--small"
 categories:
 - Organisation
 ---

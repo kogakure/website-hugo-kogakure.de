@@ -1,0 +1,62 @@
+/* Recommendations
+ ******************/
+
+.recommendations {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.recommendations-item {
+  display: flex;
+  position: relative;
+}
+
+.recommendations-image-container {
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+
+.recommendations-image {
+  border: 1px solid var(--color-dimmed-grey);
+  padding: 4px;
+  width: 100px;
+}
+
+.recommendations-info {
+  padding-left: 5px;
+}
+
+.recommendations-info-title {
+  font-size: var(--modular-scale-0);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.recommendations-info-contributors {
+  font-size: var(--font-size-small);
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+
+.recommendations-info-pages,
+.recommendations-info-language,
+.recommendations-info-year,
+.recommendations-info-duration {
+  font-size: var(--font-size-small);
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.recommendations-new {
+  background-color: var(--color-moderate-red);
+  border-radius: 3px;
+  color: var(--color-white);
+  display: inline-block;
+  font-size: var(--font-size-small);
+  padding-left: 3px;
+  padding-right: 3px;
+}

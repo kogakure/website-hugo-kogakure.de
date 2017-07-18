@@ -1,0 +1,31 @@
+/* Footer
+ *********/
+
+.footer {
+  border-top: 1px solid var(--color-very-light-grey);
+  clear: both;
+  color: var(--color-dimmed-grey);
+  margin-top: var(--default-spacing-top);
+  padding-bottom: var(--default-spacing-bottom);
+  padding-top: var(--default-spacing-top);
+}
+
+.footer-content {
+  font-size: var(--font-size-small);
+  text-align: center;
+
+  & p {
+    line-height: 2.2;
+    margin-bottom: 1em;
+    margin-top: 0;
+
+    @media (--breakpoint-min-medium) {
+      line-height: 1.5;
+      margin-bottom: 0.2em;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}

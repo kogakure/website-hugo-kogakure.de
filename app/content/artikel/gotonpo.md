@@ -4,6 +4,7 @@ slug: "gotonpo"
 date: 2006-04-02T14:48:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Um nach einem Auftrag erfolgreich zu entkommen, wendeten die Ninja das Goton pō an, die fünf Fluchtmethoden, unter Zuhilfenahme der fünf Elemente. Sie beruhen auf dem daoistischen Prinzip des Gogyō. Der Ninja benutzt dabei Wasser, Holz, Feuer, Erde und Metall um seine Flucht vorzubereiten und durchzuführen."
+body_class: "grid--small"
 categories:
 - Strategie
 - Taktik

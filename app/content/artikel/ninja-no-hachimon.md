@@ -4,6 +4,7 @@ slug: "ninja-no-hachimon"
 date: 2006-04-02T15:25:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Das ninja no hachimon ist eine Definition dessen, was ein ninja-ryū lehren muss, um auch eine ninja-Kunst zu sein."
+body_class: "grid--small"
 categories:
 - Richtlinien
 - Training
