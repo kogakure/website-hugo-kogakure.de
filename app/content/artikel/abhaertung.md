@@ -4,6 +4,7 @@ slug: "abhaertung"
 date: 2006-03-30T18:41:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Damit sich der Ninja bei der Anwendung seiner körpereigenen Waffen nicht verletzte, trainierte er lange, um seine Körperteile abzuhärten. Dazu schlug er immer wieder und wieder gegen Bäume, oder rammte seine Hände in Sand, bis sie gegen Schmerzen unempfindlich waren."
+body_class: "grid--small"
 categories:
 - Training
 - Waffen

@@ -5,6 +5,7 @@ date: 2006-03-27T18:57:00+02:00
 author: "Peter Carlsson"
 translator: "Stefan Imhoff"
 excerpt: "Die Fürstenfamilie Oda trachtete nach der Region Iga, weil sie deren strategische Bedeutung erkannte. Iga war jedoch fest in der Hand von Aufständischen, die mit ninja-Techniken den Angriff von Oda Nobunaga&#8217;s Sohn zurückschlugen."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Krieg

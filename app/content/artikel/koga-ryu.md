@@ -5,6 +5,7 @@ date: 2006-03-26T20:33:00+02:00
 author: "Peter Carlsson"
 translator: "Stefan Imhoff"
 excerpt: "Der Kōga-ryū war unter der Kontrolle von einer Vielzahl von Familien. Die ninja dieses Clans halfen auch Tokugawa Ieyasu bei der Verteidigung seiner Burg. Mit Fujita Seiko starb 1966 höchstwahrscheinlich der letzte Erbe dieser Schule aus."
+body_class: "grid--small"
 categories:
 - Biographie
 - Geschichte

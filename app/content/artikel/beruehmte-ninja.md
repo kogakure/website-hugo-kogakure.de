@@ -5,6 +5,7 @@ date: 2006-03-26T19:16:00+02:00
 author: "Peter Carlsson"
 translator: "Stefan Imhoff"
 excerpt: "Die berühmtesten Familien waren ohne Frage die Hattori, Momochi und Fujibayashi aus der Iga-Provinz. Sie brachten viele berühmte Bushi hervor und sind die Grundlage für zahlreiche Geschichten und Legenden."
+body_class: "grid--small"
 categories:
 - Biographie
 - Geschichte
@@ -25,7 +26,7 @@ Die Kamihattori flohen in das Dorf Nagaoka in Echigo. Die Shimohattori erhielten
 
 ## Hattori Hanzo
 
-![A portrait of Hattori Masanari aka Hattori Hanzo from the 17th century.](/assets/images/artikel/hattori-hanzo.jpg "Hattori Hanzo")
+![A portrait of Hattori Masanari aka Hattori Hanzo from the 17th century.](/assets/images/articles/hattori-hanzo.jpg "Hattori Hanzo")
 
 Der berühmteste Ninja der Geschichte war ohne Zweifel Hattori Hanzo Masahige (1541-1596). Er war der Sohn von Hattori Nazo Yasunaga, der durch Heirat ein Vasall der Tokugawa-Familie geworden war. Die Tokugawa waren in dieser Periode als Matsudaira bekannt. Sie gehörten zum Familienzweig der Kamihattori, ob sie jedoch von den Heitaro oder Chigachi abstammten ist unbekannt.
 

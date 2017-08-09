@@ -4,6 +4,7 @@ slug: "choho"
 date: 2006-04-02T14:55:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Spionage war ein wichtiger Bestandteil des Ninja-Ausbildung, weshalb der größte Einsatzbereich für Ninja im Mittelalter auch Aufklärung und Spionagetätigkeiten waren."
+body_class: "grid--small"
 categories:
 - Strategie
 - Taktik
@@ -13,11 +14,11 @@ categories:
 
 Die erste Erwähnung über Spionage (*chōhō*) findet man in Sun Tzu’s <cite>Die Kunst des Krieges</cite>, dem chinesischem Klassiker über Kriegsführung. In China war es in früher Zeit üblich einen Sieg mit unglaublicher Truppenmasse zu erreichen. Doch die Folgen waren für die Landschaft und Struktur katastrophal. Es wurden unzählige, mehrere Generationen dauernde, lange, blutige Schlachten mit tausenden Toten geführt.
 
->  Ein Heer von hunderttausend Männern auszuheben und mit ihnen über weite Entfernungen zu marschieren bedeutet große Verluste an Menschen und eine Belastung der Staatsschätze. (…) Feindliche Armeen können sich jahrelang gegenüberstehen und um den Sieg ringen, der an einem einzigen Tag erkämpft wird.
->
-> Da dies so ist, ist es der Gipfel der Unmenschlichkeit, über die Verfassung des Feindes im unklaren zu bleiben, nur weil man die Ausgabe von hundert Unzen Silber für Belohnungen und Sold scheut.
->
-> – **Sun Tzu**, <cite>Die Kunst des Krieges</cite>
+{{% blockquote author="Sun Tzu" cite="Die Kunst des Krieges" %}}
+Ein Heer von hunderttausend Männern auszuheben und mit ihnen über weite Entfernungen zu marschieren bedeutet große Verluste an Menschen und eine Belastung der Staatsschätze. [...] Feindliche Armeen können sich jahrelang gegenüberstehen und um den Sieg ringen, der an einem einzigen Tag erkämpft wird.
+
+Da dies so ist, ist es der Gipfel der Unmenschlichkeit, über die Verfassung des Feindes im unklaren zu bleiben, nur weil man die Ausgabe von hundert Unzen Silber für Belohnungen und Sold scheut.
+{{% /blockquote %}}
 
 Auch heute ziehen Feldherren oft lange Feldzüge mit hohen Menschen- und Materialkosten vor. Es werden Stellungen ausgehoben und man verschanzt sich. Doch könnte ein einziger Spion oder Saboteur durch seine Leistungen den Krieg um Jahre verkürzen.
 

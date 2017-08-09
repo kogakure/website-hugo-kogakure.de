@@ -4,6 +4,7 @@ slug: "kamae"
 date: 2006-03-30T19:50:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Die Kamae sind im Ninjutsu Teil des natürlichen Bewegungablaufes und keine statischen Stellungen. Sie spiegeln nur die innere Einstellung des Kämpfers wieder und dienen keinem ästhetischen Zweck."
+body_class: "grid--small"
 categories:
 - Training
 ---
@@ -35,21 +36,21 @@ Die beobachtenden Kampfstellungen sind die Grundstellungen. Diese Stellungen sin
 
 ### Gasshō no kamae
 
-![Gasshō no kamae](/assets/images/artikel/kamae-gassho.jpg "Gasshō no kamae")
+![Gasshō no kamae](/assets/images/articles/kamae-gassho.jpg "Gasshō no kamae")
 
 Die *gassho no kamae* Stellung wird für den stehenden Gruß eingesetzt. Beide Füße stehen fest auf dem Boden, die Hände sind vor dem Oberkörper zusammengelegt, die Ellbogen sind leicht angehoben. Der Blick geht über die Fingerspitzen geradeaus zum Gegner.
 
 
 ### Fudōza no kamae
 
-![Fudōza no kamae](/assets/images/artikel/kamae-fudoza.jpg "Fudōza no kamae")
+![Fudōza no kamae](/assets/images/articles/kamae-fudoza.jpg "Fudōza no kamae")
 
 Die *fudoza no kamae* Stellung ist die traditionelle, japanische Sitzhaltung. Das linke Bein ist unter dem Körper gefaltet und der Sitz ruht auf dem Knöchel des linken Fußes. Das rechte Bein wird vor dem Körper mit der Fußsohle des rechten Fußes gegen das Knie gezogen. Der Rücken ist gerade, die Wirbelsäule hat ihre natürliche Position. Der Blick geht geradeaus.
 
 
 ### Seiza no kamae
 
-![Seiza no kamae](/assets/images/artikel/kamae-seiza.jpg "Seiza no kamae")
+![Seiza no kamae](/assets/images/articles/kamae-seiza.jpg "Seiza no kamae")
 
 Die *seiza no kamae* Stellung ist die traditionelle, japanische Knieposition. Die Beine sind hinter dem Körper verschränkt und der Sitz ruht auf den Fußsohlen. Der Oberkörper ist gerade, die Knie ein wenig auseinander. Die Hände ruhen auf den Oberschenkeln. Um Respekt zu zeigen, biegt man den Oberkörper nach vorne, die Handflächen werden vor sich auf den Boden gelegt.
 
@@ -60,28 +61,28 @@ Die verteidigenden Kampfstellungen werden benutzt, wenn man auf einen Angriff re
 
 ### Ichi no kamae
 
-![Ichi no kamae](/assets/images/artikel/kamae-ichi.jpg "Ichi no kamae")
+![Ichi no kamae](/assets/images/articles/kamae-ichi.jpg "Ichi no kamae")
 
 *Ichi no Kamae* wird ausgeführt, in dem man das eine Bein aus *shizen* einen Schritt nach vorne setzt und das Körpergewicht zum größeren Teil auf dem hinteren Bein lasten lässt. Der Körper wird vom Feind schräg weggedreht. Die vordere Hand zeigt in Richtung Feind, die hintere bleibt als Faust am Gürtel. Diese Position ist die Position die vor *ichimonji no kamae* eingenommen wird.
 
 
 ### Ichimonji no kamae
 
-![Ichimonji no kamae](/assets/images/artikel/kamae-ichimonji.jpg "Ichimonji no kamae")
+![Ichimonji no kamae](/assets/images/articles/kamae-ichimonji.jpg "Ichimonji no kamae")
 
 Die *ichimonji no kamae* Stellung wird ausgeführt, in dem der Körper zurück und vom Angriff weg ausweicht. Das hintere Bein hält den Körper aufrecht. Die Schultern sind entspannt, die Hüfte ist abgedreht, so das die vitalen Punkte verborgen sind. Die offenen Hände schützen das Gesicht und den Körper oder fangen den Angriff des Gegners ab.
 
 
 ### Doko no kamae
 
-![Doko no kamae](/assets/images/artikel/kamae-doko.jpg "Doko no kamae")
+![Doko no kamae](/assets/images/articles/kamae-doko.jpg "Doko no kamae")
 
 Die *doko no kamae* Stellung wird ausgeführt, in dem der Körper zurück und vom Angriff weg ausweicht. Das hintere Bein hält den Körper aufrecht und das vordere Bein bereitet sich darauf vor, den Körper noch weiter zurückzudrücken, falls das nötig sein sollte. Die vordere Hand blockt oder fängt die Schläge des Gegners ab, die hintere Hand wird nah am Ohr gehalten und bereitet einen Gegenschlag vor.
 
 
 ### Hichō no kamae
 
-![Hichō no kamae](/assets/images/artikel/kamae-hicho.jpg "Hichō no kamae")
+![Hichō no kamae](/assets/images/articles/kamae-hicho.jpg "Hichō no kamae")
 
 Die *hichō no kamae* Stellung wird benutzt, um vor einem Angriff auszuweichen und das vordere Bein wartet darauf den Gegner anzugreifen. Um die Balance zu halten wird das auf dem Boden stehende Bein leicht gebogen. Die Arme sind in einer Stellung, in der sie greifen, blocken oder Schläge austeilen können.
 
@@ -92,35 +93,35 @@ Die empfangenden Kampfstellungen werden benutzt, wenn man mit Techniken auf Angr
 
 ### Shizen no kamae
 
-![Shizen no kamae](/assets/images/artikel/kamae-shizen.jpg "Shizen no kamae")
+![Shizen no kamae](/assets/images/articles/kamae-shizen.jpg "Shizen no kamae")
 
 Die *Shizen no kamae* Stellung ist natürliche, stehende Position des Menschen. Der Geist ist alarmiert, der Körper ist entspannt und bereit sich zu bewegen und auf den Gegner zu reagieren. Das Körpergewicht ruht auf beiden Füßen, die Schultern sind entspannt und die Arme hängen natürlich an den Seiten herunter. In dieser Stellung wird man sich bei den meisten Angriffen vorfinden, da sie die natürliche Bewegung beim Gehen oder Stehen ist. Deshalb ist es auch die wichtigste Stellung und sollte gut trainiert werden.
 
 
 ### Hanmi no kamae
 
-![Hanmi no kamae](/assets/images/artikel/kamae-hanmi.jpg "Hanmi no kamae")
+![Hanmi no kamae](/assets/images/articles/kamae-hanmi.jpg "Hanmi no kamae")
 
 Aus *shizen no kamae* geht man für *hanmi no kamae* einfach mit dem einen Bein einen kleinen Schritt nach vorne. Der Körper wird dabei vom Gegner weggedreht.
 
 
 ### Goku no kamae
 
-![Goku no kamae](/assets/images/artikel/kamae-goku.jpg "Goku no kamae")
+![Goku no kamae](/assets/images/articles/kamae-goku.jpg "Goku no kamae")
 
 Bei *goku no kamae* dreht man den Körper aus *shizen no kamae* um 45° vom Gegner weg. Die Hände hängen natürlich herab, wie bei *shizen*, die vordere Hand ist offen, die hintere in *fudō ken*.
 
 
 ### Hira (ichimonji) no kamae
 
-![Hira (ichimonji) no kamae](/assets/images/artikel/kamae-hira.jpg "Hira (ichimonji) no kamae")
+![Hira (ichimonji) no kamae](/assets/images/articles/kamae-hira.jpg "Hira (ichimonji) no kamae")
 
 Die *hira ichimonji no kamae* Stellung ist eine ausbalancierte, stehende Position, von der aus der Körper ausweichen kann. Das Körpergewicht ruht zu gleichen Teilen auf beiden Füßen, beide Arme sind zu den Seiten ausgestreckt. Sie können zum fegen, greifen oder abfangen von Schlägen benutzt werden.
 
 
 ### Hoko no kamae
 
-![Hoko no kamae](/assets/images/artikel/kamae-hoko.jpg "Hoko no kamae")
+![Hoko no kamae](/assets/images/articles/kamae-hoko.jpg "Hoko no kamae")
 
 Die *hoko no kamae* Stellung ist eine andere Stellung, von der aus der Körper auf einen Angriff reagieren kann. Das Gewicht ruht auf beiden Füßen, die Arme werden über den Schultern – leicht gebogen – gehalten. Die Arme können benutzt werden, um zu fangen, umzuleiten oder Schläge auszuteilen.
 
@@ -131,13 +132,13 @@ Die angreifenden Kampfstellungen werden angewendet, wenn man von der Verteidigun
 
 ### Jūmonji no kamae
 
-![Jūmonji no kamae](/assets/images/artikel/kamae-jumonji.jpg "Jūmonji no kamae")
+![Jūmonji no kamae](/assets/images/articles/kamae-jumonji.jpg "Jūmonji no kamae")
 
 Die *jūmonji no kamae* Stellung ist an den überkreuzten Handgelenken leicht zu erkennen. Diese Handposition schützt den Körper während eines Angriffs. Die Ellbogen bedecken die Rippen, die Fäuste schützen den Nacken und das Gesicht, bevor sie einen Schlag anwenden. Das Gewicht lastet etwas mehr auf dem vorderen Fuß und der hintere Fuß drückt den Körper vorwärts.
 
 
 ### Kosei no kamae
 
-![Kosei no kamae](/assets/images/artikel/kamae-kosei.jpg "Kosei no kamae")
+![Kosei no kamae](/assets/images/articles/kamae-kosei.jpg "Kosei no kamae")
 
 Die *kosei no kamae* Stellung wird benutzt, um anzugreifen, aber sie erlaubt es auch mögliche Schläge abzufangen. Die vordere Hand wird benutzt, um zu greifen, umzuleiten oder die Aufmerksamkeit des Gegners auf sich zu lenken. Die hintere Hand führt den Angriff aus.

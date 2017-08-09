@@ -4,6 +4,7 @@ slug: "tenchijin"
 date: 2006-04-02T14:41:01+02:00
 author: "Stefan Imhoff"
 excerpt: "Die Ninja nutzten die daoistische Betrachtungsweise der Welt mit In und Yo, um eine Strategie zu entwickeln, die eine Bewertung von Situationen unter verschiedenen Gesichtspunkten ermöglichte."
+body_class: "grid--small"
 categories:
 - Philosophie
 - Strategie

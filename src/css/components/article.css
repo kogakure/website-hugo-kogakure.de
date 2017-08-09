@@ -1,0 +1,49 @@
+/* Article
+ **********/
+
+.article-title,
+.article-meta {
+  @media (--breakpoint-min-xlarge) {
+    text-align: center;
+  }
+}
+
+.article-meta {
+  font-size: 14px;
+  margin-bottom: 3em;
+}
+
+.article-author {
+  display: inline-block;
+  font-weight: bold;
+}
+
+.article-author-byline {
+  font-weight: normal;
+}
+
+/* Article List */
+.article-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.article-list-intro {
+  width: 100%;
+}
+
+.article-list-alphabetical {
+  width: 100%;
+
+  @media (--breakpoint-min-medium) {
+    width: 50%;
+  }
+}
+
+.articles-list-chronological {
+  width: 100%;
+
+  @media (--breakpoint-min-medium) {
+    width: 50%;
+  }
+}

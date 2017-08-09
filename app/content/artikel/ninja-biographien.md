@@ -4,6 +4,7 @@ slug: "ninja-biographien"
 date: 2006-03-26T19:17:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Neben den bekannten ninja aus den Hattori, Momochi und Fujibayahi-Clans habe es noch weitere ninja, die sich in der Geschichte einen Namen machten."
+body_class: "grid--small"
 categories:
 - Biographie
 - Geschichte

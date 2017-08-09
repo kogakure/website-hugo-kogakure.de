@@ -1,0 +1,128 @@
+/* Text Level Semantics
+ ***********************/
+
+/** Paragraphs */
+p {
+  margin-bottom: var(--default-spacing-bottom);
+}
+
+
+/** Horizontal rule */
+hr {
+  border: 0;
+  border-bottom: 1px solid rgba(var(--color-very-dark-magenta), 0.1);
+  height: 0;
+  margin: 2.5em;
+}
+
+
+/** Emphasis */
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: var(--weight-bold);
+}
+
+
+/** Strikethrough */
+s {
+  text-decoration: line-through;
+}
+
+
+/** Definition */
+dfn {
+  cursor: help;
+  font-style: italic;
+
+  @nest h1 &,
+  h2 &,
+  h3 &,
+  h4 &,
+  h5 &,
+  h6 & {
+    border: 0;
+    font-style: normal;
+  }
+}
+
+
+/** Superscript/Subscript */
+sup,
+sub {
+  position: relative;
+  vertical-align: 0;
+
+  & a {
+    border: 0;
+  }
+}
+
+sup {
+  bottom: 1ex;
+}
+
+sub {
+  top: 0.8ex;
+}
+
+
+/** Italic/Bold */
+i {
+  font-style: italic;
+}
+
+b {
+  font-weight: var(--weight-bold);
+}
+
+
+/** Mark */
+mark {
+  color: rgba(var(--color-black), 0.75);
+  padding: 0 4px;
+}
+
+
+/** Editing */
+ins {
+  text-decoration: underline;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+
+/** Ruby/Japanese */
+[lang=ja],
+ruby {
+  @apply --japanese-font;
+}
+
+
+/** Abbrevations */
+abbr,
+acronym {
+  cursor: help;
+  font-variant: small-caps;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  text-transform: lowercase;
+
+  @nest .touch &::after {
+    content: " (" attr(title) ") ";
+  }
+}
+
+abbr[title],
+acronym[title] {
+  border-bottom-width: 0;
+}
+
+abbr.no-caps {
+  font-variant: normal;
+  text-transform: none;
+}

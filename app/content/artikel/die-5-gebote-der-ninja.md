@@ -4,6 +4,7 @@ slug: "die-5-gebote-der-ninja"
 date: 2006-04-02T15:21:00+02:00
 author: "Stefan Imhoff"
 excerpt: "5 Gebote von Hatsumi Masaaki, an die man sich, wann immer man traurig, unglücklich, krank, verwundet oder verzweifelt ist, erinnern soll."
+body_class: "grid--small"
 categories:
 - Philosophie
 - Richtlinien

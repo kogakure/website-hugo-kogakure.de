@@ -4,6 +4,7 @@ slug: "bujinkan"
 date: 2006-04-02T15:04:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Bujinkan ist der Name der Organisation, die neun Krieger- und Ninja-ryū zusammenfasst. Sie bekam diesen Titel, um Takamatsu zu ehren."
+body_class: "grid--small"
 categories:
 - Organisation
 - Schulen
@@ -28,7 +29,7 @@ Unsere Aufgabe ist es diese Ideale zu bewahren und darüber zu wachen, dass dies
 
 Unter Dr. Hatsumi Masaaki wurden neun verschiedene Schulen zusammengefasst, die seit Generationen von Lehrer auf Schüler weitergereicht wurden. Seinem Lehrer Takamatsu Toshitsugu zu ehren nannte er die Zusammenfassung der 9 *ryūha* Bujinkan. *Bu* bedeutet Krieg, *jin* bedeutet Gott, Herz oder Seele und *kan* bedeutet Palast, Gebäude oder großes Haus. Somit ist eine mögliche Übersetzung *die Halle des Kriegsgottes*.
 
-![Bujinkan Logo](/assets/images/artikel/bujinkan.svg)
+![Bujinkan Logo](/assets/images/articles/bujinkan.svg)
 
 Die ältesten Schulen blicken auf ein gutes Jahrtausend Vergangenheit zurück. Die Techniken sind im Laufe der Zeit oft genug angewendet worden, wodurch ihre Funktionalität und Effektivität geprüft und bewiesen wurde. Ninjutsu ist kein *zen*-System, die Technik ist nicht das Ziel, sondern einzig und allein eine schnelle und effektive Bezwingung von Gegnern. Es gibt keine verspielten Techniken, oder überflüssigen Bewegungen, Ninjutsu ist effektiv und braucht sich mit keiner anderen Kampfform zu messen.
 

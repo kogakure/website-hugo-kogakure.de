@@ -2,18 +2,22 @@
   <div class="pagination">
     {{ if .PrevInSection }}
     <a class="pagination-link pagination-left" href="{{ .PrevInSection.Permalink }}" title="Previous Article: {{ .PrevInSection.Title }}">
-      <svg class="pagination-icon">
-        <use xlink:href="#arrow-left"></use>
-      </svg>
-      {{ .PrevInSection.Title }}
+      <span>
+        <svg class="pagination-icon">
+          <use xlink:href="#arrow-left"></use>
+        </svg>
+        {{ .PrevInSection.Title }}
+      </span>
     </a>
     {{ end }}
     {{ if .NextInSection }}
     <a class="pagination-link pagination-right" href="{{ .NextInSection.Permalink }}" title="Next Article: {{ .NextInSection.Title }}">
-      {{ .NextInSection.Title }}
-      <svg class="pagination-icon">
-        <use xlink:href="#arrow-right"></use>
-      </svg>
+      <span>
+        {{ .NextInSection.Title }}
+        <svg class="pagination-icon">
+          <use xlink:href="#arrow-right"></use>
+        </svg>
+      </span>
     </a>
     {{ end }}
   </div>

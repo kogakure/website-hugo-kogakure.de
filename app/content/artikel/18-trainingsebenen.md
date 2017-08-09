@@ -1,9 +1,11 @@
 ---
+type: "artikel"
 title: "18 Trainingsebenen"
 slug: "18-trainingsebenen"
 date: 2006-04-02T15:24:01+02:00
 author: "Stefan Imhoff"
 excerpt: "Die ninja, die sich im Togakure-ryū übten, versuchten sich in 18 Lehrsystemen zu verbessern."
+body_class: "grid--small"
 categories:
 - Training
 ---

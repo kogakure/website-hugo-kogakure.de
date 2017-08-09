@@ -4,6 +4,7 @@ slug: "ausbildung-der-ninja"
 date: 2006-03-28T16:17:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Zum Ninja wurde man geboren und schon von Kindesbeinen an wurden die unzähligen Techniken und Ausdauerübungen gelehrt. Im Jugendlichen Alter kamen dann noch Kampftraining und geistiges Training zum Lehrplan hinzu."
+body_class: "grid--small"
 categories:
 - Training
 ---

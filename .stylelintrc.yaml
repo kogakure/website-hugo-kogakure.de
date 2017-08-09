@@ -1,4 +1,5 @@
 ignoreFiles:
+  - "src/css/vendor/*.css"
 
 rules:
   color-hex-case: "lower"

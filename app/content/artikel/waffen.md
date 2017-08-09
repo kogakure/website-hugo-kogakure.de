@@ -4,6 +4,7 @@ slug: "waffen"
 date: 2006-04-01T16:35:06+02:00
 author: "Stefan Imhoff"
 excerpt: "Die Ninja kannte und beherrschten ein riesiges Arsenal an Waffen, von simplen kleinen Metalldornen über Stangenwaffen bis hin zu Feuerwaffen und Sprengstoffen."
+body_class: "grid--small"
 categories:
 - Waffen
 ---
@@ -22,28 +23,28 @@ Ein kleiner Dolch, der dem *tantō* sehr ähnlich ist und im Obi getragen wurde.
 
 ## Ashikō
 
-![Ashikō](/assets/images/artikel/waffen-ashiko.jpg)
+![Ashikō](/assets/images/articles/waffen-ashiko.jpg)
 
 Das Gegenstück zum *shukō* ist das *ashi kō*. Dabei wurde unter dem Fuß des Ninja ein ähnliches Gerät wie an der Hand angebracht. Ein Tritt zog so schlimmere Verletzungen nach sich, und das Klettern war weitaus leichter.
 
 
 ## Baku hatsu gama
 
-![Baku hatsu gama](/assets/images/artikel/waffen-bakuhatsugama.jpg)
+![Baku hatsu gama](/assets/images/articles/waffen-bakuhatsugama.jpg)
 
 Am Ende der *bakuhatsugama* befestigte der Ninja Explosivstoffe, Gifte oder Blendpulver. Dieses schleuderte er dem Angreifer ins Gesicht und attackierte ihn danach mit der Sichel.
 
 
 ## Bisentō
 
-![Bisentō](/assets/images/artikel/waffen-bisento.jpg)
+![Bisentō](/assets/images/articles/waffen-bisento.jpg)
 
 Die schwere Hellebarde wurde aus China eingeführt und erforderte eine andere Kampfweise als die *naginata*. Sie war weitaus wuchtiger und in der Hand eines starken Kriegers eine furchtbare Waffe.
 
 
 ## Bō
 
-![Bō](/assets/images/artikel/waffen-bo.jpg)
+![Bō](/assets/images/articles/waffen-bo.jpg)
 
 Eine der einfachsten Waffen war wohl der Stab oder Stock. Was heute als *bō* bekannt ist, ist eigentlich der *roku shaku bō* mit einer Länge von ungefähr 182 cm. Auf den ersten Blick sieht die Waffe nicht sehr gefährlich aus, doch in der Hand eines Meisters ist diese Allzweckwaffe tödlich. Sie konnte zum Stechen oder Schlagen eingesetzt werden, und war auch gegen mehrere Gegner sehr effektiv, was sie zu einer beliebten Waffe der Ninja machte.
 
@@ -55,7 +56,7 @@ Messer- oder pfeilförmige, längliche *shuriken*.
 
 ## Bō ken
 
-![Bō ken](/assets/images/artikel/waffen-boken.jpg)
+![Bō ken](/assets/images/articles/waffen-boken.jpg)
 
 auch *bokken* oder *bokutō*. Holzschwert aus schwerem Holz zum Üben. Meist sogar schwerer als ein scharfes Schwert, so war es für den Schüler eine Erleichterung, wenn er sein *daishō* bekam.
 
@@ -77,7 +78,7 @@ Ein langer Stock und eine Kette mit Eisengewicht am Ende. Ursprünglich von Baue
 
 ## Daisharin
 
-![Daisharin](/assets/images/artikel/waffen-daisharin.jpg)
+![Daisharin](/assets/images/articles/waffen-daisharin.jpg)
 
 Das *daisharin* bestand aus zwei Rädern mit einer Achse. Die Ninja setzten es gerne ein, um damit größere Gruppen Angreifer von den Beinen zu reißen oder um es als verbesserten Stab einzusetzen.
 
@@ -99,14 +100,14 @@ Bootsruder, eigentlich eine Waffe aus Okinawa. Wenn der Ninja in Tarnung als Fis
 
 ## Endoku ken
 
-![Endoku ken](/assets/images/artikel/waffen-endokuken.jpg)
+![Endoku ken](/assets/images/articles/waffen-endokuken.jpg)
 
 Die Ninja verwendeten auch Wurfsterne, die giftigen Rauch freisetzten, wenn man sie anzündete. Auf diese Weise konnte man verborgene Feinde zwingen sich zu erkennen zu geben.
 
 
 ## Fukiya
 
-![Fukiya](/assets/images/artikel/waffen-fukiya.jpg)
+![Fukiya](/assets/images/articles/waffen-fukiya.jpg)
 
 Das Blasrohr wurde gerne eingesetzt, weil man damit den Feind leise töten konnte. Die Bolzen wurden vergiftet und erstickten so jeden Schrei. Als Flöte getarnt konnte man ein Blasrohr ungehindert mit sich herumtragen.
 
@@ -118,21 +119,21 @@ Kleine Pfeile, die der Ninja einem Angreifer ins Gesicht spuckte.
 
 ## Futokoro teppō
 
-![Futokoro teppō](/assets/images/artikel/waffen-futokoroteppo.jpg)
+![Futokoro teppō](/assets/images/articles/waffen-futokoroteppo.jpg)
 
 Die Bronzepistole wurde gerne von den Ninja eingesetzt, weil sie klein und leicht zu verbergen war. Manchmal wurde ein Bajonett auf die Waffe aufgesetzt.
 
 
 ## Hanbō
 
-![Hanbō](/assets/images/artikel/waffen-hanbo.jpg)
+![Hanbō](/assets/images/articles/waffen-hanbo.jpg)
 
 Der *halbe Stab* oder Stock war, wenn gleich er mit 91 cm sehr kurz war eine sehr effektive Waffe. Die richtige Bezeichnung ist eigentlich *sanshakubō*.
 
 
 ## Hankyū
 
-![Hankyū](/assets/images/artikel/waffen-hankyu.jpg)
+![Hankyū](/assets/images/articles/waffen-hankyu.jpg)
 
 Der Bogen der Ninja war weitaus kürzer als der Bogen der Samurai. So konnte er leichter transportiert und versteckt werden. Die geringere Reichweite machte normalerweise nicht viel aus, da Ninja selten weit entfernte Ziele auf dem Schlachtfeld treffen mussten, sondern meist nur dicht liegende Ziele. An den Pfeilen wurden gerne Explosivstoffe oder Brandstoffe befestigt, zumal in Japan fast alle Gebäude aus Holz waren. Man konnte auch mit speziellen Pfeilen Seile durchtrennen oder einen Heulton erzeugen, der die Feinde in Angst und Schrecken versetzte.
 
@@ -144,14 +145,14 @@ Sternenförmige, flache Wurfgegenstände.
 
 ## Hishi
 
-![Hishi](/assets/images/artikel/waffen-hishi.jpg)
+![Hishi](/assets/images/articles/waffen-hishi.jpg)
 
 Getrocknete Wasserkastanien erfüllten den gleichen Zweck wie die *tetsubishi*, waren aber leichter zu bekommen. Außerdem erweckten sie keinen Verdacht, weil in bäuerlichen Gebieten diese Pflanze ganz alltäglich war.
 
 
 ## Iga dama
 
-![Iga dama](/assets/images/artikel/waffen-igadama.jpg)
+![Iga dama](/assets/images/articles/waffen-igadama.jpg)
 
 Diese Waffe konnte ähnlich wie die *tetsubishi* eingesetzt werden und zusätzlich auch noch auf Feinde geworfen werden. Sie wurden gerne überall im Ninjahaus versteckt, um sich gegen Angreifer wehren zu können.
 
@@ -163,7 +164,7 @@ Auch *Uzume bi*.
 
 ## Jō
 
-![Jō](/assets/images/artikel/waffen-jo.jpg)
+![Jō](/assets/images/articles/waffen-jo.jpg)
 
 Der Wanderstab war eine verkürzte Form des *roku shaku bō*. Er reichte bis zur Hüfte oder zum Bauch und konnte ähnlich wie der Stab eingesetzt werden. Seine richtige Bezeichnung ist *yon shaku bō*.
 
@@ -175,14 +176,14 @@ Handwaffe mit einem Haken, mit dem man einen Schwertangriff abfangen konnte.
 
 ## Kagi yari
 
-![Kagi yari](/assets/images/artikel/waffen-kagiyari.jpg)
+![Kagi yari](/assets/images/articles/waffen-kagiyari.jpg)
 
 Auch *kama yari*. Die Ninja der Togakure-*ryū* und Kumogakure-*ryū* nutzten häufig den Hakenspeer. Man konnte damit in Bäume gelangen, über Mauern oder auf Schiffe. Es war auch möglich so von Baum zu Baum zu gelangen. Verborgen auf einem erhöhten Posten konnte man mit den Haken ein Opfer erwischen und in die Höhe ziehen. Er eignete sich auch zum Fischfang, Türenaufbrechen oder um Gepäck zu transportieren.
 
 
 ## Kama
 
-![Kama](/assets/images/artikel/waffen-kama.jpg)
+![Kama](/assets/images/articles/waffen-kama.jpg)
 
 Sichel mit kurzem Griff, die in Asien zum Schneiden von Reis, Korn oder Zuckerrohr benutzt wurde.
 
@@ -209,7 +210,7 @@ Schwertnadel oder Haarnadel. Die Schwertnadel war eigentlich ein Werkzeug, das a
 
 ## Kongō
 
-![Kongō](/assets/images/artikel/waffen-kongosho.jpg)
+![Kongō](/assets/images/articles/waffen-kongosho.jpg)
 
 Sanskrit *Vajra*. Zepter, das den Diamanten symbolisiert, von esoterischen Sekten benutzt. Diente auch als Schlagwaffe.
 
@@ -221,14 +222,14 @@ Auch *yawara*. Schlagwaffe, in der Form eines Zylinders. Eignete sich für Halte
 
 ## Kusari fundō
 
-![Kusari fundō](/assets/images/artikel/waffen-kusarifundo.jpg)
+![Kusari fundō](/assets/images/articles/waffen-kusarifundo.jpg)
 
 Auch *manrikigusari*. Die Kette war eine nützliche Waffe. Sie konnte leicht verborgen werden und eignete sich sogar um Schwertstreiche abzufangen, Gegner zu fesseln, zu würgen oder von den Beinen zu reißen.
 
 
 ## Kusarigama
 
-![Kusarigama](/assets/images/artikel/waffen-kusarigama.jpg)
+![Kusarigama](/assets/images/articles/waffen-kusarigama.jpg)
 
 Die *kusarigama* war eine gerne benutzte Waffe. An einer Reissichel befestigt war eine Kette die ein bis zwei Meter lang war. An dem Ende der Kette war ein Gewicht befestigt. Wurde ein Ninja angegriffen, so schleuderte er das Gewicht um die Klinge des Angreifers und zwang ihn so die Waffe zu senken. Danach griff er den Feind mit der Sichel an.
 
@@ -240,7 +241,7 @@ Stock mit Überlänge (270 cm).
 
 ## Kyoketsu shoge
 
-![Kyoketsu shoge](/assets/images/artikel/waffen-kyoketsushoge.jpg)
+![Kyoketsu shoge](/assets/images/articles/waffen-kyoketsushoge.jpg)
 
 Die wahrscheinlich beliebteste Waffe des Ninja war die *kyoketsu shoge*. Ein Messer mit einem Haken, am Griff ein 18 Fuß (ca. 5,49 m.) langes langes Seil und an dessen Ende ein Stahlring. Das Seil war oft aus Frauenhaaren gefertigt, da Haare besonders widerstandsfähig waren. Mit dieser Waffe konnte der Ninja die Waffe des Gegners unter Kontrolle bringen, mit dem Messer angreifen, mit dem Haken einen Schwertstrich abblocken oder den Feind von den Füßen reißen. Mit dem Seil konnte er klettern und fesseln und am Stahlring konnten auch Feuerwerkskörper befestigt werden um den Feind zu blenden.
 
@@ -252,7 +253,7 @@ Auch *yumi*.
 
 ## Mamukugama
 
-![Mamukugama](/assets/images/artikel/waffen-mamukugama.jpg)
+![Mamukugama](/assets/images/articles/waffen-mamukugama.jpg)
 
 Bei dieser Waffe wurde ein giftiges Tier, wie z. B. eine Schlange am Ende des Seils befestigt. Dieses schleuderte man dem Feind entgegen und erleichterte sich damit den Kampf enorm, weil das Tier für Beschäftigung und vielleicht sogar den Tod des Feindes sorgte.
 
@@ -269,14 +270,14 @@ Wurde ein Ninja entdeckt, so war er normalerweise in der Unterzahl. Um dennoch s
 
 ## Nageteppō
 
-![Nageteppō](/assets/images/artikel/waffen-nageteppo.jpg)
+![Nageteppō](/assets/images/articles/waffen-nageteppo.jpg)
 
 Diese Explosivgranaten wurden mit der Hand oder mit Schleudern auf den Feind geworfen und funktionierten nach dem gleichen Prinzip wie eine Handgranate heute.
 
 
 ## Naginata
 
-![Naginata](/assets/images/artikel/waffen-naginata.jpg)
+![Naginata](/assets/images/articles/waffen-naginata.jpg)
 
 Die Schwertlanze war eine Waffe der *sōhei* und bevorzugte Waffe der Samurai-Frauen. Es gab sie in verschiedenen Ausführungen (z. B. *nagamaki*), wobei das Verhältnis von Klinge zu Griff, Länge und Klingenstärke variierte. Sie war eine sehr effektive Waffe gegen berittene Krieger, lang wie der Speer und man konnte damit Gliedmaßen abtrennen. Nach dem Zweiten Weltkrieg wurde sie überwiegend von Frauen im *naginatadō* verwendet.
 
@@ -288,14 +289,14 @@ Auch *bō-shuriken*. Pfeilförmige Wurfgeschosse, die eine Quaste zur Flugstabil
 
 ## Neko te
 
-![Neko te](/assets/images/artikel/waffen-nekote.jpg)
+![Neko te](/assets/images/articles/waffen-nekote.jpg)
 
 Die *kunoichi* trugen manchmal auf jedem Finger eine solche *Katzenkralle*. Damit konnten im Gesicht eines Angreifers schreckliche Wunden gerissen werden.
 
 
 ## Ninja tō
 
-![Ninja tō](/assets/images/artikel/waffen-ninjato.jpg)
+![Ninja tō](/assets/images/articles/waffen-ninjato.jpg)
 
 Auch *ninjaken* oder *Shinobi katana*. Das Kurzschwert war ein wichtiges Werkzeug im Equipment der Ninja. Es war nicht hübsch oder wertvoll, wie das *tachi* oder die *katana* der Samurai – es war nützlich. Die Klinge war sehr viel kürzer als bei der *katana* oder dem *tachi*. So konnte der Ninja sich damit besser bewegen und es im Nahkampf einsetzten. Die Klinge war manchmal gerade, manchmal wurde aber auch nur eine gekürzte *katana*. Die *tsuba* war nicht mit schönen Ornamenten verziert sondern meist größer und aus einfachem Stahl, oft eckig. So konnte man sie als Kletterhilfe benutzten. Das Schwert wurde an der Seite getragen und nur selten (z. B. beim Klettern) über Rücken oder Bauch. Im Griff waren oftmals Gifte, Heilmittel oder Chemikalien verborgen. Das *saya* konnte als Blasrohr oder Atemrohr benutzt werden.
 
@@ -317,21 +318,21 @@ Fischerspeer, ein Werkzeug der Fischer, die aber auch als Waffe eingesetzt werde
 
 ## Ōgama
 
-![Ōgama](/assets/images/artikel/waffen-ogama.jpg)
+![Ōgama](/assets/images/articles/waffen-ogama.jpg)
 
 Die *ōgama* war die Version der *kusarigama* für das Schlachtfeld. Die Kette war stark genug um Pferde von den Beinen zu reißen, Mit der Sichel konnten Rüstungen mit Leichtigkeit durchbohrt oder durchschnitten werden.
 
 
 ## Ono
 
-![Ono](/assets/images/artikel/waffen-ono.jpg)
+![Ono](/assets/images/articles/waffen-ono.jpg)
 
 Die schwere Kriegsaxt wurde nach dem Fall der T’ang Dynastie aus China mitgebracht. Mit ihr konnte man Burgtore zerschmettern, Krieger von den Pferden schlagen oder jeden Angriff mit einer schwächeren Waffe zunichte machen.
 
 
 ## Ōzutsu
 
-![Ōzutsu](/assets/images/artikel/waffen-ozutsu.jpg)
+![Ōzutsu](/assets/images/articles/waffen-ozutsu.jpg)
 
 Die Ninja des Togakure-*ryū* benutzten schon sehr früh hölzerne Kanonen, um in größeren Schlachten siegreich zu sein. Gegen größere Reiterverbände oder Burgtore war diese Waffe sehr effektiv.
 
@@ -368,21 +369,21 @@ Flöte, 33 cm (1 *shaku*) lang mit acht (*hachi*) seitlichen Löchern. Die Flöt
 
 ## Shakujō
 
-![Shakujō](/assets/images/artikel/waffen-shakujo.jpg)
+![Shakujō](/assets/images/articles/waffen-shakujo.jpg)
 
 Der Stab der Priester wurde gerne benutzt, wenn ein Ninja sich als Mönch verkleidete. Der Stab besitzt am Ende Ringe, mit deren Geräusch der Mönch Kriechtiere vom Weg vertrieb, damit er das Gesetz des Nichttötens einhalten konnte und nicht aus Versehen ein Tier zertrat.
 
 
 ## Shikomizue
 
-![Shikomizue](/assets/images/artikel/waffen-shikomizue.jpg)
+![Shikomizue](/assets/images/articles/waffen-shikomizue.jpg)
 
 War ein Ninja auf Wanderschaft, so konnte er nicht immer ein Schwert offen mit sich führen. Das *shikomizue* war ein Schwert das in einem Stock verborgen war. Äußerlich sah es wie ein gewöhnlicher Stab aus, doch das konnte man schnell ändern.
 
 
 ## Shinobi shobō
 
-![Shinobi shobō](/assets/images/artikel/waffen-shinobishobo.jpg)
+![Shinobi shobō](/assets/images/articles/waffen-shinobishobo.jpg)
 
 Der *shinobi shobō* ist ein Vorgänger des heutigen Schlagringes und funktioniert auf die gleiche Weise. Der Mittelfinger wird durch einen Stahlring gesteckt und der Rest der Waffe in der Faust verborgen.
 
@@ -399,35 +400,35 @@ Auch *shinobi zue*.
 
 ## Shinobi tantō
 
-![Shinobi tantō](/assets/images/artikel/waffen-shinobitanto.jpg)
+![Shinobi tantō](/assets/images/articles/waffen-shinobitanto.jpg)
 
 Die Ninja benutzten auch *tantō*, wie die Samurai. Nur waren die dann meist getarnt oder in der Kleidung verborgen. Das *shinobi tantō* war ähnlich dem *shikomi zue* als kurzer Stock getarnt.
 
 
 ## Shinobi zue
 
-![Shinobi zue](/assets/images/artikel/waffen-shinobizue.jpg)
+![Shinobi zue](/assets/images/articles/waffen-shinobizue.jpg)
 
 Auch *shinobi kai*. Die Ninja setzten gerne Stäbe und Stöcke ein, weil das Tragen in Japans Mittelalter als alltäglich galt. Jeder hatte beim Wandern einen Stab bei sich. Nur waren die Stäbe der Ninja modifiziert. Meist waren sie hohl und im Inneren verborgen waren Messer, Gifte, Blendpulver oder Ketten mit Gewichten. Wurde ein Ninja angegriffen so öffnete er blitzschnell den Deckel des Stabes und eine Eisenkugel, die an einer Kette befestigt war, flog heraus und der Ninja konnte den Feind damit von den Füßen reißen. Oder er schleuderte ihm Gift, Blendpulver oder andere Waffen entgegen. Auf diese Weise verwandelte sich ein normaler Wanderstab schnell in einen Speer, Giftspritzer oder Morgenstern.
 
 
 ## Shukō
 
-![Shukō](/assets/images/artikel/waffen-shuko.jpg)
+![Shukō](/assets/images/articles/waffen-shuko.jpg)
 
 Auch *tekagi*. Eine furchtbare Waffe ist der *shukō*. An einer Art Leder-Armring waren eine spitze Eisenzacken angebracht, wodurch der Ninja seine Hand in eine Tigerkralle verwandelte. Die Zacken konnten im Gesicht des Angreifers schreckliche Wunden hinterlassen. Mit dieser Waffe konnten Ninja auch *Schwerter nehmen*, also den Schwertschlag stoppen. Zugleich konnte der Ninja so besser an Mauern oder Bäumen hinaufklettern. Das Gegenstück für die Füße hieß *ashi kō*.
 
 
 ## Shuriken
 
-![Shuriken](/assets/images/artikel/waffen-shuriken.jpg)
+![Shuriken](/assets/images/articles/waffen-shuriken.jpg)
 
 Die bekanntesten Waffen waren die Wurfklingen. Als *hira shuriken* in Sternenform oder als *bō-shuriken* in Dolchform. Jede Waffe erforderte ihre eigene Wurftechnik. Die Wurfklingen konnten vergiftet werden und auch im Nahkampf eingesetzt werden. Der *senban shaken* war der typische Wurfstern des Togakure-*ryū*. Er hatte vier Spitzen und sah wie ein Diamant aus. In der Mitte befand sich ein Loch. Die Seiten waren scharf geschliffen. Der Wurfstern war sehr dünn und leicht, so dass immer neun zusammen in der Innentasche getragen werden konnten.
 
 
 ## Sodezutsu
 
-![Sodezutsu](/assets/images/artikel/waffen-sodezutsu.jpg)
+![Sodezutsu](/assets/images/articles/waffen-sodezutsu.jpg)
 
 Der kleinere Bruder der *ōzutsu* war die *sodezutsu*. Diese Kanone konnte aus der Hand abgefeuert werden und war ein Vorläufer der Gewehre.
 
@@ -439,7 +440,7 @@ Altes Langschwert mit einer 61 bis 76 cm langen Klinge. Das *tachi* war am Griff
 
 ## Tanegashima
 
-![Tanegashima](/assets/images/artikel/waffen-tanegashima.jpg)
+![Tanegashima](/assets/images/articles/waffen-tanegashima.jpg)
 
 Auch *teppo*. Die Ninja erkannte wahrscheinlich als erste den Nutzen der Arkebusen, die die Portugiesen in Japan einführten. Schon lange bevor die Waffe in Schlachten benutzt wurde, wurde sie bei Attentaten von den Ninja verwendet.
 
@@ -466,28 +467,28 @@ Auch *tanegashima*.
 
 ## Tessen
 
-![Tessen](/assets/images/artikel/waffen-tessen.jpg)
+![Tessen](/assets/images/articles/waffen-tessen.jpg)
 
 Der Kriegsfächer war eine beliebte Waffe, weil er auf den ersten Blick nicht wie eine Waffe aussah. Bei dem Fächer waren die äußeren Teile aus Stahl, manchmal war er sogar überhaupt kein Fächer mehr sondern nur noch ein Stück Stahl in der Form eines Fächers. Mit dieser Waffe konnte man den Gegner z. B. an den Gelenken Schmerz zufügen oder ihn damit kontrollieren.
 
 
 ## Tetsubishi
 
-![Tetsubishi](/assets/images/artikel/waffen-tetsubishi.jpg)
+![Tetsubishi](/assets/images/articles/waffen-tetsubishi.jpg)
 
 Wenn ein Ninja verfolgt wurde, so streute er eine Handvoll dieser eisernen Metalldornen auf den Boden. Da in Japan Stohsandalen getragen wurden war es höchst schmerzhaft auf die Dornen zu treten und eine Verfolgung konnte nicht fortgesetzt werden. Das brillante an dieser Waffe war, dass egal wie man sie warf, immer ein Dorn nach oben ragte. Kommt auch in natürlicher Form in der Natur vor (*hishi*).
 
 
 ## Tetsubō
 
-![Tetsubō](/assets/images/artikel/waffen-tetsubo.jpg)
+![Tetsubō](/assets/images/articles/waffen-tetsubo.jpg)
 
 Diese Waffe wurde wohl überall auf der Welt benutzt und zählt zu den primitivsten. An einer Keule wurden Stahldornen befestigt, um die Effektivität zu erhöhen.
 
 
 ## Toami
 
-![Toami](/assets/images/artikel/waffen-toami.jpg)
+![Toami](/assets/images/articles/waffen-toami.jpg)
 
 Das Netz wurde von den Ninja eingesetzt, um sich gegen eine Vielzahl Angreifer zur Wehr zu setzen. In den Fischerdörfern war es ein alltägliches Werkzeug und fiel so kaum auf. Es konnte auch in Wäldern oder Gängen als Falle aufgebaut werden.
 
@@ -519,7 +520,7 @@ Auch *jirai*. Diese Landminen verbuddelte man dicht unter der Erde. Ein Feind, d
 
 ## Wakizashi teppō
 
-![Wakizashi teppō](/assets/images/artikel/waffen-wakizashiteppo.jpg)
+![Wakizashi teppō](/assets/images/articles/waffen-wakizashiteppo.jpg)
 
 Verborgen im inneren eines traditionellen Kurzschwertes war eine Pistole, die einen Schuss abfeuern konnte.
 
@@ -531,7 +532,7 @@ Ein *shaku* waren 33cm. *Yon* bedeutet vier. Genaue Bezeichnung für den *jō*.
 
 ## Yari
 
-![Yari](/assets/images/artikel/waffen-yari.jpg)
+![Yari](/assets/images/articles/waffen-yari.jpg)
 
 Die japanischen Speere waren zum stechen und wurden nur sehr selten geworfen. Mit ihrer kleinen Spitze konnte man leicht zwischen die Platten der Samurai-Rüstung treffen. Die Spitzen waren meist zwei- oder dreiseitig. Er war meist 200 bis 350 cm lang. Oda Nobunaga setzte zum Teil 640 cm lange *yari* ein, um seine *teppō*-Soldaten gegen die Reiterei zu schützen.
 

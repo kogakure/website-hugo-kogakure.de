@@ -4,6 +4,7 @@ slug: "ninpo-sanjurokkei"
 date: 2006-04-02T15:23:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Die 36 militärischen Strategien – 18 grundlegende Kriegskünste und 18 spezielle ninja-Fertigkeiten, in denen sich die ninja trainiert haben."
+body_class: "grid--small"
 categories:
 - Richtlinien
 - Training

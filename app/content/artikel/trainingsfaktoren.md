@@ -4,6 +4,7 @@ slug: "trainingsfaktoren"
 date: 2006-03-28T17:30:01+02:00
 author: "Stefan Imhoff"
 excerpt: "Um aus einem Kampf erfolgreich hervorzugehen,  sind mehrere Faktoren von großer Bedeutung: Ausdauer, Schnelligkeit, Kraft und Gelenkigkeit. Der Ninja trainierte sich in diesen, um seinen Vorteil auszubauen."
+body_class: "grid--small"
 categories:
 - Training
 ---

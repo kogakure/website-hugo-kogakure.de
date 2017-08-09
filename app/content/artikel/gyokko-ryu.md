@@ -4,6 +4,7 @@ slug: "gyokko-ryu"
 date: 2006-04-02T15:07:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Gyokko-ryū koshi jutsu – Schule des mit Juwelen geschmückten Tigers, der älteste Stil, vermutlich schon um 618 n. Chr. in China gegründet."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Schulen

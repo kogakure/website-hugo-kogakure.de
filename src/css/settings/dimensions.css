@@ -1,0 +1,14 @@
+/* Dimensions
+ *************/
+
+:root {
+  --container-max-width:     920px;
+  --image-border-size:       1px;
+  --main-navigation-count:   6;
+  --default-border-radius:   4px;
+  --default-spacing:         1.5em;
+  --default-spacing-bottom:  1.5em;
+  --default-spacing-top:     1.5em;
+  --default-spacing-right:   1.5em;
+  --default-spacing-left:    1.5em;
+}

@@ -1,0 +1,19 @@
+/* Image
+ ********/
+
+img,
+a img {
+  height: auto !important;
+  max-width: 100%;
+  transition: all 750ms ease-in-out;
+  vertical-align: bottom;
+  width: auto\9; /** ie8 */
+
+  &:hover {
+    @apply --card-shadow;
+  }
+}
+
+.image-noborder {
+  border: 0;
+}

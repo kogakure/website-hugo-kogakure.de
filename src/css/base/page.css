@@ -1,0 +1,56 @@
+/* Page
+ *******/
+
+@charset "UTF-8";
+
+@viewport {
+  width: device-width;
+}
+
+html {
+  @media (--breakpoint-min-iphone) {
+    text-size-adjust: none;
+  }
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  overflow-scrolling: touch; /* Needed to have smooth scrolling on iOS */
+}
+
+/** Padding is included */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  @apply --base-font;
+  @apply --pattern-bright-squares-bamboo;
+  color: var(--color-very-dark-magenta);
+  font-size: var(--base-font-size);
+  font-smoothing: subpixel-antialiased;
+  font-style: normal;
+  font-weight: var(--weight-normal);
+  hyphens: auto;
+  line-height: var(--base-line-height);
+  margin: 0;
+  overflow-x: hidden;
+
+  @nest .wf-active & {
+    @apply --base-font-wf;
+  }
+}
+
+.svg-icons {
+  left: -9999px;
+  position: absolute;
+  top: -9999px;
+}
+
+.footer {
+  clear: both;
+}

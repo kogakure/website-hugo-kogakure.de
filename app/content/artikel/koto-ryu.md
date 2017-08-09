@@ -4,6 +4,7 @@ slug: "koto-ryu"
 date: 2006-04-02T15:12:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Koto-ryū koppō jutsu – Die Schule des den Tiger niederschlagen, vermutlich von China über Korea gekommen, spezialisiert auf harte Schläge mit den Fingern auf die Nervenzentren."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Schulen

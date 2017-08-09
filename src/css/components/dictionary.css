@@ -1,0 +1,65 @@
+/* Dictionary
+ *************/
+
+.dictionary-item {
+  border-bottom: 1px solid var(--color-dictionary-border);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: var(--default-spacing-bottom);
+  padding-bottom: var(--default-spacing-bottom);
+  width: 100%;
+
+  @media (--breakpoint-min-xlarge) {
+    flex-direction: row;
+  }
+
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.dictionary-term {
+  @apply --japanese-font;
+  flex-grow: 1;
+  font-size: var(--modular-scale-4);
+  line-height: 1.2;
+  margin-bottom: 0.3em;
+  padding-right: var(--default-spacing);
+
+  &:hover {
+    @apply --japanese-font-serif;
+  }
+
+  @media (width >= 450px) {
+    font-size: var(--modular-scale-5);
+  }
+}
+
+.dictionary-romanji {
+  color: var(--color-strong-green);
+  flex-grow: 1;
+  font-feature-settings: "liga", "dlig";
+  font-size: var(--modular-scale-3);
+  font-weight: var(--weight-bold);
+  hyphens: manual;
+  line-height: 1.2;
+  margin-bottom: 0.3em;
+  order: -1;
+
+  @media (--breakpoint-min-xlarge) {
+    margin-right: 0 !important;
+    order: initial;
+    text-align: right;
+  }
+}
+
+.dictionary-translation {
+  color: var(--color-dark-moderate-green);
+  margin-bottom: 0.3em;
+  width: 100%;
+}
+
+.dictionary-description {
+  width: 100%;
+}

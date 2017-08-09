@@ -4,6 +4,7 @@ slug: "gikan-ryu"
 date: 2006-04-02T15:14:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Gikan-ryū koppō jutsu – Schule des Lernens von Gerechtigkeit, eine Schule, die Hatsumi noch nicht öffentlich gelehrt hat, weil sie sehr kompliziert sein soll."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Schulen

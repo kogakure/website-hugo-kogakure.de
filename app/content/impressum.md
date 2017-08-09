@@ -20,12 +20,10 @@ Sollten Sie einen Link finden, der auf eine Webseite verlinkt, die gegen geltend
 
 ## Verwendete Grafiken
 
-Diese Seite verwendet einige Hintergrundmuster von *Subtle Patterns*: [Bright Squares] von [Waseem Dahman] und [Stacked Circles] von [Saqib].
+Diese Seite verwendet einige Hintergrundmuster von *Subtle Patterns*: [Bright Squares] von [Waseem Dahman].
 
   [Bright Squares]: https://www.toptal.com/designers/subtlepatterns/bright-squares/
   [Waseem Dahman]: https://twitter.com/dwaseem
-  [Stacked Circles]: https://www.toptal.com/designers/subtlepatterns/stacked-circles/
-  [Saqib]: http://960development.com/
 
 ## Datenschutz
 
@@ -47,7 +45,7 @@ Diese Daten sind für mich nicht bestimmten Personen zuordenbar. Eine Zusammenf�
 
 ### Cookies
 
-Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie dienen dazu, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Die meisten der von mir verwendeten Cookies sind so genannte „Session-Cookies“. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.
+Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie dienen dazu, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Die meisten der von mir verwendeten Cookies sind so genannte *Session-Cookies*. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.
 
 ### Auskunftsrecht
 

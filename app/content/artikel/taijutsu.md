@@ -4,6 +4,7 @@ slug: "taijutsu"
 date: 2006-03-28T16:46:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Taijutsu fasst alle Körperbewegungen im ninjutsu zusammen. Bewegungen und Kampftechniken basieren auf natürlichem Körpergefühl und dienen nicht der Ästethik, sondern nur dem Schutz. Jede Technik kann auf unterschiedliche Weise ausgeübt werden, was durch die Fünf Elemente ausgedrückt wird."
+body_class: "grid--small"
 categories:
 - Training
 ---
@@ -12,7 +13,7 @@ categories:
 
 *Taijutsu* heißt wörtlich übersetzt *Körperkunst*. Ziel dieses Trainings, das die wichtigste Grundlage im Ninjutsu darstellt, ist eine natürliche Kampfweise zu entwickeln, die vollständig an die kämpfende Person angepasst ist. Ein zeitloses Verständnis des menschlichen Verhaltens und des Körperbaus ist dafür von größter Wichtigkeit. Im Ninjutsu war es nie das Ziel Gürtel zu gewinnen, Pokale zu sammeln und Titel zu erwerben. Diese effektive Art des Kampfes wurde entwickelt um zu überleben, um einen Kampf schnell und effektiv und ohne selbstauferlegte Regeln zu beenden.
 
-![Schema des Taijutsu](/assets/images/artikel/schema-taijutsu.svg "Schema des Taijutsu")
+![Schema des Taijutsu](/assets/images/articles/schema-taijutsu.svg "Schema des Taijutsu")
 
 *Taijutsu* beinhaltet auch Techniken, die es schwächeren Menschen erlauben, sich erfolgreich gegen stärkere, schnellere oder größere Gegner durchzusetzen.
 

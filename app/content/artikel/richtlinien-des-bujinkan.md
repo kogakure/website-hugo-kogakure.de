@@ -4,6 +4,7 @@ slug: "richtlinien-des-bujinkan"
 date: 2006-04-02T15:17:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Die von Dr. Hatsumi Masaaki herausgegebenen Bujinkan-Richtlinien, die jeder akzeptieren muss, der im Bujinkan trainieren möchte."
+body_class: "grid--small"
 categories:
 - Richtlinien
 ---

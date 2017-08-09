@@ -1,0 +1,81 @@
+/* Quote with Footer, Author, Cite
+ **********************************/
+
+.quote {
+  font-size: var(--modular-scale-1);
+  font-weight: var(--weight-bold);
+  margin-bottom: 0;
+  margin-left: var(--default-spacing-left);
+  margin-right: var(--default-spacing-right);
+  margin-top: 0;
+  padding-bottom: var(--default-spacing-bottom);
+  padding-top: var(--default-spacing-top);
+  text-align: center;
+
+  @media (--breakpoint-min-iphone) {
+    font-size: var(--modular-scale-2);
+    margin-left: calc(var(--default-spacing-left) * 2);
+    margin-right: calc(var(--default-spacing-right) * 2);
+  }
+
+  & + .quote {
+    margin-top: -30px;
+    padding-top: 0;
+
+    &::before {
+      content: none;
+    }
+  }
+
+  &::before {
+    background: var(--color-dark-moderate-green);
+    content: "";
+    height: 2px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    width: 30%;
+  }
+
+  &::after {
+    background: var(--color-dark-moderate-green);
+    content: "";
+    height: 2px;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    right: 0;
+    width: 30%;
+  }
+
+  & p {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  & footer {
+    font-size: var(--modular-scale-0);
+    font-weight: var(--weight-light);
+    margin-bottom: 30px;
+  }
+}
+
+/** Author */
+.quote-author {
+  font-size: var(--modular-scale-0);
+  font-style: normal;
+  font-weight: var(--weight-bold);
+}
+
+
+/** Cite */
+.quote-cite {
+  display: block;
+
+  @media (--breakpoint-min-medium) {
+    display: inline;
+  }
+}

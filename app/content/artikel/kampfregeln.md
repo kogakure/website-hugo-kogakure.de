@@ -4,6 +4,7 @@ slug: "kampfregeln"
 date: 2006-03-28T16:56:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Das Ziel des Ninjutsu ist es sein Leben so zu organisieren, dass es erst gar nicht zu Konfliktsituationen kommt, da Kampf nur das letzte Mittel zur Lösung eines Konfliktes ist."
+body_class: "grid--small"
 categories:
 - Philosophie
 - Strategie
@@ -11,15 +12,15 @@ categories:
 - Training
 ---
 
-> Das erste Ziel der Kunst des Schwertkampfes ist die Einheit von Kämpfer und Schwert. Wenn Schwert und Mensch eins werden, wird selbst ein Grashalm in der Hand zur starken Waffe.
->
-> Das zweite Ziel der Kunst des Schwertkampfes ist, das Schwert aus der Hand zu legen. Da man das Schwert auch im Herzen trägt, kann man seine Feinde mit bloßen Händen besiegen.
->
-> Das höchste Ziel der Kunst des Schwertkampfes aber ist, sowohl auf das Schwert in der Hand, als auch auf das im Herzen zu verzichten.
->
-> Im Herzen sollte man das Wohl der Welt tragen. Und das bedeutet nicht töten, das bedeutet Frieden.
->
-> – **Qin Shi Huang Di**, Hero
+{{% blockquote author="Qin Shi Huang Di" cite="Hero" %}}
+Das erste Ziel der Kunst des Schwertkampfes ist die Einheit von Kämpfer und Schwert. Wenn Schwert und Mensch eins werden, wird selbst ein Grashalm in der Hand zur starken Waffe.
+
+Das zweite Ziel der Kunst des Schwertkampfes ist, das Schwert aus der Hand zu legen. Da man das Schwert auch im Herzen trägt, kann man seine Feinde mit bloßen Händen besiegen.
+
+Das höchste Ziel der Kunst des Schwertkampfes aber ist, sowohl auf das Schwert in der Hand, als auch auf das im Herzen zu verzichten.
+
+Im Herzen sollte man das Wohl der Welt tragen. Und das bedeutet nicht töten, das bedeutet Frieden.
+{{% /blockquote %}}
 
 
 ## Erste Regel
@@ -28,9 +29,9 @@ Das Leben soll so aufgebaut sein, dass der Feind nie daran denkt, vor einem zu e
 
 Es kann vorkommen die eigene geistige Ausstrahlung nicht ausreicht, um das Aufkommen einer gefährlichen Situation zu verhindern. Dann ergibt sich aber noch die Möglichkeit, die Gefahr erfolgreich zu übersehen. Konkret heißt dies, das man seine eigenen Gefühle unterdrücken kann, so dass eine bedrohliche Situation anteilnahmelos aufgenommen werden kann. So ist man klaren Geistes und kann sich seine Reaktionen richtig überlegen.
 
-> Ich darf mich nicht fürchten. Die Furcht tötet das Bewusstsein. Die Furcht führt zu völliger Zerstörung. Ich werde ihr ins Gesicht sehen. Sie soll mich völlig durchdringen. Und wenn sie von mir gegangen ist, wird nichts zurückbleiben. Nichts außer mir.
->
-> – **Muahdib**, Der Wüstenplanet
+{{% blockquote author="Muahdib" cite="Der Wüstenplanet" %}}
+Ich darf mich nicht fürchten. Die Furcht tötet das Bewusstsein. Die Furcht führt zu völliger Zerstörung. Ich werde ihr ins Gesicht sehen. Sie soll mich völlig durchdringen. Und wenn sie von mir gegangen ist, wird nichts zurückbleiben. Nichts außer mir.
+{{% /blockquote %}}
 
 Normalerweise verspürt man ein starkes Unbehagen, bis eine gefährliche Situation an einem vorbeigezogen ist. Wenn man sich aber erhebt und der Bedrohung ein schnelles Ende bereitet kann man schnell wieder in eine entspannte, ruhige Lage zurückkehren.
 

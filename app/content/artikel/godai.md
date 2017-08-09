@@ -4,6 +4,7 @@ slug: "godai"
 date: 2006-04-02T14:38:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Das Godai ist eine philosophische Betrachtungsweise des Universums. Durch das Verständnis für das Wirken der fünf Elemente und deren Manifestationen versuchte der Ninja die Zusammenhänge der Schöpfung und dadurch auch sich selbst zu verstehen."
+body_class: "grid--small"
 categories:
 - Philosophie
 ---

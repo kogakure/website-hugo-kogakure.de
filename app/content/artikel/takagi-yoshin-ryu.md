@@ -4,6 +4,7 @@ slug: "takagi-yoshin-ryu"
 date: 2006-04-02T15:13:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Takagi-yoshin-ryū jū tai jutsu – Die Schule des Hoher Baum-Weide-Geist, deren Philosophie die Nachgiebigkeit ist (Eine Weide ist flexibel, aber ein hoher Baum ist zerbrechlich)."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Schulen

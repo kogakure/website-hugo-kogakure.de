@@ -4,6 +4,7 @@ slug: "atemi-te"
 date: 2006-03-30T18:48:03+02:00
 author: "Stefan Imhoff"
 excerpt: "Beim Atemite wird auf die Nervenpunkte des Körpers geschlagen oder gedrückt. Es gibt einige hundert Punkte am Körper des Menschen, hier werden die 69 wichtigsten aufgelistet."
+body_class: "grid--small"
 categories:
 - Training
 - Waffen
@@ -26,7 +27,7 @@ Um sich selber besser zu schützen ist es unabdingbar starke Brust und Bauchmusk
 
 ## Erklärung der Trefferzonen
 
-![Atemite Trefferzonen](/assets/images/artikel/atemi-te.jpg "Atemite Trefferzonen")
+![Atemite Trefferzonen](/assets/images/articles/atemi-te.jpg "Atemite Trefferzonen")
 
 Die 69 wichtigsten Trefferzonen werden untern näher erläutert. Dabei werden neben der Nummer und dem Namen des Bereichs auch noch die bevorzugten Körperwaffen und die Wirkung eines Schlages darauf genannt.
 

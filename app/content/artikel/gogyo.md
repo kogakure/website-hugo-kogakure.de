@@ -4,6 +4,7 @@ slug: "gogyo"
 date: 2006-04-02T14:39:01+02:00
 author: "Stefan Imhoff"
 excerpt: "Das Gogyō ist ein daoistisches Elementsystem, das auf der Polaritätstheorie von Yin und Yang basiert. Mit diesem Modell soll verdeutlicht werden, wie alle Elemente miteinander verknüpft sind, sich selber erschaffen oder vernichten."
+body_class: "grid--small"
 categories:
 - Philosophie
 ---
@@ -44,7 +45,7 @@ Im alten China war alles einem ewigen Zyklus unterworfen, die Jahreszeiten, die 
 
 ## Abhängigkeit der Elemente
 
-![Modell der fünf Elemente](/assets/images/artikel/gogyo.svg)
+![Modell der fünf Elemente](/assets/images/articles/gogyo.svg)
 
 Es gibt eine Rangfolge unter den Elementen, die in einer möglichen Reihenfolge einander hervorbringt, in einer anderen Reihenfolge zerstört oder bändigt jedes Element ein anderes. In gegensätzlicher Reihenfolge überwältigt ein Element das andere. So bringt Holz das Feuer hervor, das Feuer die Erde (als Asche), die Erde das Metall (Erze), das Metall das Wasser (Kondenswasser auf der Oberfläche) und Wasser schließlich das Holz (Pflanzen).
 

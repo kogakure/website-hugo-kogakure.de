@@ -5,6 +5,7 @@ date: 2006-03-27T19:12:00+02:00
 author: "Peter Carlsson"
 translator: "Stefan Imhoff"
 excerpt: "Oda Nobunaga griff die Region Iga erneut an, dieses mal jedoch mit einer unbesiegbaren Übermacht und langer Planung. Er kreiste die Aufständischen am Berg Hijiyama ein und vernichtete sogut wie jeden."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Krieg

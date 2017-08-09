@@ -4,6 +4,7 @@ slug: "ninjutsu"
 date: 2006-03-05T13:31:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Grundgedanke des Ninjutsu sind nicht Attentate und Spionage, sondern die Entwicklung eines freien und gerechten Geistes. Die Geschichte hat den Ruf der Ninja verfälscht, was bis in die Moderne anhält und auch von den Medien weitergepflegt wird."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Philosophie
@@ -13,26 +14,27 @@ categories:
 
 Der berühmte Ninja-Meister Momochi Sandayu, der im Mittelalter als einer drei großen Führer den Iga-*ryū* leitete drückte es in einem klaren, unmissverständlichen Satz so aus:
 
-> Ninjutsu ist nicht für die Befriedigung persönlicher Wünsche gedacht. Der ninja beschäftigt sich mit seiner Kunst, weil er gezwungen ist sein Land, seine Führungspersonen oder seine Familie zu beschützen. Wenn du ninjutsu nur für die Erfüllung persönlicher Wünsche betreibst, werden dir deine Techniken nicht nützen.
->
-> – **Momochi Sandayu**
+{{% blockquote author="Momochi Sandayu" %}}
+Ninjutsu ist nicht für die Befriedigung persönlicher Wünsche gedacht. Der ninja beschäftigt sich mit seiner Kunst, weil er gezwungen ist sein Land, seine Führungspersonen oder seine Familie zu beschützen. Wenn du ninjutsu nur für die Erfüllung persönlicher Wünsche betreibst, werden dir deine Techniken nicht nützen.
+{{% /blockquote %}}
+
 
 
 ## Erklärung der Schriftzeichen
 
 Das Wort, das die geheimnisvollen Schattenkrieger beschreibt, kann nicht direkt in nicht-japanische Sprachen übersetzt werden.
 
-![Ninja](/assets/images/artikel/ninja.svg)
+![Ninja](/assets/images/articles/ninja.svg)
 
 Der Wortteil *nin*, der auch in Ninja und Ninjutsu zu finden ist, wird *shinobu* ausgesprochen. Er bedeutet Ausdauer, Beharrlichkeit und Unterlassung in einem. *Nin* hat eine Bedeutung im Wörterbuch und kann Heimlichkeit, Verschlossenheit oder Verborgenheit bedeuten. *jutsu* in Ninjutsu bedeutet soviel wie Kunst, *ja* in Ninja bedeutet Person.
 
-![Shinobu](/assets/images/artikel/shinobu.svg)
+![Shinobu](/assets/images/articles/shinobu.svg)
 
 Das Schriftzeichen *nin* besteht aus zwei anderen Zeichen, und zwar aus *yaiba*, was soviel wie Klinge bedeutet und *kokoro*, dem japanischen Wort für Herz.
 
-![Yaiba](/assets/images/artikel/yaiba.svg)
+![Yaiba](/assets/images/articles/yaiba.svg)
 
-![Kokoro](/assets/images/artikel/kokoro.svg)
+![Kokoro](/assets/images/articles/kokoro.svg)
 
 Die Konstruktion des Schriftzeichens weist darauf hin, dass das Herz, oder der Wille auf Pfade gelenkt wird, die Beherrschung über die Klinge als Werkzeug bringen. Im weiteren Sinne meint es in Kontrolle über den eigenen Körper, der Seele und die Empfindung darüber, was richtig und was falsch ist.
 
@@ -64,9 +66,9 @@ Zahlreiche Videos, Comics und Bücher von selbsternannten Ninja überfluteten de
 
 Gottseidank ist das erhoffte eingetreten:
 
-> Ich hoffe, dass nach dieser Flut, jene wenigen, die den wahren Kern des ninjutsu suchen, zurückbleiben und helfen den Ruf dieser alten Kunst wiederherzustellen.
->
-> – **Hatsumi Masaaki**
+{{% blockquote author="Hatsumi Masaaki" %}}
+Ich hoffe, dass nach dieser Flut, jene wenigen, die den wahren Kern des ninjutsu suchen, zurückbleiben und helfen den Ruf dieser alten Kunst wiederherzustellen.
+{{% /blockquote %}}
 
 Die Medien haben nach und nach aufgehört Ninja als interessantes Thema zu vermarkten und das Interesse verloren – selbst die *American Fighter*-Reihe endete nach fünf Folgen endlich.
 

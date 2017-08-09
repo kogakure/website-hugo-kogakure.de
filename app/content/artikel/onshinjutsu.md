@@ -3,7 +3,8 @@ title: "Onshin jutsu"
 slug: "onshinjutsu"
 date: 2006-04-02T14:50:00+02:00
 author: "Stefan Imhoff"
-excerpt: "Ein sehr wichtiger und wahrscheinlich essentieller Bereich des Ninjutsu ist das Verstecken. Schon im Schriftzeichen für Ninja ist die Silbe „Nin“ enthalten, was ausdauernd, ertragen, erdulden und verbergen bedeutet."
+excerpt: "Ein sehr wichtiger und wahrscheinlich essentieller Bereich des Ninjutsu ist das Verstecken. Schon im Schriftzeichen für Ninja ist die Silbe 'Nin' enthalten, was ausdauernd, ertragen, erdulden und verbergen bedeutet."
+body_class: "grid--small"
 categories:
 - Strategie
 - Taktik

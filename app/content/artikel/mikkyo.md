@@ -4,6 +4,7 @@ slug: "mikkyo"
 date: 2006-04-02T14:34:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Eine der esotherischen Lehren, auf denen die Philosophie des Ninjutsu beruht, ist das Mikkyō. Entstanden in Indien, und von China aus durch japanische Mönche nach Japan gebracht, ist diese Lehre eine interessante Erweiterung für den geistigen Wachstum des Ninja."
+body_class: "grid--small"
 categories:
 - Philosophie
 - Religion

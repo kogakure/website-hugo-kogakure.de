@@ -3,7 +3,8 @@ title: "Bansenshūkai"
 slug: "bansenshukai"
 date: 2006-03-28T16:35:00+02:00
 author: "Stefan Imhoff"
-excerpt: "Die Schrift „Bansenshūkai“ gilt sozusagen als Wissensquelle der ninja. In den zehn Bänden wird ein guter Querschnitt durch alle Trainingsbereiche der ninja geboten, von Techniken über Strategie und Taktik bis hin zu Führung einer ninja-Organisation."
+excerpt: "Die Schrift 'Bansenshūkai' gilt sozusagen als Wissensquelle der ninja. In den zehn Bänden wird ein guter Querschnitt durch alle Trainingsbereiche der ninja geboten, von Techniken über Strategie und Taktik bis hin zu Führung einer ninja-Organisation."
+body_class: "grid--small"
 categories:
 - Training
 ---

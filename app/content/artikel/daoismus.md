@@ -4,15 +4,16 @@ slug: "daoismus"
 date: 2006-04-02T14:45:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Die daoistische Philosophie ist eine Weltanschauung, die dem Ninja half, seinen Geist und seine Handlungen ins natürliche Gleichgewicht mit dem Universum zu bringen."
+body_class: "grid--small"
 categories:
 - Philosophie
 ---
 
 Es ist schwer zu erklären, was das Dao ist. Denn schon im ersten Vers von Laotzus Werk <cite>Dao de jing</cite> heißt es:
 
-> Das Dao, das sich aussprechen lässt, ist nicht das ewige Dao, der Name, der sich nennen lässt, ist nicht der ewige Name. (…)
->
-> – **Laotzu**, Do de jing
+{{% blockquote author="Laotzu" cite="Dao de jing" %}}
+Das Dao, das sich aussprechen lässt, ist nicht das ewige Dao, der Name, der sich nennen lässt, ist nicht der ewige Name.
+{{% /blockquote %}}
 
 {{< youtube dFb7Hxva5rg >}}
 
@@ -27,7 +28,7 @@ Vielen Menschen bleibt diese Lehre jedoch leider verschlossen, weil die Texte fa
 
 Am Anfang zum Verständnis des Daoismus steht der Begriff der Polarität des Yin und Yang. Dieses Prinzip ist ein wichtiger Teil dieser Lehre. Das Symbol der Dualität mit seiner weißen und seiner schwarzen Seite wurde schon vor einiger Zeit als beliebter kommerzieller Artikel von Industrie und Medien ausgebeutet. Und viele tragen mit Sicherheit ein Kettchen mit diesem Symbol, ohne sich seiner wahren Bedeutung bewusst zu sein.
 
-![Yin und Yang (in und yō)](/assets/images/artikel/yin-yang.svg)
+![Yin und Yang (in und yō)](/assets/images/articles/yin-yang.svg)
 
 Im Westen immer wieder missverstanden ist dieses Symbol nicht ein Zeichen für Gut und Böse, für ein ewiges Ringen der beiden Kräfte, für die christliche Lehre vom Himmel und der Hölle. Vielmehr ist dieses Symbol ein Zeichen für eine Dualität, bei der es kein *gut* oder *schlecht* gibt. Das eine ist nur die Kehrseite des anderen. Ohne eine *Hoch* existiert kein *Tief*, ohne *Helligkeit* existiert auch kein *Dunkel*. Beide sind nur verschiedene Aspekte ein und desselben Systems, und ein Verschwinden des einen würde zum Verschwinden des Anderen führen.
 

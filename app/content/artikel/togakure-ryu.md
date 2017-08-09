@@ -4,6 +4,7 @@ slug: "togakure-ryu"
 date: 2006-04-02T15:05:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Togakure-ryū ninpō – Die Schule der verborgenen Tür, ein Ninja-Ryu gegründet von Daisuke Togakure, ist nun fast schon tausend Jahre alt."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Schulen

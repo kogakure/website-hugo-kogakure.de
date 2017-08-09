@@ -1,0 +1,38 @@
+/* Typography
+ *************/
+
+/* Modular Scale
+ * ----------------------
+ * 14px @ 1:1.618
+ * 18px @ 1:1.618
+ * ----------------------
+ *
+ * http://www.modularscale.com/?14,18&px&1.618&web&table */
+
+:root {
+  --modular-scale-0: 14px;
+  --modular-scale-1: 18px;
+  --modular-scale-2: 23px;
+  --modular-scale-3: 26px;
+  --modular-scale-4: 37px;
+  --modular-scale-5: 42px;
+  --modular-scale-6: 59px;
+  --modular-scale-7: 68px;
+
+  /* Weights */
+  --weight-light:  200;
+  --weight-normal: 400;
+  --weight-bold:   700;
+
+  /* Typefaces */
+  --base-font-family:    "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+  --base-font-family-wf: "Exo", "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+
+  /* Base sizes and line-height */
+  --base-font-size:   var(--modular-scale-1); /* 18px */
+  --base-line-height: 1.5;
+  --base-font-weight: var(--weight-normal);
+
+  --font-scale-kbd: calc(var(--base-font-size) * 0.75);
+  --font-size-small: 12px;
+}

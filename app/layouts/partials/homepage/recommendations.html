@@ -1,0 +1,38 @@
+<section class="homepage-recommendations">
+  <div class="homepage-content homepage-recommendations-content">
+    <h2 class="homepage-headline homepage-recommendations-headline">
+      Empfehlungen
+    </h2>
+
+    <p>Ich empfehle in diesem Bereich <strong>{{ .Site.Data.books | len }}</strong> Bücher und <strong>{{ .Site.Data.movies | len }}</strong> Filme aus den Themenbereichen Ninja, Samurai und anderen nahen Gebieten.</p>
+
+    <a class="button-link" href="/empfehlungen/">
+      <span>Empfehlungen ansehen</span>
+    </a>
+  </div>
+  <ul class="homepage-recommendations-items">
+    {{ range first 3 (where .Site.Data.books ".recommendation" true) }}
+      <li class="homepage-recommendations-item">
+        <a class="homepage-recommendations-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" target="_blank" rel="nofollow">
+          <img class="homepage-recommendations-image" width="100" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}">
+        </a>
+      </li>
+    {{ end }}
+
+    {{ range first 3 (where .Site.Data.movies ".recommendation" true) }}
+      <li class="homepage-recommendations-item">
+        {{ if .asin }}
+          <a class="homepage-recommendations-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" target="_blank" rel="nofollwo">
+            <img class="homepage-recommendations-image" width="100" src="/assets/images/{{ .thumbnail }}">
+          </a>
+        {{ end }}
+
+        {{ if and (.imdb) (not .asin) }}
+          <a class="homepage-recommendations-link" href="https://www.imdb.com/title/{{ .imdb }}" target="_blank" rel="nofollwo">
+            <img class="homepage-recommendations-image" width="100" src="/assets/images/{{ .thumbnail }}">
+          </a>
+        {{ end }}
+      </li>
+    {{ end }}
+  </ul>
+</section>

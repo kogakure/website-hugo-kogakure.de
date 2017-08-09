@@ -3,7 +3,8 @@ title: "Takamatsu Toshitsugu"
 slug: "takamatsu-toshitsugu"
 date: 2006-04-02T15:01:02+02:00
 author: "Stefan Imhoff"
-excerpt: "Der Großmeister Takamatsu Toshitsugu war ein großer Krieger und Meister des derzeitigen Großmeisters Hatsumi. Ihm zu Ehren nannte Hatsumi seine Organisation „Die Halle des göttlichen Kriegers“."
+excerpt: "Der Großmeister Takamatsu Toshitsugu war ein großer Krieger und Meister des derzeitigen Großmeisters Hatsumi. Ihm zu Ehren nannte Hatsumi seine Organisation 'Die Halle des göttlichen Kriegers'."
+body_class: "grid--small"
 categories:
 - Biographie
 ---
@@ -38,7 +39,7 @@ Er war ein schwächliches und wehleidiges Kind, weshalb er den Spitznamen *Heuls
 
 Sein Vater wollte, dass aus ihm ein starker Krieger würde. Deshalb begann er im Alter von neun Jahren auf Wunsch des Vaters Kampfkünste zu studieren. Dazu ging er in das *dōjō* seines Onkels Toda Shinryuken Masamitsu in Kobe, der dort zugleich noch eine Chiropraxis betrieb. Toda war ein Samurai aus der Region Iga, dessen Vorfahren Ninja waren, was jedoch erst nach Takamatsus Tod herauskam. Er war Schwertlehrer auf einer Militärschule der Tokugawa gewesen.
 
-![Takamatsu Sensei im hohen Alter](/assets/images/artikel/takamatsu1.jpg)
+![Takamatsu Sensei im hohen Alter](/assets/images/articles/takamatsu1.jpg)
 
 Toda brachte Takamatsu jedoch keine Techniken bei, sondern stieß ihn mit seinen Schülern im *dōjō* herum und probierte Würfe an ihm aus. Takamatsu schwor sich nie mehr in das *dōjō* zu gehen, kam jedoch jeden Abend wieder.
 
@@ -155,7 +156,7 @@ In den Bergen von China wurde er einmal von einigen Banditen angegriffen. Einer 
 
 ## Kampfkunstlehrer in China
 
-![Takamatsu in China. Hier links im Bild.](/assets/images/artikel/takamatsu3.jpg)
+![Takamatsu in China. Hier links im Bild.](/assets/images/articles/takamatsu3.jpg)
 
 Als Takamatsu 26 Jahre alt war, hatte er schon an den verschiedensten Orten in China in 19 Kämpfen gesiegt von denen nur 7 Wettkämpfe waren. Fürst Ren, der Onkel des Kaisers von China betrachtete Takamatsu wie seinen eigenen Sohn. Takamatsu war ein berühmter Lehrer, er hatte schon mehr als achthundert chinesische, japanische, amerikanische und französische Schüler trainiert. Jeden Tag trainierte er 70 bis 80 Schüler. Selbst in der Hitze des Sommers zeigte sich nicht ein Tropfen Schweiß bei ihm. Ein Meister des Shaolin Kung-Fu, Choshiryu aus der Provinz Santo forderte Takamatsu zweimal zu einem Wettkampf heraus, doch er lehnte jedes Mal ab.
 
@@ -197,7 +198,7 @@ Er leitete ein kleines Teehaus und ein Hotel in Kashiwabara in der Region Nara.
 
 ## Hatsumi
 
-![Takamatsu Sensei mit seinem Schüler Hatsumi.](/assets/images/artikel/takamatsu2.jpg)
+![Takamatsu Sensei mit seinem Schüler Hatsumi.](/assets/images/articles/takamatsu2.jpg)
 
 1958 nahm er einen neuen Schüler an, der Hatsumi Yoshiaki hieß und 26 Jahre alt war. Die nächsten fünfzehn Jahre lehrte er nur noch Hatsumi, der jedes Wochenende durch Japan zu seinem Lehrer reiste. Takamatsu lehrte Hatsumi Sachen, die er noch nie vorher einem Schüler beigebracht hatte. Ein paar Jahre vor seinem Tod sagte er zu Hatsumi: <q>Ich habe dir alles beigebracht, was ich weiß und damit Toda Sensei, Ishitani Sensei und Mizuta Sensei ihre Güte zurückgezahlt.</q> Er entschied, sein Erbe in die Hände von Hatsumi zu legen, weil dieser am besten geeignet sei.
 

@@ -1,0 +1,420 @@
+/* Homepage
+ ***********/
+
+.homepage {
+  display: grid;
+  grid-row-gap: 50px;
+}
+
+.homepage-headline {
+  color: var(--color-dark-moderate-green);
+  font-size: var(--modular-scale-2);
+  font-weight: var(--weight-normal);
+
+  @media (--breakpoint-min-medium) {
+    font-size: var(--modular-scale-3);
+  }
+
+  @media (--breakpoint-min-large) {
+    font-size: var(--modular-scale-4);
+  }
+}
+
+.homepage-content {
+  font-size: 16px;
+}
+
+/** Tagline */
+.homepage-tagline-japanese {
+  @apply --japanese-font;
+  color: var(--color-moderate-red);
+  font-size: var(--modular-scale-7);
+  font-weight: var(--weight-bold);
+  line-height: 1;
+}
+
+.homepage-tagline-translation {
+  font-size: var(--modular-scale-0);
+}
+
+/** Book */
+.homepage-book {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.homepage-book-content {
+  align-self: center;
+}
+
+.homepage-book-image {
+  box-shadow: 10px -15px 0 var(--color-greyish-green);
+  margin-top: 25px;
+}
+
+/** Articles */
+.homepage-articles {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+.homepage-articles-headline {
+  grid-column: 1 / 3;
+}
+
+.homepage-articles-content {
+  grid-column: 1 / 4;
+  grid-row: 2;
+
+  @media (--breakpoint-min-small) {
+    column-count: 2;
+    column-gap: 30px;
+  }
+
+  & p {
+    margin-top: 0;
+  }
+}
+
+/** Chronology */
+.homepage-chronology {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: 1fr;
+
+  @media (--breakpoint-min-small) {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+}
+
+.homepage-chronology-gallery {
+  background: var(--color-dark-moderate-green);
+  box-shadow: 10px -15px 0 var(--color-greyish-green);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 25px;
+  transition: box-shadow 750ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 5px 30px -10px var(--color-card-shadow);
+  }
+}
+
+.homepage-chronology-gallery-item {
+  background-position: left top;
+  background-size: cover;
+  min-height: 90px;
+
+  & span {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}
+
+.chronology--1999 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/chronology/history-1999.jpg);
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.chronology--2002 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/chronology/history-2002.jpg);
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.chronology--2004 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/chronology/history-2004.jpg);
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.chronology--2008 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/chronology/history-2008.jpg);
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.chronology--2015 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/chronology/history-2015.jpg);
+  grid-column: 2 / 4;
+  grid-row: 4 / span 2;
+}
+
+/** Dictionary */
+.homepage-dictionary {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: 1fr;
+
+  @media (--breakpoint-min-small) {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+.homepage-dictionary-card-container {
+  align-self: center;
+}
+
+.homepage-dictionary-card {
+  border-color: var(--color-greyish-green);
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 10px -15px 0 var(--color-greyish-green);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 25px;
+  transition: box-shadow 750ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 5px 30px -10px var(--color-card-shadow);
+  }
+}
+
+.homepage-dictionary-japanese {
+  padding: 15px;
+}
+
+.homepage-dictionary-kanji {
+  @apply --japanese-font;
+  align-content: flex-start;
+  display: flex;
+  flex-direction: column-reverse;
+  font-size: var(--modular-scale-7);
+  font-weight: bold;
+  justify-content: center;
+  line-height: 1;
+}
+
+.homepage-dictionary-kana {
+  font-size: var(--modular-scale-2);
+}
+
+.homepage-dictionary-definition {
+  display: flex;
+  flex-direction: column;
+  font-size: var(--modular-scale-0);
+  justify-content: center;
+  margin: 0;
+  padding-bottom: 15px;
+  padding-left: 30px;
+  padding-right: 15px;
+  padding-top: 25px;
+}
+
+/** Quotes */
+.homepage-quotes {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.homepage-quotes-content {
+  align-self: center;
+  grid-column: 2;
+  grid-row: 1;
+
+  @media (--breakpoint-max-medium) {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+}
+
+.homepage-quotes-quote {
+  grid-column: 1;
+  grid-row: 1;
+  position: relative;
+
+  @media (--breakpoint-max-medium) {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+
+  & .quote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/** Downloads */
+.homepage-downloads {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-columns: 1fr;
+
+  @media (--breakpoint-min-small) {
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  }
+}
+
+.homepage-downloads-content {
+  align-self: center;
+}
+
+.homepage-downloads-box-list {
+  background-color: var(--color-greyish-green);
+  border-color: var(--color-greyish-green);
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 10px -15px 0 var(--color-greyish-green);
+  display: grid;
+  grid-auto-rows: 245px;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  grid-template-columns: 1fr;
+  grid-template-rows: 245px;
+  list-style: none;
+  margin: 0;
+  transition: box-shadow 750ms ease-in-out;
+
+  @media (--breakpoint-min-small) {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  }
+
+  &:hover {
+    box-shadow: 0 5px 30px -10px var(--color-card-shadow);
+  }
+}
+
+.homepage-downloads-box-list-item--font {
+  background-image: url(/assets/images/homepage/ingo.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
+.homepage-downloads-box-list-item--model {
+  background-image: url(/assets/images/homepage/ogama.jpg);
+  background-position: center top;
+  background-size: cover;
+}
+
+.homepage-downloads-link {
+  display: block;
+  height: 245px;
+
+  &:hover {
+    background-color: var(--color-greyish-green);
+    opacity: 0.5;
+  }
+
+  & span {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}
+
+
+/** Recommendations */
+.homepage-recommendations {
+  display: grid;
+  grid-column-gap: 30px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.homepage-recommendations-content {
+  align-self: center;
+  grid-column: 2;
+  grid-row: 1;
+
+  @media (--breakpoint-max-medium) {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+}
+
+.homepage-recommendations-items {
+  background: var(--color-dark-moderate-green);
+  box-shadow: 10px -15px 0 var(--color-greyish-green);
+  display: grid;
+  grid-column: 1;
+  grid-column-gap: 10px;
+  grid-row: 1;
+  grid-row-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 25px;
+  transition: box-shadow 750ms ease-in-out;
+
+  @media (--breakpoint-max-medium) {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+
+  &:hover {
+    box-shadow: 0 5px 30px -10px var(--color-card-shadow);
+  }
+}
+
+.homepage-recommendations-item {
+  align-self: center;
+  justify-self: center;
+  padding: 15px;
+}
+
+/** Donations */
+@keyframes pulse {
+  0% {
+    transform: scale(1.2);
+  }
+
+  25% {
+    transform: scale(1.1);
+  }
+
+  50% {
+    transform: scale(1.6);
+  }
+
+  75% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.homepage-donations-heart {
+  animation: pulse 1.5s ease-out 0s infinite normal;
+  color: #db2121;
+  display: inline-block;
+  font-size: 1.4em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.homepage-donations-content {
+  @media (--breakpoint-min-small) {
+    column-count: 2;
+    column-gap: 30px;
+  }
+}

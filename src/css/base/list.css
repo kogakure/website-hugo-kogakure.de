@@ -1,0 +1,76 @@
+/* List
+ *******/
+
+li {
+  line-height: 1.8;
+
+  @media (--breakpoint-min-small) {
+    line-height: 1.5;
+  }
+}
+
+/** Ordered Lists */
+ol {
+  list-style: decimal;
+  margin-bottom: var(--default-spacing-bottom);
+  margin-left: var(--default-spacing-left);
+  margin-right: var(--default-spacing-right);
+  padding-left: 0;
+
+  @media (--breakpoint-min-medium) {
+    list-style: decimal;
+    margin-left: 0;
+    margin-right: 0;
+
+    @nest blockquote & {
+      margin-left: var(--default-spacing-left);
+      margin-right: var(--default-spacing-right);
+    }
+  }
+}
+
+ol ol {
+  list-style: lower-latin;
+  margin: 0 var(--default-spacing);
+}
+
+/** Unordered Lists */
+ul {
+  list-style: disc;
+  margin-bottom: var(--default-spacing-bottom);
+  margin-left: var(--default-spacing-left);
+  margin-right: var(--default-spacing-right);
+  padding-left: 0;
+
+  @media (--breakpoint-min-medium) {
+    margin-left: 0;
+    margin-right: 0;
+
+    @nest blockquote & {
+      margin-left: var(--default-spacing-left);
+      margin-right: var(--default-spacing-right);
+    }
+  }
+}
+
+ul ul {
+  list-style: circle;
+  margin: 0 var(--default-spacing);
+}
+
+/** Definition Lists */
+dl {
+  margin-bottom: var(--default-spacing-bottom);
+}
+
+dt {
+  font-weight: var(--weight-bold);
+}
+
+dt + dd {
+  margin-bottom: var(--default-spacing-bottom);
+}
+
+dd {
+  margin-left: 0;
+}

@@ -4,6 +4,7 @@ slug: "urspruenge-des-ninjutsu"
 date: 2006-03-19T18:56:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Entsprungen aus Mythen um Fabelwesen, in Wahrheit wohl eher in China entstanden, entwickelte sich das ninjutsu von einem übernatürlichen, religiösen Ursprung zu einer Handwerks- und Spionagekunst im Mittelalter."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Religion
@@ -11,7 +12,7 @@ categories:
 
 ## Die Tengu als Vorfahren der Ninja
 
-![Ushiwakamaru sparring with tengu. By Utagawa Kuniyoshi.](/assets/images/artikel/kuniyoshi-ushiwaka-tengu.jpg "Ushiwakamaru sparring with tengu. By Utagawa Kuniyoshi.")
+![Ushiwakamaru sparring with tengu. By Utagawa Kuniyoshi.](/assets/images/articles/kuniyoshi-ushiwaka-tengu.jpg "Ushiwakamaru sparring with tengu. By Utagawa Kuniyoshi.")
 
 Dämonen des Waldes. Tengu ('Himmelhund', Fabelwesen aus der japanischen Geschichte). Geflügelte, langnasige Fabelwesen, die tief in den verfluchten Wäldern Japans verborgen lebten.
 
@@ -24,7 +25,7 @@ Und nicht selten starb ein junger Samurai, der das erste Mal gegen einen Ninja k
 
 ## Entstehung in China
 
-![A Chinese bamboo book, open and unfolded to display the contents. This copy of The Art of War (on the cover, "孫子兵法") by Sun Tzu is part of a collection at the University of California, Riverside. The cover also reads "乾隆御書", meaning it was either commissioned or transcribed by the Qianlong Emperor.](/assets/images/artikel/bamboo-book-sun-tzu.jpg "Bambus-Buch, Kopie von Sun Tzus 'Die Kunst des Krieges'")
+![A Chinese bamboo book, open and unfolded to display the contents. This copy of The Art of War (on the cover, "孫子兵法") by Sun Tzu is part of a collection at the University of California, Riverside. The cover also reads "乾隆御書", meaning it was either commissioned or transcribed by the Qianlong Emperor.](/assets/images/articles/bamboo-book-sun-tzu.jpg "Bambus-Buch, Kopie von Sun Tzus 'Die Kunst des Krieges'")
 
 Über die Anfänge des Ninjutsu gibt es noch viele Unsicherheiten. Die allerersten Ursprünge liegen höchstwahrscheinlich auf dem Festland in China. Die Ideen wurden also aus China von Flüchtlingen nach Japan gebracht.
 
@@ -50,7 +51,7 @@ Die Priester zogen sich Angesichts dieser Übermacht in die Berge um Kyōto zur�
 
 ## Die Krieger aus den Bergen
 
-![Yamabushi on the Ōmine Okugakemichi near Yoshino (Japan)](/assets/images/artikel/yamabushi-omini-okugakemichi-yoshino.jpg)
+![Yamabushi on the Ōmine Okugakemichi near Yoshino (Japan)](/assets/images/articles/yamabushi-omini-okugakemichi-yoshino.jpg)
 
 Unglaubliches wird über die *yamabushi* erzählt, die sich in den Jahren der Verfolgung immer den Truppen entziehen konnten.
 

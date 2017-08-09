@@ -1,0 +1,11 @@
+/* Debug
+ ********/
+
+/* Show line length */
+.line-length-debug {
+  background-color: #00ff00;
+}
+
+.line-length-perfect-debug {
+  background-color: #ff0000;
+}

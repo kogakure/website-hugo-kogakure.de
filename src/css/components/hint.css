@@ -1,0 +1,25 @@
+/* Hint
+ *******/
+
+.hint {
+  background: var(--color-greyish-green);
+  font-size: var(--modular-scale-0);
+  line-height: 1.5;
+  margin-bottom: var(--default-spacing-bottom);
+  margin-top: var(--default-spacing-top);
+  padding: 1.5em;
+
+  & p:last-child {
+    margin: 0;
+  }
+}
+
+.hint-headline {
+  color: var(--color-white);
+  margin-top: 0;
+}
+
+.hint-full {
+  clear: both;
+  width: 100%;
+}

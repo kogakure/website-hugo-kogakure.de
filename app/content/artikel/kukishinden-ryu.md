@@ -4,6 +4,7 @@ slug: "kukishinden-ryu"
 date: 2006-04-02T15:08:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Kukishinden-ryū happohikenjutsu – Die Schule der neun Dämonengötter, entstanden aus dem Kukishin Ryu."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Schulen

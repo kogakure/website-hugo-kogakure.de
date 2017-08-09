@@ -1,0 +1,11 @@
+/* Code
+ *******/
+
+/** Code */
+code {
+  @apply --mono-font;
+  background: var(--color-white);
+  border-radius: 3px;
+  font-size: var(--modular-scale-0);
+  padding: 0 0.3em;
+}

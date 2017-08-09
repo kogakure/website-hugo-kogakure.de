@@ -1,0 +1,50 @@
+/* Color
+ ********/
+
+:root {
+  --color-black: #000000;
+  --color-white: #ffffff;
+
+  --color-dark-moderate-green: #7ca04d; /* Main Headline */
+  --color-strong-green:        #b0bc04; /* Subheadlines */
+  --color-greyish-green:       #bcce9f;
+  --color-very-soft-green:     #d7dd8d;
+  --color-moderate-red:        #d76359;
+
+  --color-very-dark-grey:    #666666;
+  --color-very-dark-magenta: #1a171b;
+  --color-dimmed-grey:       #cccccc;
+  --color-light-grey:        #dddddd;
+  --color-very-light-grey:   #eeeeee;
+  --color-mostly-white-grey: #f7f7f7;
+
+  --color-site-background:      var(--color-very-light-grey);
+  --color-container-background: var(--color-mostly-white-grey);
+
+  /** Links */
+  --color-link: var(--color-strong-green);
+  --color-link-hover: color(#b0bc04 lightness(20%));
+
+  /** Tables */
+  --color-table-border:             var(--color-light-grey);
+  --color-table-striped-background: rgba(var(--color-white), 0.8);
+
+  /** Dictionary */
+  --color-dictionary-border: rgba(var(--color-very-dark-magenta), 0.1);
+
+  /** Images */
+  --color-image-border: var(--color-dimmed-grey);
+
+  /** Pagination */
+  --color-pagination-background: var(--color-light-grey);
+
+  /** Scrollbars */
+  --color-scrollbar-background: #fafafa;
+  --color-scrollbar-track:      #fafafa;
+  --color-scroll-handle:        var(--color-strong-green);
+  --color-scroll-handle-hover:  var(--color-black);
+
+  /** Card */
+  --color-card-background: rgba(var(--color-white), 0.8);
+  --color-card-shadow: rgba(var(--color-black), 0.75);
+}

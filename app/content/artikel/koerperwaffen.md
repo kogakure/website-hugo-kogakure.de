@@ -4,6 +4,7 @@ slug: "koerperwaffen"
 date: 2006-03-28T17:32:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Es gibt zahlreiche Körperwaffen im Ninjutsu, um Muskeln, Sehnen oder Knochen anzugreifen. Dazu können Finger, Fäuste, Handkanten, Füße oder andere Teile des Körpers eingesetzt werden."
+body_class: "grid--small"
 categories:
 - Training
 - Waffen
@@ -18,21 +19,21 @@ Ein anderes charakteristisches Merkmal des Ninjutsu ist, das die Dynamik der nat
 
 ## Kikaku ken (Dämonenhorn)
 
-![Kikaku ken (Dämonenhorn)](/assets/images/artikel/ken-kikakuken.jpg "Kikaku ken (Dämonenhorn\)")
+![Kikaku ken (Dämonenhorn)](/assets/images/articles/ken-kikakuken.jpg "Kikaku ken (Dämonenhorn\)")
 
 Die Knochenstruktur des Kopfes – vor allem die Stirn – wird benutzt, um zuzuschlagen, zuzustoßen, zu rammen oder die Gelenke des Feindes zu dehnen. Wird man von Hinten ergriffen, kann man dem Feind mit dem Hinterkopf furchtbare Schmerzen zufügen, indem man den Kopf Rückwärts in sein Gesicht schlägt. Der Kopf kann auch gegen das Brustbein oder das Kinn gerammt werden.
 
 
 ## Shuki ken (Ellenbogen)
 
-![Shuki ken (Ellenbogen)](/assets/images/artikel/ken-shukiken.jpg "Shuki ken (Ellenbogen\)")
+![Shuki ken (Ellenbogen)](/assets/images/articles/ken-shukiken.jpg "Shuki ken (Ellenbogen\)")
 
 Die Knochenstruktur des Ellenbogen kann gegen die Knochen der Arme, des Torso, des Kopfes eingesetzt werden und er kann auf empfindliche Punkte des Körpers drücken. Mit dem Schwung des ganzen Körpers wird der Ellenbogen auch im Nahkampf zu einer furchtbaren Waffe.
 
 
 ## Sokki ken (Knie)
 
-![Sokki ken (Knie)](/assets/images/artikel/ken-sokkiken.jpg "Sokki ken (Knie\)")
+![Sokki ken (Knie)](/assets/images/articles/ken-sokkiken.jpg "Sokki ken (Knie\)")
 
 Das Knie wird ähnlich wie der Ellenbogen gegen Gliedmaße, Torso und Kopf eingesetzt. Das Knie erreicht auch Stellen des feindlichen Körpers, die für Schläge oder Tritte schwer zu erreichen sind.
 
@@ -41,21 +42,21 @@ Das Knie wird ähnlich wie der Ellenbogen gegen Gliedmaße, Torso und Kopf einge
 
 Auch Hisoken (*Verborgener Speer*)
 
-![Shitō ken (Fingerschwert)](/assets/images/artikel/ken-shitoken.jpg "Shitō ken (Fingerschwert\)")
+![Shitō ken (Fingerschwert)](/assets/images/articles/ken-shitoken.jpg "Shitō ken (Fingerschwert\)")
 
 Die Spitze des Daumens wird eingesetzt, um in die halbweichen Ziele des feindlichen Körpers zu stechen und um gegen empfindliche Punkte Druck auszuüben. Vor allem Zonen, in denen Muskeln die die Knochen bedecken, wie die Arme, Rippen und der Nacken werden mit dem Daumen angegriffen.
 
 
 ## Shishin ken (Fingernadel)
 
-![Shishin ken (Fingernadel)](/assets/images/artikel/ken-shishinken.jpg "Shishin ken (Fingernadel\)")
+![Shishin ken (Fingernadel)](/assets/images/articles/ken-shishinken.jpg "Shishin ken (Fingernadel\)")
 
 Die *Fingernadel* wird auf kurze Entfernung gegen weiche oder halbweiche Ziele wie das Gesicht, den Nacken, Solarplexus oder den Unterarm eingesetzt.
 
 
 ## Shitan ken (Fingerenden)
 
-![Shitan ken (Fingerenden)](/assets/images/artikel/ken-shitanken.jpg "Shitan ken (Fingerenden\)")
+![Shitan ken (Fingerenden)](/assets/images/articles/ken-shitanken.jpg "Shitan ken (Fingerenden\)")
 
 Die Finger werden als Haken eingesetzt, um die empfindlichen Zonen des Feindes zu zerreißen, zu greifen oder zu zerdrücken. Die Fingerspitzen unterstützen den Druck und die Fingernägel erhöhen den Schmerz. Diese Waffe kann gut gegen den Hals, die Hand oder Augen und Mund eingesetzt werden.
 
@@ -64,28 +65,28 @@ Sie ist noch in verschiedenen Variationen vorhanden (*san shitan ken*, mit drei 
 
 ## Kiten ken (Eine Wende erzeugen)
 
-![Kiten ken (Eine Wende erzeugen)](/assets/images/artikel/ken-kitenken.jpg "Kiten ken (Eine Wende erzeugen\)")
+![Kiten ken (Eine Wende erzeugen)](/assets/images/articles/ken-kitenken.jpg "Kiten ken (Eine Wende erzeugen\)")
 
 Die Handkante der offenen Hand kann gegen Knochen der Arme, Beine, des Nackens und des Kopfes eingesetzt werden. Der Schlag wird mit einem Winkel in der Hand von 90° angesetzt und erst kurz vor dem Ziel geöffnet. Der ganze Körper wird hinter den Schlag gesetzt und das Ziel wird nur einen kurzen Bruchteil berührt, doch sollte das ausreichen um ihn von den Füßen zu reißen.
 
 
 ## Gyokakuken (Vereinte Hörner)
 
-![Gyokakuken (Vereinte Hörner)](/assets/images/artikel/ken-gyokakuken.jpg "Gyokakuken (Vereinte Hörner\)")
+![Gyokakuken (Vereinte Hörner)](/assets/images/articles/ken-gyokakuken.jpg "Gyokakuken (Vereinte Hörner\)")
 
 Zeigefinger, Mittelfinger und Ringfinger werden wie ein Dreizack geformt. Mit den Spitzen der Finger kann man gegen weiche Teile des Körpers stechen, wie z. B. den Hals.
 
 
 ## Shu ken (Schnabel)
 
-![Shu ken (Schnabel)](/assets/images/artikel/ken-shuken.jpg "Shu ken (Schnabel\)")
+![Shu ken (Schnabel)](/assets/images/articles/ken-shuken.jpg "Shu ken (Schnabel\)")
 
 Alle Finger werden auf einen Punkt zentriert, so dass die Hand die Form eines Schnabels bekommt. Mit der konzentrierten Kraft aller Finger auf eine relativ kleine Fläche eignet sich dieser Schlag besonders auf Muskeln und Druckpunkte.
 
 
 ## Shikan ken (Finger-Ring)
 
-![Shikan ken (Finger-Ring)](/assets/images/artikel/ken-shikanken.jpg "Shikan ken (Finger-Ring\)")
+![Shikan ken (Finger-Ring)](/assets/images/articles/ken-shikanken.jpg "Shikan ken (Finger-Ring\)")
 
 Die Fingerknöchel werden gegen die großflächigen Zonen der Knochen eingesetzt, wie z. B. die unteren Rippen, das Brustbein und das Gesicht. Die Finger sind halb zusammengefaltet, und die Knöchel der mittleren Finger werden als Waffe eingesetzt. Der ganze Körper wird hinter den Schlag gelegt und die Knöchel schießen geradeaus ins Ziel.
 
@@ -94,26 +95,26 @@ Diese Faust gibt es in Variationen, wobei auch zwei, drei, vier Knöchel eingese
 
 ## Koppō ken (Knochen)
 
-![Koppō ken (Knochen)](/assets/images/artikel/ken-koppoken.jpg "Koppō ken (Knochen\)")
+![Koppō ken (Knochen)](/assets/images/articles/ken-koppoken.jpg "Koppō ken (Knochen\)")
 
 Die Faust wird wie bei *fudō ken* gehalten, nur der Daumen liegt seitlich an und der Knöchel des Daumen trifft das Ziel.
 
 
 ## Shako ken (Krabbe)
 
-![Shako ken (Krabbe)](/assets/images/artikel/ken-shakoken.jpg "Shako ken (Krabbe\)")
+![Shako ken (Krabbe)](/assets/images/articles/ken-shakoken.jpg "Shako ken (Krabbe\)")
 
 Die Finger sind gespreizt und gebogen, so dass die Hand eine Klaue formt. Diese Waffe wird gegen die weichen Körperstellen eingesetzt. Die Handfläche wird zum rammen oder brechen eingesetzt, und die Finger als Rechen. Das Gesicht, der Hals, der Bauch, die Leisten, die Muskeln des Oberkörpers und die Innenseiten der Oberschenkel sind effektive Ziele dieser Waffe.
 
 
 ## Happa ken (Achtblättrig)
 
-![Happa ken (Achtblättrig)](/assets/images/artikel/ken-happaken.jpg "Happa ken (Achtblättrig\)")
+![Happa ken (Achtblättrig)](/assets/images/articles/ken-happaken.jpg "Happa ken (Achtblättrig\)")
 
 Diese Faust ist die Handfläche der geöffneten Faust. Mit der Handfläche kann man gleichzeitig auf beide Ohren schlagen und so das Trommelfell zerreißen.
 
 
-{{% aside aside-full %}}
+{{% aside hint-full %}}
   **Niemals** – auch nicht vorsichtig – im Training oder in nicht lebensbedrohenden Auseinandersetzungen einsetzten, der Schlag führt möglicherweise zu irreparablen Schäden am Trommelfell!
 
   Takamatsu Sensei litt nach einem Schlag auf sein Ohr sein Leben lang an einem Gehörschaden.
@@ -122,7 +123,7 @@ Diese Faust ist die Handfläche der geöffneten Faust. Mit der Handfläche kann 
 
 ## Fudō ken (Unbeweglich)
 
-![Fudō ken (Unbewegliche Körperwaffe)](/assets/images/artikel/ken-fudoken.jpg "Fudō ken (Unbewegliche Körperwaffe\)")
+![Fudō ken (Unbewegliche Körperwaffe)](/assets/images/articles/ken-fudoken.jpg "Fudō ken (Unbewegliche Körperwaffe\)")
 
 Die *normale* Faust wird gegen Knochen geschlagen. Sie kann mit verschiedenen Zonen treffen: mit der Vorderseite, der Unterseite, der Außenseite, etc. So können die Knochen zerbrochen werden und der Gegner zu Boden geschlagen werden.
 
@@ -134,77 +135,77 @@ Die Unterseite des Hackens und die Fußsohle werden benutzt um in halbweiche ode
 
 ## Zenpō geri (Vorwärtstritt)
 
-![Zenpō geri (Vorwärtstritt)](/assets/images/artikel/ken-zenpogeri.jpg "Zenpō geri (Vorwärtstritt\)")
+![Zenpō geri (Vorwärtstritt)](/assets/images/articles/ken-zenpogeri.jpg "Zenpō geri (Vorwärtstritt\)")
 
 Gerader Tritt nach vorne. Kann in verschiedenen Höhen getreten werden. Der Hacken oder die Unterseite des Fußes treffen das Ziel.
 
 
 ## Sokuyaku suiteiken (Horizontaler Tritt)
 
-![Sokuyaku suiteiken (Horizontaler Tritt)](/assets/images/artikel/ken-suiteiken.jpg "Sokuyaku suiteiken (Horizontaler Tritt\)")
+![Sokuyaku suiteiken (Horizontaler Tritt)](/assets/images/articles/ken-suiteiken.jpg "Sokuyaku suiteiken (Horizontaler Tritt\)")
 
 Das Bein wird horizontal nach vorne getreten, der Fuß trifft seitlich auf das Ziel.
 
 
 ## Sokuhogeri (Seitwärtstritt)
 
-![Sokuhogeri (Seitwärtstritt)](/assets/images/artikel/ken-sokuhogeri.jpg "Sokuhogeri (Seitwärtstritt\)")
+![Sokuhogeri (Seitwärtstritt)](/assets/images/articles/ken-sokuhogeri.jpg "Sokuhogeri (Seitwärtstritt\)")
 
 Das Bein wird seitwärts herausgetreten, der Oberkörper bleibt nach vorne gerichtet.
 
 
 ## Kō ken (Haken)
 
-![Kō ken (Haken)](/assets/images/artikel/ken-koken.jpg "Kō ken (Haken\)")
+![Kō ken (Haken)](/assets/images/articles/ken-koken.jpg "Kō ken (Haken\)")
 
 Das Bein wird hakenförmig nach hinten getreten, um z. B. einen Gegner zu Fall zu bringen.
 
 
 ## Kōhōkeri (Rückwärtstritt)
 
-![Kōhōkeri (Rückwärtstritt)](/assets/images/artikel/ken-kohogeri.jpg "Kōhōkeri (Rückwärtstritt\)")
+![Kōhōkeri (Rückwärtstritt)](/assets/images/articles/ken-kohogeri.jpg "Kōhōkeri (Rückwärtstritt\)")
 
 Das Bein wird bei abgesenktem Oberkörper nach hinten herausgetreten.
 
 
 ## Kagi kōhō keri (Rückwärtshakentritt)
 
-![Kagi kōhō keri (Rückwärtshakentritt)](/assets/images/artikel/ken-kagikohokeri.jpg "Kagi kōhō keri (Rückwärtshakentritt\)")
+![Kagi kōhō keri (Rückwärtshakentritt)](/assets/images/articles/ken-kagikohokeri.jpg "Kagi kōhō keri (Rückwärtshakentritt\)")
 
 Man tritt nach hinten aus und trifft mit der Fußsohle. Kann beim Befreien aus einer Umklammerung benutzt werden.
 
 
 ## Kata ashi tobi keri (Einbeiniger Sprungtritt)
 
-![Kata ashi tobi keri (Einbeiniger Sprungtritt)](/assets/images/artikel/ken-kataashitobikeri.jpg "Kata ashi tobi keri (Einbeiniger Sprungtritt\)")
+![Kata ashi tobi keri (Einbeiniger Sprungtritt)](/assets/images/articles/ken-kataashitobikeri.jpg "Kata ashi tobi keri (Einbeiniger Sprungtritt\)")
 
 Man spring mit einem Bein ab und richten den Körper und die Arme in Sprungrichtung.
 
 
 ## Ryo ashi tobi keri (Zweibeiniger Sprungtritt)
 
-![Ryo ashi tobi keri (Zweibeiniger Sprungtritt)](/assets/images/artikel/ken-ryoashitobikeri.jpg "Ryo ashi tobi keri (Zweibeiniger Sprungtritt\)")
+![Ryo ashi tobi keri (Zweibeiniger Sprungtritt)](/assets/images/articles/ken-ryoashitobikeri.jpg "Ryo ashi tobi keri (Zweibeiniger Sprungtritt\)")
 
 Man spring mit beiden Beinen ab und hält sie während des Sprungs zusammen. Der Sprung ist sehr schwer aber auch sehr effektiv, weil die Gesamte Wucht des Körpers den Gegner trifft.
 
 
 ## Ryo yoku keri (Zweibeiniger Flügeltritt)
 
-![Ryo yoku keri (Zweibeiniger Flügeltritt)](/assets/images/artikel/ken-tobikeri.jpg "Ryo yoku keri (Zweibeiniger Flügeltritt\)")
+![Ryo yoku keri (Zweibeiniger Flügeltritt)](/assets/images/articles/ken-tobikeri.jpg "Ryo yoku keri (Zweibeiniger Flügeltritt\)")
 
 Dieser Tritt wird meist angewendet, wenn man von einem erhöhten Standpunkt aus auf den Feind herabspringt.
 
 
 ## Soku gyaku ken (Umgekehrter Fuß)
 
-![Soku gyaku ken (Umgekehrter Fuß)](/assets/images/artikel/ken-sokugyaku.jpg "Soku gyaku ken (Umgekehrter Fuß\)")
+![Soku gyaku ken (Umgekehrter Fuß)](/assets/images/articles/ken-sokugyaku.jpg "Soku gyaku ken (Umgekehrter Fuß\)")
 
 Die Spitzen der Zehen werden benutzt, um gegen weiche oder halbweiche Ziele des Körpers zu treten. Gegen Bauch, Nacken und die Muskeln der Arme und Beine. Der Tritt wird mit einem Schwung gegen das Ziel getreten, die Zehen fest zusammengepresst, um sich gegenseitig zu stützen.
 
 
 ## Omote soku gyaku ken no keri
 
-![Omote soku gyaku ken no keri](/assets/images/artikel/ken-omotesokugyaku.jpg "Omote soku gyaku ken no keri")
+![Omote soku gyaku ken no keri](/assets/images/articles/ken-omotesokugyaku.jpg "Omote soku gyaku ken no keri")
 
 Bei *omote soku gyaku ken no keri* wird die Sohle des Fußes nach innen gedreht und trifft auf den Gegner wenn sie vor dem Körper zentriert steht.
 

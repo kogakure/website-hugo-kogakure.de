@@ -12,8 +12,9 @@
       {{ else }}
         {{ .Site.Data.settings.author }}
       {{ end }}
+
       {{ if isset .Params "translator" }}
-        <em class="article-author-byline">Übersetzt von</em> {{ .Params.translator }}
+       &middot; <em class="article-author-byline">Übersetzt von</em> {{ .Params.translator }}
       {{ end }}
     </span>
   </div>

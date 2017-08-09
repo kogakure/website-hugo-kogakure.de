@@ -3,7 +3,8 @@ title: "Bewusstsein und Geist"
 slug: "bewusstsein-und-geist"
 date: 2006-04-02T14:42:00+02:00
 author: "Stefan Imhoff"
-excerpt: "Neben den fünf Elementen der Materie gibt es noch einen weiteren wichtigen Bereich für den Ninja - den Geist und seine Fähigkeiten. Dieser sechste Sinn hat seinen Sitz zwischen den Augenbrauen, ein wenig erhöht. Dieser Punkt wird auch das „Dritte Auge“ genannt."
+excerpt: "Neben den fünf Elementen der Materie gibt es noch einen weiteren wichtigen Bereich für den Ninja - den Geist und seine Fähigkeiten. Dieser sechste Sinn hat seinen Sitz zwischen den Augenbrauen, ein wenig erhöht. Dieser Punkt wird auch das 'Dritte Auge' genannt."
+body_class: "grid--small"
 categories:
 - Philosophie
 - Training

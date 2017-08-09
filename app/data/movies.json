@@ -1,8 +1,113 @@
 [
   {
+    "title": "Shinobin no Mono",
+    "cover": "recommendations/fullsize/movies/shinobi-no-mono-1.jpg",
+    "thumbnail": "recommendations/thumbs/movies/shinobi-no-mono-1.jpg",
+    "year": "1962",
+    "duration": "104 Minuten",
+    "director": "Satsuo Yamamoto",
+    "imdb": "tt0164882",
+    "recommendation": true,
+    "genres": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "title": "Zoku Shinobin no Mono",
+    "cover": "recommendations/fullsize/movies/shinobi-no-mono-2.jpg",
+    "thumbnail": "recommendations/thumbs/movies/shinobi-no-mono-2.jpg",
+    "year": "1963",
+    "duration": "93 Minuten",
+    "director": "Satsuo Yamamoto",
+    "imdb": "tt0200310",
+    "genres": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "title": "Shin Shinobin no Mono",
+    "cover": "recommendations/fullsize/movies/shinobi-no-mono-3.jpg",
+    "thumbnail": "recommendations/thumbs/movies/shinobi-no-mono-3.jpg",
+    "year": "1963",
+    "duration": "86 Minuten",
+    "director": "Hajime Takaiwa",
+    "imdb": "tt0187501",
+    "genres": [
+      "Action",
+      "Drama",
+      "Crime"
+    ]
+  },
+  {
+    "title": "Shinobin no Mono: Kirigakure Saizo",
+    "cover": "recommendations/fullsize/movies/shinobi-no-mono-4.jpg",
+    "thumbnail": "recommendations/thumbs/movies/shinobi-no-mono-4.jpg",
+    "year": "1964",
+    "duration": "87 Minuten",
+    "director": "Hajime Takaiwa",
+    "imdb": "tt0224098",
+    "genres": [
+      "Drama"
+    ]
+  },
+  {
+    "title": "Shinobin no Mono: Zoku Kirigakure Saizo",
+    "cover": "recommendations/fullsize/movies/shinobi-no-mono-5.jpg",
+    "thumbnail": "recommendations/thumbs/movies/shinobi-no-mono-5.jpg",
+    "year": "1964",
+    "duration": "91 Minuten",
+    "director": "Hajime Takaiwa",
+    "imdb": "tt0199023",
+    "genres": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "title": "Shinobin no Mono: Iga-yashiki",
+    "cover": "recommendations/fullsize/movies/shinobi-no-mono-6.jpg",
+    "thumbnail": "recommendations/thumbs/movies/shinobi-no-mono-6.jpg",
+    "year": "1965",
+    "duration": "89 Minuten",
+    "director": "Kazuo Mori",
+    "imdb": "tt0224097",
+    "genres": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "title": "Shinobin no Mono: Shin kirigakure Saizo",
+    "cover": "recommendations/fullsize/movies/shinobi-no-mono-7.jpg",
+    "thumbnail": "recommendations/thumbs/movies/shinobi-no-mono-7.jpg",
+    "year": "1966",
+    "duration": "87 Minuten",
+    "director": "Kazuo Mori",
+    "imdb": "tt0058592",
+    "genres": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
+    "title": "Shinsho: Shinobi no Mono",
+    "cover": "recommendations/fullsize/movies/shinobi-no-mono-8.jpg",
+    "thumbnail": "recommendations/thumbs/movies/shinobi-no-mono-8.jpg",
+    "year": "1966",
+    "duration": "91 Minuten",
+    "director": "Kazuo Ikehiro",
+    "imdb": "tt0201924",
+    "genres": [
+      "Action",
+      "Drama"
+    ]
+  },
+  {
     "title": "Akira Kurosawa - Samurai Edition",
-    "cover": "kaufempfehlungen/fullsize/filme/akira-kurosawa-samurai-edition.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/akira-kurosawa-samurai-edition.jpg",
+    "cover": "recommendations/fullsize/movies/akira-kurosawa-samurai-edition.jpg",
+    "thumbnail": "recommendations/thumbs/movies/akira-kurosawa-samurai-edition.jpg",
     "asin": "B0031BRLTS",
     "year": "1954-1962",
     "duration": "593 Minuten",
@@ -19,8 +124,8 @@
   {
     "title": "Die sieben Samurai",
     "originalTitle": "Shichinin no samurai",
-    "cover": "kaufempfehlungen/fullsize/filme/sieben-samurai.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/sieben-samurai.jpg",
+    "cover": "recommendations/fullsize/movies/sieben-samurai.jpg",
+    "thumbnail": "recommendations/thumbs/movies/sieben-samurai.jpg",
     "asin": "B004N6XW3E",
     "imdb": "tt0047478",
     "year": "1954",
@@ -28,7 +133,7 @@
     "director": "Akira Kurosawa",
     "rating": "16",
     "recommendation": true,
-    "notes": "Kurosawas bekanntester Film, wurde für das Genre des Western als „Die glorreichen Sieben“ neu aufgelegt",
+    "notes": "Kurosawas bekanntester Film, wurde für das Genre des Western als <cite>Die glorreichen Sieben</cite> neu aufgelegt",
     "genres": [
       "Abenteuer",
       "Drama"
@@ -37,15 +142,15 @@
   {
     "title": "Das Schloß im Spinnwebwald",
     "originalTitle": "Kumonosu-jô",
-    "cover": "kaufempfehlungen/fullsize/filme/throne-of-blood.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/throne-of-blood.jpg",
+    "cover": "recommendations/fullsize/movies/throne-of-blood.jpg",
+    "thumbnail": "recommendations/thumbs/movies/throne-of-blood.jpg",
     "asin": "B002S1PABS",
     "imdb": "tt0050613",
     "year": "1957",
     "duration": "105 Minuten",
     "director": "Akira Kurosawa",
     "rating": "12",
-    "notes": "Kurosawas Interpretation von Shakespears „Macbeth“",
+    "notes": "Kurosawas Interpretation von Shakespears <cite>Macbeth</cite>",
     "genres": [
       "Action",
       "Drama"
@@ -54,8 +159,8 @@
   {
     "title": "Die Verborgene Festung",
     "originalTitle": "Kakushi-toride no san-akunin",
-    "cover": "kaufempfehlungen/fullsize/filme/hidden-fortress.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/hidden-fortress.jpg",
+    "cover": "recommendations/fullsize/movies/hidden-fortress.jpg",
+    "thumbnail": "recommendations/thumbs/movies/hidden-fortress.jpg",
     "asin": "B002ZWMR98",
     "imdb": "tt0051808",
     "year": "1958",
@@ -71,15 +176,15 @@
   {
     "title": "Yojimbo – Der Leibwächter",
     "originalTitle": "Yôjinbô",
-    "cover": "kaufempfehlungen/fullsize/filme/yojinbo.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/yojinbo.jpg",
+    "cover": "recommendations/fullsize/movies/yojinbo.jpg",
+    "thumbnail": "recommendations/thumbs/movies/yojinbo.jpg",
     "asin": "B002S1PADQ",
     "imdb": "tt0055630",
     "year": "1961",
     "duration": "107 Minuten",
     "director": "Akira Kurosawa",
     "rating": "12",
-    "notes": "Dieser Film wurde zweimal mit gleicher Geschichte neuverfilmt: „Für eine Handvoll Dollar“ (Clint Eastwood) und „Last Man Standing“ (Bruce Willis)",
+    "notes": "Dieser Film wurde zweimal mit gleicher Geschichte neuverfilmt: <cite>Für eine Handvoll Dollar</cite> (Clint Eastwood) und <cite>Last Man Standing</cite> (Bruce Willis)",
     "genres": [
       "Action",
       "Abenteuer",
@@ -88,8 +193,8 @@
   },
   {
     "title": "Rashomon",
-    "cover": "kaufempfehlungen/fullsize/filme/rashomon.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/rashomon.jpg",
+    "cover": "recommendations/fullsize/movies/rashomon.jpg",
+    "thumbnail": "recommendations/thumbs/movies/rashomon.jpg",
     "asin": "3866153198",
     "imdb": "tt0042876",
     "year": "1950",
@@ -105,8 +210,8 @@
   {
     "title": "Sanjuro",
     "originalTitle": "Tsubaki Sanjûrô",
-    "cover": "kaufempfehlungen/fullsize/filme/sanjuro.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/sanjuro.jpg",
+    "cover": "recommendations/fullsize/movies/sanjuro.jpg",
+    "thumbnail": "recommendations/thumbs/movies/sanjuro.jpg",
     "asin": "B0007PLFBG",
     "imdb": "tt0056443",
     "year": "1962",
@@ -122,8 +227,8 @@
   {
     "title": "Kagemusha - Der Schatten des Kriegers",
     "originalTitle": "Kagemusha",
-    "cover": "kaufempfehlungen/fullsize/filme/kagemusha.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/kagemusha.jpg",
+    "cover": "recommendations/fullsize/movies/kagemusha.jpg",
+    "thumbnail": "recommendations/thumbs/movies/kagemusha.jpg",
     "asin": "B00008OX3W",
     "imdb": "tt0080979",
     "year": "1980",
@@ -139,8 +244,8 @@
   },
   {
     "title": "Ran",
-    "cover": "kaufempfehlungen/fullsize/filme/ran.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/ran.jpg",
+    "cover": "recommendations/fullsize/movies/ran.jpg",
+    "thumbnail": "recommendations/thumbs/movies/ran.jpg",
     "asin": "B00030EJJA",
     "imdb": "tt0089881",
     "year": "1985",
@@ -148,7 +253,7 @@
     "director": "Akira Kurosawa",
     "rating": "12",
     "recommendation": true,
-    "notes": "Kurosawas Interpretation von Shakespears „König Lear“",
+    "notes": "Kurosawas Interpretation von Shakespears <cite>König Lear</cite>",
     "genres": [
       "Action",
       "Drama",
@@ -158,8 +263,8 @@
   {
     "title": "Last Samurai",
     "originalTitle": "The Last Samurai",
-    "cover": "kaufempfehlungen/fullsize/filme/last-samurai.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/last-samurai.jpg",
+    "cover": "recommendations/fullsize/movies/last-samurai.jpg",
+    "thumbnail": "recommendations/thumbs/movies/last-samurai.jpg",
     "asin": "B0001G6PZC",
     "imdb": "tt0325710",
     "year": "2003",
@@ -175,8 +280,8 @@
   {
     "title": "Lady Snowblood",
     "originalTitle": "Shurayukihime",
-    "cover": "kaufempfehlungen/fullsize/filme/lady-snowblood.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/lady-snowblood.jpg",
+    "cover": "recommendations/fullsize/movies/lady-snowblood.jpg",
+    "thumbnail": "recommendations/thumbs/movies/lady-snowblood.jpg",
     "asin": "B0006VBJPI",
     "imdb": "tt0158714",
     "year": "1973",
@@ -192,8 +297,8 @@
   {
     "title": "Zatoichi - Der blinde Samurai",
     "originalTitle": "Zatôichi",
-    "cover": "kaufempfehlungen/fullsize/filme/zatoichi.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/zatoichi.jpg",
+    "cover": "recommendations/fullsize/movies/zatoichi.jpg",
+    "thumbnail": "recommendations/thumbs/movies/zatoichi.jpg",
     "asin": "B0006SN4W2",
     "imdb": "tt0363226",
     "year": "2003",
@@ -209,8 +314,8 @@
   {
     "title": "Samurai der Dämmerung",
     "originalTitle": "Tasogare Seibei",
-    "cover": "kaufempfehlungen/fullsize/filme/twilight-samurai.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/twilight-samurai.jpg",
+    "cover": "recommendations/fullsize/movies/twilight-samurai.jpg",
+    "thumbnail": "recommendations/thumbs/movies/twilight-samurai.jpg",
     "asin": "B000L42W88",
     "imdb": "tt0351817",
     "year": "2002",
@@ -225,8 +330,8 @@
   {
     "title": "Samurai Fiction",
     "originalTitle": "SF: Episode One",
-    "cover": "kaufempfehlungen/fullsize/filme/samurai-fiction.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/samurai-fiction.jpg",
+    "cover": "recommendations/fullsize/movies/samurai-fiction.jpg",
+    "thumbnail": "recommendations/thumbs/movies/samurai-fiction.jpg",
     "asin": "B0001E3AM0",
     "imdb": "tt0170544",
     "year": "1998",
@@ -242,8 +347,8 @@
   {
     "title": "Lone Wolf & Cub",
     "originalTitle": "Kozure ôkami",
-    "cover": "kaufempfehlungen/fullsize/filme/kozure-okami.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/kozure-okami.jpg",
+    "cover": "recommendations/fullsize/movies/kozure-okami.jpg",
+    "thumbnail": "recommendations/thumbs/movies/kozure-okami.jpg",
     "asin": "B000C9CYF8",
     "year": "1973-1976",
     "duration": "507 Minuten",
@@ -254,8 +359,8 @@
   },
   {
     "title": "Shogun",
-    "cover": "kaufempfehlungen/fullsize/filme/shogun.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/shogun.jpg",
+    "cover": "recommendations/fullsize/movies/shogun.jpg",
+    "thumbnail": "recommendations/thumbs/movies/shogun.jpg",
     "asin": "B0001BG4C6",
     "imdb": "tt0080274",
     "year": "1980",
@@ -269,8 +374,8 @@
   {
     "title": "Hero",
     "originalTitle": "Ying xiong",
-    "cover": "kaufempfehlungen/fullsize/filme/hero.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/hero.jpg",
+    "cover": "recommendations/fullsize/movies/hero.jpg",
+    "thumbnail": "recommendations/thumbs/movies/hero.jpg",
     "asin": "B000JGW828",
     "imdb": "tt0299977",
     "year": "2002",
@@ -286,8 +391,8 @@
   {
     "title": "Ghost Dog - Der Weg des Samurai",
     "originalTitle": "Ghost Dog: The Way of the Samurai",
-    "cover": "kaufempfehlungen/fullsize/filme/ghost-dog.jpg",
-    "thumbnail": "kaufempfehlungen/thumbs/filme/ghost-dog.jpg",
+    "cover": "recommendations/fullsize/movies/ghost-dog.jpg",
+    "thumbnail": "recommendations/thumbs/movies/ghost-dog.jpg",
     "asin": "B00004U9Q9",
     "imdb": "tt0165798",
     "year": "1999",

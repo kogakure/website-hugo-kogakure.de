@@ -3,7 +3,8 @@ title: "Erleuchtung"
 slug: "erleuchtung"
 date: 2006-04-02T14:44:00+02:00
 author: "Stefan Imhoff"
-excerpt: "Der Ninja strebte sein Leben lang dem „Pfad des Kriegers“ zur Erleuchtung zu folgen. Die Erleuchtung ist ein nicht zu fassender Begriff, der einen Zustand von vollkommendem Verständnis und Klarheit darstellt."
+excerpt: "Der Ninja strebte sein Leben lang dem 'Pfad des Kriegers' zur Erleuchtung zu folgen. Die Erleuchtung ist ein nicht zu fassender Begriff, der einen Zustand von vollkommendem Verständnis und Klarheit darstellt."
+body_class: "grid--small"
 categories:
 - Philosophie
 - Religion

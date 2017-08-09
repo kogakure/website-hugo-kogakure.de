@@ -4,6 +4,7 @@ slug: "shinden-fudo-ryu"
 date: 2006-04-02T15:10:00+02:00
 author: "Stefan Imhoff"
 excerpt: "Shinden-fudo-ryū daken taijutsu – Die Schule des Unbewegten Herzens, Mitte des 12. Jahrhundert gegründet, eng mit der Natur verbunden."
+body_class: "grid--small"
 categories:
 - Geschichte
 - Schulen

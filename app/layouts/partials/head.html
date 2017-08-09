@@ -117,8 +117,8 @@
   <!-- Canonical -->
   <link rel="canonical" href="{{ .Permalink }}">
 
-  <!-- Critical CSS -->
-  {{ partial "critical" . }}
+  <!-- Stylesheets -->
+  {{ partial "styles" . }}
 
   <!-- Feeds -->
   <link href="{{ .Site.Data.settings.feeds.feedburner_url }}" rel="alternate" title="{{ .Site.Data.settings.title }}" type="application/rss+xml">
