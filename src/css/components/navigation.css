@@ -29,19 +29,23 @@
   text-decoration: none;
   transition: color 0.2s;
 
+  &.is-active {
+    color: var(--color-dark-moderate-green) !important;
+  }
+
   &:visited {
     color: var(--color-very-dark-magenta);
   }
 
   &:hover {
-    color: var(--color-dark-moderate-green);
+    color: var(--color-moderate-red);
   }
 
   &:active {
-    color: var(--color-dark-moderate-green);
+    color: var(--color-moderate-red);
   }
 
   &:focus {
-    color: var(--color-dark-moderate-green);
+    color: var(--color-moderate-red);
   }
 }
