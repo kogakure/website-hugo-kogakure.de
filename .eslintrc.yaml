@@ -7,6 +7,8 @@ plugins: [ "import" ]
 
 # enable ECMAScript features
 parserOptions:
+  ecmaVersion: 6
+  sourceType: "module"
   ecmaFeatures:
     arrowFunctions: true
     binaryLiterals: true

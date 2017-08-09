@@ -17,3 +17,8 @@ a img {
 .image-noborder {
   border: 0;
 }
+
+.image-figure-caption {
+  color: var(--color-dark-moderate-green);
+  font-size: var(--modular-scale-0);
+}
