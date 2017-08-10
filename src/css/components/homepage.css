@@ -195,35 +195,35 @@
 
 .chronology--1999 {
   background-color: var(--color-strong-green);
-  background-image: url(/assets/images/chronology/history-1999.jpg);
+  background-image: url(/assets/images/homepage/history-1999.jpg);
   grid-column: 1;
   grid-row: 1;
 }
 
 .chronology--2002 {
   background-color: var(--color-strong-green);
-  background-image: url(/assets/images/chronology/history-2002.jpg);
+  background-image: url(/assets/images/homepage/history-2002.jpg);
   grid-column: 3 / 4;
   grid-row: 1;
 }
 
 .chronology--2004 {
   background-color: var(--color-strong-green);
-  background-image: url(/assets/images/chronology/history-2004.jpg);
+  background-image: url(/assets/images/homepage/history-2004.jpg);
   grid-column: 2;
   grid-row: 2;
 }
 
 .chronology--2008 {
   background-color: var(--color-strong-green);
-  background-image: url(/assets/images/chronology/history-2008.jpg);
+  background-image: url(/assets/images/homepage/history-2008.jpg);
   grid-column: 1;
   grid-row: 3;
 }
 
 .chronology--2015 {
   background-color: var(--color-strong-green);
-  background-image: url(/assets/images/chronology/history-2015.jpg);
+  background-image: url(/assets/images/homepage/history-2015.jpg);
   grid-column: 2 / 4;
   grid-row: 4 / span 2;
 }
