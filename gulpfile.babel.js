@@ -8,6 +8,8 @@ import plumber from 'gulp-plumber';
 import changed from 'gulp-changed';
 import svgSprite from 'gulp-svg-sprite';
 import resize from 'gulp-image-resize';
+import imagemin from 'gulp-imagemin';
+import size from 'gulp-size';
 import postcss from 'gulp-postcss';
 import cssImport from 'postcss-import';
 import cssnext from 'postcss-cssnext';
@@ -152,6 +154,17 @@ gulp.task('thumbnails', () => {
     .pipe(gulp.dest(thumbFolder));
 });
 
+gulp.task('optimize:images', () => {
+  return gulp.src('app/static/assets/images/**/*.{jpg,jpeg,png,gif,svg}')
+    .pipe(imagemin({
+      optimizationLevel: 3,
+      progressive: true,
+      interlaced: true
+    }))
+    .pipe(gulp.dest('app/static/assets/images/'))
+    .pipe(size());
+});
+
 gulp.task('build', gulp.series(gulp.parallel('css', 'js', 'hugo')));
 gulp.task('build-preview', gulp.series(gulp.parallel('css', 'js', 'hugo-preview')));
 
@@ -175,6 +188,5 @@ gulp.task('server', gulp.series('build', () => {
   gulp.watch('./src/svg/*.svg', gulp.series('svg'));
   gulp.watch(fullsizeImages, gulp.series('thumbnails'));
 }));
-
 
 gulp.task('default', gulp.parallel('server'));
