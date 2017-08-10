@@ -6,9 +6,17 @@ This is the source of my [martial arts website][kogakure] build with [Hugo][hugo
 
 You will need [Hugo][hugo] to run this website (e. g. with Homebrew):
 
-```sh
+```bash
 $ brew install hugo
 ```
+
+You will need to install *GraphicsMagick* for thumbnail generation:
+
+```bash
+$ brew install graphicsmagick
+```
+
+Install `nvm` and the correct `node` version:
 
 ```bash
 $ git clone https://github.com/creationix/nvm.git ~/.nvm
@@ -34,6 +42,7 @@ $ yarn start
 $ yarn run hugo
 $ yarn run build
 $ yarn run build-preview
+$ yarn run svg
 $ yarn run lint
 $ yarn run lint:js
 $ yarn run lint:css
@@ -43,6 +52,7 @@ $ yarn run lint:css
 - To build the Hugo site run `yarn run hugo`
 - To create a build run `yarn run build`
 - To create a build with preview options run `yarn run build-preview`
+- To create a SVG sprite from single SVG files run `yarn run svg`
 - To check JavaScript and CSS for errors run `yarn run lint`
 - To check JavaScript for errors run `yarn run lint:js`
 - To check CSS for errors run `yarn run lint:css`
@@ -51,7 +61,7 @@ $ yarn run lint:css
 
 To find out how long the relaunch took, I’ll use the [pomodoro technique][pomodoro] to work in focused bits of 25 minutes on my project, whenever I find some time:
 
-🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
+🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
 
 ## Licence
 

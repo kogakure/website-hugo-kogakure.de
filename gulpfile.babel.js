@@ -1,9 +1,13 @@
 import gulp from 'gulp';
+import os from 'os';
 import cp from 'child_process';
+import parallel from 'concurrent-transform';
 import gutil from 'gulp-util';
 import BrowserSync from 'browser-sync';
 import plumber from 'gulp-plumber';
+import changed from 'gulp-changed';
 import svgSprite from 'gulp-svg-sprite';
+import resize from 'gulp-image-resize';
 import postcss from 'gulp-postcss';
 import cssImport from 'postcss-import';
 import cssnext from 'postcss-cssnext';
@@ -18,6 +22,10 @@ import webpackConfig from './webpack.conf';
 const browserSync = BrowserSync.create();
 const hugoBin = 'hugo';
 const defaultArgs = ['--config=config.toml'];
+
+const thumbFolder = 'app/static/assets/images/recommendations/thumbs/';
+const fullsizeImages = 'app/static/assets/images/recommendations/fullsize/**/*.{jpg,jpeg,png}';
+const allCssFiles = './src/css/**/*.css';
 
 function buildSite(callback, options) {
   const args = options ? defaultArgs.concat(options) : defaultArgs;
@@ -81,7 +89,7 @@ gulp.task('css', () => {
 
 
 gulp.task('lint:css', () => {
-  return gulp.src('src/css/**/*.css')
+  return gulp.src(allCssFiles)
     .pipe(postcss([
       stylelint(),
       reporter({
@@ -132,6 +140,18 @@ gulp.task('svg', () => {
     .pipe(gulp.dest('app/layouts/partials'));
 });
 
+gulp.task('thumbnails', () => {
+  return gulp.src(fullsizeImages)
+    .pipe(changed(thumbFolder))
+    .pipe(parallel(
+      resize({
+        width: 100
+      }),
+      os.cpus().length
+    ))
+    .pipe(gulp.dest(thumbFolder));
+});
+
 gulp.task('build', gulp.series(gulp.parallel('css', 'js', 'hugo')));
 gulp.task('build-preview', gulp.series(gulp.parallel('css', 'js', 'hugo-preview')));
 
@@ -148,11 +168,12 @@ gulp.task('server', gulp.series('build', () => {
     }
   });
 
-  gulp.watch('./src/css/**/*.css', gulp.series('css', 'lint:css'));
+  gulp.watch(allCssFiles, gulp.series('css', 'lint:css'));
   gulp.watch('./src/js/**/*.js', gulp.series('js', 'lint:js'));
   gulp.watch('./app/**/*', gulp.series('hugo'));
   gulp.watch('./config.toml', gulp.series('hugo'));
   gulp.watch('./src/svg/*.svg', gulp.series('svg'));
+  gulp.watch(fullsizeImages, gulp.series('thumbnails'));
 }));
 
 
