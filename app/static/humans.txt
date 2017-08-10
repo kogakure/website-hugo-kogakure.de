@@ -12,5 +12,5 @@ Location:    Hamburg, Germany
 Language:    German
 Doctype:     HTML5
 Standards:   HTML5, CSS3
-Components:  Hugo, PostCSS, Lost, JavaScript, Webpack, Gulp.js, Babel, Markdown, ...
+Components:  Hugo, PostCSS, CSS Grid Layout, JavaScript, Webpack, Gulp.js, Babel, Markdown, ...
 Software:    Vim, Affinity Designer, Photoshop, iTerm 2, Git, Chrome Developer Tools
