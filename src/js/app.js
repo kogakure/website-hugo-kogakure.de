@@ -1,8 +1,6 @@
 import fitvids from 'fitvids';
 import fastclick from 'fastclick';
 
-import './vendor/ios-rotate-scaling-fix';
-
 import navigation from './lib/navigation';
 import figure from './lib/figure';
 import tracking from './lib/tracking';

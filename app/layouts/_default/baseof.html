@@ -4,6 +4,8 @@
 
   <body{{ if .IsHome }} class="home"{{ else if isset .Params "body_class" }} class="{{ .Params.body_class }}"{{ end }}>
 
+    <a class="skip-link" href="#maincontent">Zum Inhalt springen</a>
+
     <div class="svg-icons">
       {{ partial "svg/icons.svg" . }}
     </div>
@@ -12,10 +14,10 @@
       {{ partial "header" . }}
       <div class="grid">
         {{ partial "navigation" . }}
-        <div class="content">
+        <main class="content" id="maincontent" tabindex="-1">
           {{ block "main" . }}{{ end }}
           {{ partial "footer" . }}
-        </div>
+        </main>
       </div>
     </div>
 

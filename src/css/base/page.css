@@ -51,6 +51,31 @@ body {
   top: -9999px;
 }
 
+.content {
+  outline: 0;
+}
+
+.skip-link:any-link {
+  background-color: var(--color-moderate-red);
+  border-bottom-left-radius: 10px;
+  color: var(--color-white);
+  font-size: var(--modular-scale-0);
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 3px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  text-decoration: none;
+  top: -40px;
+  width: 150px;
+
+  &:focus {
+    top: 0;
+  }
+}
+
 .footer {
   clear: both;
 }
