@@ -3,6 +3,7 @@ import cp from 'child_process';
 import gutil from 'gulp-util';
 import BrowserSync from 'browser-sync';
 import plumber from 'gulp-plumber';
+import svgSprite from 'gulp-svg-sprite';
 import postcss from 'gulp-postcss';
 import cssImport from 'postcss-import';
 import cssnext from 'postcss-cssnext';
@@ -113,6 +114,24 @@ gulp.task('lint:js', () => {
     .pipe(eslint.format());
 });
 
+gulp.task('svg', () => {
+  return gulp.src('src/svg/*.svg')
+  .pipe(plumber())
+    .pipe(svgSprite({
+      mode: {
+        symbol: {
+          dest: 'svg',
+          sprite: 'icons.svg'
+        },
+        svg: {
+          xmlDeclaration: false,
+          doctypeDeclaration: false
+        }
+      }
+    }))
+    .pipe(gulp.dest('app/layouts/partials'));
+});
+
 gulp.task('build', gulp.series(gulp.parallel('css', 'js', 'hugo')));
 gulp.task('build-preview', gulp.series(gulp.parallel('css', 'js', 'hugo-preview')));
 
@@ -133,6 +152,7 @@ gulp.task('server', gulp.series('build', () => {
   gulp.watch('./src/js/**/*.js', gulp.series('js', 'lint:js'));
   gulp.watch('./app/**/*', gulp.series('hugo'));
   gulp.watch('./config.toml', gulp.series('hugo'));
+  gulp.watch('./src/svg/*.svg', gulp.series('svg'));
 }));
 
 
