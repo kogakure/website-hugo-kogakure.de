@@ -43,6 +43,7 @@ $ yarn run hugo
 $ yarn run build
 $ yarn run build-preview
 $ yarn run svg
+$ yarn run webp
 $ yarn run crunch
 $ yarn run lint
 $ yarn run lint:js
@@ -55,6 +56,7 @@ $ yarn run lint:css
 - To create a build with preview options run `yarn run build-preview`
 - To create a SVG sprite from single SVG files run `yarn run svg`
 - To minimize all images run `yarn run crunch`
+- To generate WebP images run `yarn run webp`
 - To check JavaScript and CSS for errors run `yarn run lint`
 - To check JavaScript for errors run `yarn run lint:js`
 - To check CSS for errors run `yarn run lint:css`
@@ -63,7 +65,7 @@ $ yarn run lint:css
 
 To find out how long the relaunch took, I’ll use the [pomodoro technique][pomodoro] to work in focused bits of 25 minutes on my project, whenever I find some time:
 
-🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
+🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
 
 ## Licence
 

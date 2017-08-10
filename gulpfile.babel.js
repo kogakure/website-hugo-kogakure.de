@@ -9,6 +9,7 @@ import changed from 'gulp-changed';
 import svgSprite from 'gulp-svg-sprite';
 import resize from 'gulp-image-resize';
 import imagemin from 'gulp-imagemin';
+import webp from 'gulp-webp';
 import size from 'gulp-size';
 import postcss from 'gulp-postcss';
 import cssImport from 'postcss-import';
@@ -163,6 +164,12 @@ gulp.task('optimize:images', () => {
     }))
     .pipe(gulp.dest('app/static/assets/images/'))
     .pipe(size());
+});
+
+gulp.task('webp', () => {
+  return gulp.src('app/static/assets/images/**/*.{jpg,jpeg,png}')
+    .pipe(webp())
+    .pipe(gulp.dest('app/static/assets/images/'));
 });
 
 gulp.task('build', gulp.series(gulp.parallel('css', 'js', 'hugo')));
