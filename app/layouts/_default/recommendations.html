@@ -10,7 +10,7 @@
     <li class="recommendations-item" itemscope itemtype="http://schema.org/Book">
       <div class="recommendations-image-container">
         {{ if .asin }}
-          <a class="recommendations-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="nofollow" target="_blank">
+          <a class="recommendations-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="noopener" target="_blank">
             <img class="recommendations-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
           </a>
         {{ end }}
@@ -62,13 +62,13 @@
     <li class="recommendations-item" itemscope itemtype="http://schema.org/Movie">
       <div class="recommendations-image-container">
         {{ if .asin }}
-        <a class="recommendations-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="nofollow" target="_blank">
+        <a class="recommendations-link" href="http://www.amazon.de/gp/product/{{ .asin }}?ie=UTF8&tag=kogakurede-21&linkCode=as2&camp=1638&creative=6742&creativeASIN={{ .asin }}" rel="noopener" target="_blank">
           <img class="recommendations-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
         </a>
         {{ end }}
 
         {{ if and (.imdb) (not .asin) }}
-        <a class="recommendations-link" href="https://www.imdb.com/title/{{ .imdb }}" rel="nofollow" target="_blank">
+        <a class="recommendations-link" href="https://www.imdb.com/title/{{ .imdb }}" rel="noopener" target="_blank">
           <img class="recommendations-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
         </a>
         {{ end }}
