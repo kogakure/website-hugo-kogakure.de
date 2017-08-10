@@ -73,13 +73,13 @@
   <meta name="twitter:url" content="{{ .Permalink }}">
   <meta name="twitter:title" content="{{ if .IsHome }}{{ .Site.Data.settings.title }}{{ else }}{{ replace .Title "&nbsp;" " " | plainify }} - {{ .Site.Data.settings.title }}{{ end}}">
   <meta name="twitter:description" content="{{ if isset .Params "description" }}{{ .Params.description }}{{ else }}{{ .Site.Data.settings.seo.description }}{{ end }}">
-  <meta name="twitter:image" content="{{ .Site.BaseURL }}assets/images/{{ if isset .Params "og_image" }}{{ .Params.og_image }}{{ else}}og/rakkan.png{{ end }}">
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}assets/images/{{ if isset .Params "og_image" }}{{ .Params.og_image }}{{ else}}og/meta-image.jpg{{ end }}">
 
   <!-- OpenGraph-->
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:title" content="{{ if .IsHome }}{{ .Site.Data.settings.title }}{{ else }}{{ replace .Title "&nbsp;" " " | plainify }} - {{ .Site.Data.settings.title }}{{ end}}">
   <meta property="og:description" content="{{ if isset .Params "description" }}{{ .Params.description }}{{ else }}{{ .Site.Data.settings.seo.description }}{{ end }}">
-  <meta property="og:image" content="{{ .Site.BaseURL }}assets/images/{{ if isset .Params "og_image" }}{{ .Params.og_image }}{{ else}}og/rakkan.png{{ end }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}assets/images/{{ if isset .Params "og_image" }}{{ .Params.og_image }}{{ else}}og/meta-image.jpg{{ end }}">
 
   <!-- Google Authorship -->
   <link href="https://plus.google.com/{{ .Site.Data.settings.social.googleplus }}" rel="publisher">
