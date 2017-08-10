@@ -2,12 +2,49 @@
  ******************/
 
 .recommendations {
-  display: grid;
-  grid-gap: 15px;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   list-style: none;
   margin-left: 0;
   margin-right: 0;
+}
+
+@supports (display: grid) {
+  .recommendations {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .recommendations {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .recommendations-item {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    width: 100%;
+
+    @media (--breakpoint-min-small) {
+      width: 50%;
+    }
+
+    @media (--breakpoint-min-xlarge) {
+      width: 33%;
+    }
+  }
+}
+
+@supports (not (display: grid)) and (not (display: flex)) {
+  .recommendations-item {
+    float: left;
+    height: 160px;
+    margin-bottom: 15px;
+    width: 50%;
+  }
 }
 
 .recommendations-item {
@@ -20,6 +57,13 @@
   flex-shrink: 0;
 }
 
+@supports (not (display: grid)) and (not (display: flex)) {
+  .recommendations-image-container {
+    float: left;
+    width: 100px;
+  }
+}
+
 .recommendations-image {
   border: 1px solid var(--color-dimmed-grey);
   padding: 4px;
@@ -28,6 +72,14 @@
 
 .recommendations-info {
   padding-left: 5px;
+}
+
+
+@supports (not (display: grid)) and (not (display: flex)) {
+  .recommendations-info {
+    float: left;
+    width: calc(100% - 100px);
+  }
 }
 
 .recommendations-info-title {
