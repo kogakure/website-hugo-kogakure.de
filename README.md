@@ -44,6 +44,7 @@ $ yarn run build:dev
 $ yarn run svg
 $ yarn run crunch
 $ yarn run webp
+$ yarn run loadcss
 $ yarn run lint
 $ yarn run lint:js
 $ yarn run lint:css
@@ -55,6 +56,7 @@ $ yarn run lint:css
 - To create a SVG sprite from single SVG files run `yarn run svg`
 - To minimize all images run `yarn run crunch`
 - To generate WebP images run `yarn run webp`
+- To copy the loadCSS JavaScript to the project run `yarn run loadcss`
 - To check JavaScript and CSS for errors run `yarn run lint`
 - To check JavaScript for errors run `yarn run lint:js`
 - To check CSS for errors run `yarn run lint:css`
