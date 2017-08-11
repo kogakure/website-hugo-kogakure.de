@@ -1,6 +1,6 @@
 import gulp from 'gulp';
 import os from 'os';
-import cp from 'child_process';
+import {spawn} from 'child_process';
 import parallel from 'concurrent-transform';
 import gutil from 'gulp-util';
 import BrowserSync from 'browser-sync';
@@ -24,16 +24,22 @@ import webpackConfig from './webpack.conf';
 
 const browserSync = BrowserSync.create();
 const hugoBin = 'hugo';
-const defaultArgs = ['--config=config.toml'];
+const hugoArgsDefault = ['--config=config.toml'];
+const hugoArgsDev = ['--baseURL=http://0.0.0.0:8888/', '--buildDrafts', '--buildFuture'];
 
 const thumbFolder = 'app/static/assets/images/recommendations/thumbs/';
 const fullsizeImages = 'app/static/assets/images/recommendations/fullsize/**/*.{jpg,jpeg,png}';
 const allCssFiles = './src/css/**/*.css';
 
-function buildSite(callback, options) {
-  const args = options ? defaultArgs.concat(options) : defaultArgs;
+/**
+ * Run hugo and build the site
+ */
+function buildSite(callback, options, enviroment = 'production') {
+  const args = options ? hugoArgsDefault.concat(options) : hugoArgsDefault;
 
-  return cp.spawn(hugoBin, args, { stdio: 'inherit' }).on('close', (code) => {
+  process.env.NODE_ENV = enviroment;
+
+  return spawn(hugoBin, args, { stdio: 'inherit' }).on('close', (code) => {
     if (code === 0) {
       browserSync.reload();
       callback();
@@ -51,8 +57,7 @@ function onError(error) {
 }
 
 gulp.task('hugo', (callback) => buildSite(callback));
-gulp.task('hugo-preview', (callback) => buildSite(callback, ['--buildDrafts', '--buildFuture']));
-
+gulp.task('hugo:dev', (callback) => buildSite(callback, hugoArgsDev, 'development'));
 
 gulp.task('css', () => {
   return gulp.src('./src/css/*.css')
@@ -90,7 +95,6 @@ gulp.task('css', () => {
     .pipe(browserSync.stream());
 });
 
-
 gulp.task('lint:css', () => {
   return gulp.src(allCssFiles)
     .pipe(postcss([
@@ -100,7 +104,6 @@ gulp.task('lint:css', () => {
       })
     ]));
 });
-
 
 gulp.task('js', (callback) => {
   const myConfig = Object.assign({}, webpackConfig);
@@ -117,7 +120,6 @@ gulp.task('js', (callback) => {
     callback();
   });
 });
-
 
 gulp.task('lint:js', () => {
   return gulp.src(['!node_modules/**', 'src/js/*.js'])
@@ -173,10 +175,9 @@ gulp.task('webp', () => {
 });
 
 gulp.task('build', gulp.series(gulp.parallel('css', 'js', 'hugo')));
-gulp.task('build-preview', gulp.series(gulp.parallel('css', 'js', 'hugo-preview')));
+gulp.task('build:dev', gulp.series(gulp.parallel('css', 'js', 'hugo:dev')));
 
-
-gulp.task('server', gulp.series('build', () => {
+gulp.task('server', gulp.series('build:dev', () => {
   browserSync.init({
     server: {
       baseDir: './dist'
@@ -190,8 +191,8 @@ gulp.task('server', gulp.series('build', () => {
 
   gulp.watch(allCssFiles, gulp.series('css', 'lint:css'));
   gulp.watch('./src/js/**/*.js', gulp.series('js', 'lint:js'));
-  gulp.watch('./app/**/*', gulp.series('hugo'));
-  gulp.watch('./config.toml', gulp.series('hugo'));
+  gulp.watch('./app/**/*', gulp.series('hugo:dev'));
+  gulp.watch('./config.toml', gulp.series('hugo:dev'));
   gulp.watch('./src/svg/*.svg', gulp.series('svg'));
   gulp.watch(fullsizeImages, gulp.series('thumbnails'));
 }));
