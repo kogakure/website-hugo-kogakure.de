@@ -6,6 +6,12 @@
 
     <a class="skip-link" href="#maincontent">Zum Inhalt springen</a>
 
+    {{ if eq (getenv "NODE_ENV") "development" }}
+      <div class="dev-status">
+        Hugo {{ .Hugo.Version }}
+      </div>
+    {{ end }}
+
     <div class="svg-icons">
       {{ partial "svg/icons.svg" . }}
     </div>

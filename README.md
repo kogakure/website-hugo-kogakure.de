@@ -39,21 +39,19 @@ These tasks are provided:
 
 ```bash
 $ yarn start
-$ yarn run hugo
 $ yarn run build
-$ yarn run build-preview
+$ yarn run build:dev
 $ yarn run svg
-$ yarn run webp
 $ yarn run crunch
+$ yarn run webp
 $ yarn run lint
 $ yarn run lint:js
 $ yarn run lint:css
 ```
 
-- To create the Hugo site and start the server run `yarn start`
-- To build the Hugo site run `yarn run hugo`
-- To create a build run `yarn run build`
-- To create a build with preview options run `yarn run build-preview`
+- To run a development server and create the development build run `yarn start`
+- To create a production build run `yarn run build`
+- To create a development build with run `yarn run build:dev`
 - To create a SVG sprite from single SVG files run `yarn run svg`
 - To minimize all images run `yarn run crunch`
 - To generate WebP images run `yarn run webp`
@@ -65,7 +63,7 @@ $ yarn run lint:css
 
 To find out how long the relaunch took, I’ll use the [pomodoro technique][pomodoro] to work in focused bits of 25 minutes on my project, whenever I find some time:
 
-🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
+🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
 
 ## Licence
 

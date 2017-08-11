@@ -7,9 +7,8 @@
   "license": "CC-BY-NC-SA",
   "scripts": {
     "start": "gulp",
-    "hugo": "gulp hugo",
     "build": "gulp build",
-    "build-preview": "gulp build-preview",
+    "build:dev": "gulp build-dev",
     "svg": "gulp svg",
     "crunch": "gulp optimize:images",
     "webp": "gulp webp",

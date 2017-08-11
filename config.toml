@@ -1,5 +1,5 @@
 title        = "kogakure.de - Ninja, Ninjutsu und Kampfkunst"
-baseURL      = "http://0.0.0.0:8888/"
+baseURL      = "https://kogakure.de/"
 languageCode = "de"
 
 metaDataFormat  = "yaml"

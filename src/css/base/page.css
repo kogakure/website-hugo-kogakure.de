@@ -55,9 +55,9 @@ body {
   outline: 0;
 }
 
-.skip-link:any-link {
+.skip-link:any-link,
+.dev-status {
   background-color: var(--color-moderate-red);
-  border-bottom-left-radius: 10px;
   color: var(--color-white);
   font-size: var(--modular-scale-0);
   padding-bottom: 3px;
@@ -65,15 +65,23 @@ body {
   padding-right: 10px;
   padding-top: 3px;
   position: absolute;
-  right: 0;
   text-align: center;
   text-decoration: none;
+}
+
+.skip-link:any-link {
+  border-bottom-left-radius: 10px;
+  right: 0;
   top: -40px;
-  width: 150px;
 
   &:focus {
     top: 0;
   }
+}
+
+.dev-status {
+  border-bottom-right-radius: 10px;
+  left: 0;
 }
 
 .footer {
