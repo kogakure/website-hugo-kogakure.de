@@ -3,6 +3,7 @@ import os from 'os';
 import {spawn} from 'child_process';
 import parallel from 'concurrent-transform';
 import gutil from 'gulp-util';
+import del from 'del';
 import BrowserSync from 'browser-sync';
 import plumber from 'gulp-plumber';
 import changed from 'gulp-changed';
@@ -16,8 +17,10 @@ import cssImport from 'postcss-import';
 import cssnext from 'postcss-cssnext';
 import hexRGBA from 'postcss-hexrgba';
 import sourcemaps from 'gulp-sourcemaps';
-import uglify from 'gulp-uglify';
+import htmlmin from 'gulp-htmlmin';
 import csso from 'gulp-csso';
+import rev from 'gulp-rev';
+import collect from 'gulp-rev-collector';
 import stylelint from 'stylelint';
 import eslint from 'gulp-eslint';
 import reporter from 'postcss-reporter';
@@ -122,6 +125,16 @@ gulp.task('lint:css', () => {
 gulp.task('js', (callback) => {
   const myConfig = Object.assign({}, webpackConfig);
 
+  if (process.env.NODE_ENV === 'production') {
+    myConfig.plugins = myConfig.plugins.concat(
+      new webpack.optimize.UglifyJsPlugin({
+        output: {
+          comments: false
+        }
+      })
+    );
+  }
+
   webpack(myConfig, (error, stats) => {
     if (error) {
       throw new gutil.PluginError('webpack', error);
@@ -208,24 +221,93 @@ gulp.task('webp', () => {
  */
 gulp.task('loadcss', () => {
   return gulp.src('node_modules/fg-loadcss/src/loadCSS.js')
-    .pipe(uglify())
     .pipe(gulp.dest('app/layouts/partials/critical/'));
 });
 
 /**
- * Minimize critical CSS files and copy to project folder
+ * Copy critical CSS files to project folder
  */
 gulp.task('criticalcss', () => {
   return gulp.src('dist/assets/css/critical_*.css')
-    .pipe(csso())
     .pipe(gulp.dest('app/layouts/partials/critical/'));
+});
+
+/**
+ * Clean up dist folder for production build
+ */
+gulp.task('delete', (callback) => {
+  del(['dist/']);
+  callback();
+});
+
+/**
+ * Minimize HTML and inline CSS and JavaScript
+ */
+gulp.task('optimize:html', () => {
+  return gulp.src('dist/**/*.html')
+    .pipe(htmlmin({
+      collapseWhitespace: true,
+      conservativeCollapse: true,
+      removeComments: true,
+      minifyJS: true,
+      minifyCSS: true,
+      processScripts: ['application/ld+json']
+    }))
+    .pipe(gulp.dest('dist/'));
+});
+
+/**
+ * Minimize CSS files
+ */
+gulp.task('optimize:css', () => {
+  return gulp.src('dist/assets/css/*.css')
+    .pipe(csso())
+    .pipe(gulp.dest('dist/assets/css/'));
+});
+
+/**
+ * Create revisions and manifest file
+ */
+gulp.task('revision', () => {
+  return gulp.src([
+    'dist/assets/css/*.css',
+    'dist/assets/js/*.js',
+    'dist/assets/images/**/*',
+    '!dist/assets/images/og/meta-image.jpg'
+  ], {
+    base: 'dist/'
+  })
+    .pipe(gulp.dest('dist/'))
+    .pipe(rev())
+    .pipe(gulp.dest('dist/'))
+    .pipe(rev.manifest({
+      path: 'manifest.json'
+    }))
+    .pipe(gulp.dest('dist/'));
+});
+
+/**
+ * Replace revisioned files
+ */
+gulp.task('revision:collect', () => {
+  return gulp.src([
+    'dist/manifest.json',
+    'dist/**/*.{html,css,js}'
+  ])
+    .pipe(collect())
+    .pipe(gulp.dest('dist/'));
 });
 
 /**
  * Run builds to generate CSS, JavaScript and HTML
  */
-gulp.task('build', gulp.parallel(gulp.series('css', 'criticalcss', 'hugo'), 'js'));
 gulp.task('build:dev', gulp.parallel('css', 'js', 'hugo:dev'));
+gulp.task('build', gulp.series(
+  gulp.series('delete', 'css', 'criticalcss', 'hugo'),
+  gulp.series('js'),
+  gulp.parallel('optimize:html', 'optimize:css'),
+  gulp.series('revision', 'revision:collect')
+));
 
 /**
  * Start development server with BrowserSync and watch files for changes
