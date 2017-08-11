@@ -212,6 +212,14 @@ gulp.task('loadcss', () => {
 });
 
 /**
+ * Copy critical CSS files to project folder
+ */
+gulp.task('criticalcss', () => {
+  return gulp.src('dist/assets/css/critical_*.css')
+    .pipe(gulp.dest('app/layouts/partials/critical/'));
+});
+
+/**
  * Run builds to generate CSS, JavaScript and HTML
  */
 gulp.task('build', gulp.series(gulp.parallel('css', 'js', 'hugo')));
