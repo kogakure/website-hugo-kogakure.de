@@ -1,0 +1,50 @@
+/* Homepage Quotes
+ ******************/
+
+@supports (display: grid) {
+  .homepage-quotes {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .homepage-quotes {
+    display: flex;
+  }
+}
+
+.homepage-quotes-content {
+  align-self: center;
+  grid-column: 2;
+  grid-row: 1;
+
+  @media (--breakpoint-max-medium) {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+}
+
+.homepage-quotes-quote {
+  grid-column: 1;
+  grid-row: 1;
+  position: relative;
+
+  @media (--breakpoint-max-medium) {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+
+  & .quote {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .homepage-quotes-quote {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}

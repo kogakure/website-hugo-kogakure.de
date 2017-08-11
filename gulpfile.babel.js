@@ -17,6 +17,7 @@ import cssnext from 'postcss-cssnext';
 import hexRGBA from 'postcss-hexrgba';
 import sourcemaps from 'gulp-sourcemaps';
 import uglify from 'gulp-uglify';
+import csso from 'gulp-csso';
 import stylelint from 'stylelint';
 import eslint from 'gulp-eslint';
 import reporter from 'postcss-reporter';
@@ -212,18 +213,19 @@ gulp.task('loadcss', () => {
 });
 
 /**
- * Copy critical CSS files to project folder
+ * Minimize critical CSS files and copy to project folder
  */
 gulp.task('criticalcss', () => {
   return gulp.src('dist/assets/css/critical_*.css')
+    .pipe(csso())
     .pipe(gulp.dest('app/layouts/partials/critical/'));
 });
 
 /**
  * Run builds to generate CSS, JavaScript and HTML
  */
-gulp.task('build', gulp.series(gulp.parallel('css', 'js', 'hugo')));
-gulp.task('build:dev', gulp.series(gulp.parallel('css', 'js', 'hugo:dev')));
+gulp.task('build', gulp.parallel(gulp.series('css', 'criticalcss', 'hugo'), 'js'));
+gulp.task('build:dev', gulp.parallel('css', 'js', 'hugo:dev'));
 
 /**
  * Start development server with BrowserSync and watch files for changes

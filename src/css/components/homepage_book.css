@@ -1,0 +1,25 @@
+/* Homepage Book
+ ****************/
+
+@supports (display: grid) {
+  .homepage-book {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .homepage-book {
+    display: flex;
+  }
+}
+
+.homepage-book-content {
+  align-self: center;
+}
+
+.homepage-book-image {
+  box-shadow: 10px -15px 0 var(--color-greyish-green);
+  margin-top: 25px;
+}

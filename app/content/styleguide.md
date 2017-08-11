@@ -3,6 +3,7 @@ title: "Styleguide"
 description: "Der Styleguide dieser Seite"
 url: "/styleguide/"
 body_class: "grid--small"
+custom_css: "styleguide"
 ---
 
 Dieses Dokument ist der Styleguide für diese Website.
