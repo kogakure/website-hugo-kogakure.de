@@ -37,6 +37,3 @@ extensions      = [""]
 
 [permalinks]
 artikel = "/artikel/:slug/"
-
-[params]
-tracking = false

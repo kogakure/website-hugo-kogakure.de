@@ -4,6 +4,7 @@ title: Seite entfernt!
 url: "/410.html"
 robots: "noindex,follow"
 body_class: "page-error-410"
+error_page_410: true
 sitemap_exclude: true
 ---
 

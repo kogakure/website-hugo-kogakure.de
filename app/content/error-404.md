@@ -4,6 +4,7 @@ title: Nicht gefunden!
 url: "/404.html"
 robots: "noindex,follow"
 body_class: "page-error-404"
+error_page_404: true
 sitemap_exclude: true
 ---
 

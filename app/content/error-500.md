@@ -4,6 +4,7 @@ title: Serverfehler!
 url: "/500.html"
 robots: "noindex,follow"
 body_class: "page-error-500"
+error_page_500: true
 sitemap_exclude: true
 ---
 
