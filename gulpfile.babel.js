@@ -20,6 +20,7 @@ import sourcemaps from 'gulp-sourcemaps';
 import htmlmin from 'gulp-htmlmin';
 import csso from 'gulp-csso';
 import rev from 'gulp-rev';
+import revdel from 'gulp-rev-delete-original';
 import collect from 'gulp-rev-collector';
 import stylelint from 'stylelint';
 import eslint from 'gulp-eslint';
@@ -279,9 +280,10 @@ gulp.task('revision', () => {
   })
     .pipe(gulp.dest('dist/'))
     .pipe(rev())
+    .pipe(revdel())
     .pipe(gulp.dest('dist/'))
     .pipe(rev.manifest({
-      path: 'manifest.json'
+      path: 'revision.json'
     }))
     .pipe(gulp.dest('dist/'));
 });
@@ -291,7 +293,7 @@ gulp.task('revision', () => {
  */
 gulp.task('revision:collect', () => {
   return gulp.src([
-    'dist/manifest.json',
+    'dist/revision.json',
     'dist/**/*.{html,css,js}'
   ])
     .pipe(collect())
