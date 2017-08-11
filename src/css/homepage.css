@@ -1,0 +1,12 @@
+/* Homepage
+ ***********/
+
+/** Import Settings */
+@import "settings/import";
+
+@import "components/homepage_dictionary";
+@import "components/homepage_quotes";
+@import "components/homepage_downloads";
+@import "components/homepage_recommendations";
+@import "components/homepage_chronology";
+@import "components/homepage_donations";

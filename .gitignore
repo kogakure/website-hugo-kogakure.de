@@ -1,2 +1,3 @@
+app/layouts/partials/critical/critical_*.css
 node_modules/
 dist/

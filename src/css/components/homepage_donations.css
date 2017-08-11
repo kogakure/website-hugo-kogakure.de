@@ -1,0 +1,47 @@
+/* Homepage Donations
+ *********************/
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.2);
+  }
+
+  25% {
+    transform: scale(1.1);
+  }
+
+  50% {
+    transform: scale(1.6);
+  }
+
+  75% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.homepage-donations-heart {
+  animation: pulse 1.5s ease-out 0s infinite normal;
+  color: #db2121;
+  display: inline-block;
+  font-size: 1.4em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.homepage-donations-content {
+  @media (--breakpoint-min-small) {
+    column-count: 2;
+    column-gap: 30px;
+  }
+}
+
+.paypal-icon {
+  height: 1.3em;
+  left: -0.2em;
+  position: relative;
+  top: 0.2em;
+  width: 1.3em;
+}

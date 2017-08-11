@@ -1,0 +1,14 @@
+/* Homepage Tagline
+ *******************/
+
+.homepage-tagline-japanese {
+  @apply --japanese-font;
+  color: var(--color-moderate-red);
+  font-size: var(--modular-scale-7);
+  font-weight: var(--weight-bold);
+  line-height: 1;
+}
+
+.homepage-tagline-translation {
+  font-size: var(--modular-scale-0);
+}

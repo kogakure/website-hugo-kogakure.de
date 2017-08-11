@@ -16,6 +16,8 @@ import cssImport from 'postcss-import';
 import cssnext from 'postcss-cssnext';
 import hexRGBA from 'postcss-hexrgba';
 import sourcemaps from 'gulp-sourcemaps';
+import uglify from 'gulp-uglify';
+import csso from 'gulp-csso';
 import stylelint from 'stylelint';
 import eslint from 'gulp-eslint';
 import reporter from 'postcss-reporter';
@@ -56,9 +58,15 @@ function onError(error) {
   this.emit('end');
 }
 
+/**
+ * Build Hugo website
+ */
 gulp.task('hugo', (callback) => buildSite(callback));
 gulp.task('hugo:dev', (callback) => buildSite(callback, hugoArgsDev, 'development'));
 
+/**
+ * Create CSS and Sourcemaps with PostCSS
+ */
 gulp.task('css', () => {
   return gulp.src('./src/css/*.css')
     .pipe(plumber({
@@ -95,6 +103,9 @@ gulp.task('css', () => {
     .pipe(browserSync.stream());
 });
 
+/**
+ * Lint CSS files with Stylelint
+ */
 gulp.task('lint:css', () => {
   return gulp.src(allCssFiles)
     .pipe(postcss([
@@ -105,6 +116,9 @@ gulp.task('lint:css', () => {
     ]));
 });
 
+/**
+ * Package JavaScript with Webpack
+ */
 gulp.task('js', (callback) => {
   const myConfig = Object.assign({}, webpackConfig);
 
@@ -121,12 +135,18 @@ gulp.task('js', (callback) => {
   });
 });
 
+/**
+ * Lint JavaScript files with ESlint
+ */
 gulp.task('lint:js', () => {
   return gulp.src(['!node_modules/**', 'src/js/*.js'])
     .pipe(eslint())
     .pipe(eslint.format());
 });
 
+/**
+ * Create SVG sprite map from SVG files
+ */
 gulp.task('svg', () => {
   return gulp.src('src/svg/*.svg')
   .pipe(plumber())
@@ -145,6 +165,9 @@ gulp.task('svg', () => {
     .pipe(gulp.dest('app/layouts/partials'));
 });
 
+/**
+ * Generate thumbnails from images
+ */
 gulp.task('thumbnails', () => {
   return gulp.src(fullsizeImages)
     .pipe(changed(thumbFolder))
@@ -157,6 +180,9 @@ gulp.task('thumbnails', () => {
     .pipe(gulp.dest(thumbFolder));
 });
 
+/**
+ * Optimize and minimize images
+ */
 gulp.task('optimize:images', () => {
   return gulp.src('app/static/assets/images/**/*.{jpg,jpeg,png,gif,svg}')
     .pipe(imagemin({
@@ -168,15 +194,42 @@ gulp.task('optimize:images', () => {
     .pipe(size());
 });
 
+/**
+ * Generate WebP images from image files
+ */
 gulp.task('webp', () => {
   return gulp.src('app/static/assets/images/**/*.{jpg,jpeg,png}')
     .pipe(webp())
     .pipe(gulp.dest('app/static/assets/images/'));
 });
 
-gulp.task('build', gulp.series(gulp.parallel('css', 'js', 'hugo')));
-gulp.task('build:dev', gulp.series(gulp.parallel('css', 'js', 'hugo:dev')));
+/**
+ * Copy loadCSS JavaScript to project folder
+ */
+gulp.task('loadcss', () => {
+  return gulp.src('node_modules/fg-loadcss/src/loadCSS.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('app/layouts/partials/critical/'));
+});
 
+/**
+ * Minimize critical CSS files and copy to project folder
+ */
+gulp.task('criticalcss', () => {
+  return gulp.src('dist/assets/css/critical_*.css')
+    .pipe(csso())
+    .pipe(gulp.dest('app/layouts/partials/critical/'));
+});
+
+/**
+ * Run builds to generate CSS, JavaScript and HTML
+ */
+gulp.task('build', gulp.parallel(gulp.series('css', 'criticalcss', 'hugo'), 'js'));
+gulp.task('build:dev', gulp.parallel('css', 'js', 'hugo:dev'));
+
+/**
+ * Start development server with BrowserSync and watch files for changes
+ */
 gulp.task('server', gulp.series('build:dev', () => {
   browserSync.init({
     server: {

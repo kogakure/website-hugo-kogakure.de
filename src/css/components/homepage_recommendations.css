@@ -1,0 +1,86 @@
+/* Homepage Recommendations
+ ***************************/
+
+@supports (display: grid) {
+  .homepage-recommendations {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .homepage-recommendations {
+    display: flex;
+  }
+}
+
+.homepage-recommendations-content {
+  align-self: center;
+  grid-column: 2;
+  grid-row: 1;
+
+  @media (--breakpoint-max-medium) {
+    grid-column: 1 / span 2;
+    grid-row: 2;
+  }
+}
+
+.homepage-recommendations-items {
+  background: var(--color-dark-moderate-green);
+  box-shadow: 10px -15px 0 var(--color-greyish-green);
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 25px;
+  transition: box-shadow 750ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 5px 30px -10px var(--color-card-shadow);
+  }
+}
+
+@supports (display: grid) {
+  .homepage-recommendations-items {
+    display: grid;
+    grid-column: 1;
+    grid-column-gap: 10px;
+    grid-row: 1;
+    grid-row-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+
+    @media (--breakpoint-max-medium) {
+      grid-column: 1 / span 2;
+      grid-row: 1;
+    }
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .homepage-recommendations-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 30px;
+    width: 100%;
+  }
+}
+
+@supports (not (display: grid)) and (not (display: flex)) {
+  .homepage-recommendations-items {
+    overflow: hidden;
+  }
+}
+
+.homepage-recommendations-item {
+  align-self: center;
+  justify-self: center;
+  padding: 15px;
+}
+
+@supports (not (display: grid)) and (not (display: flex)) {
+  .homepage-recommendations-item {
+    float: left;
+    margin-right: 10px;
+  }
+}

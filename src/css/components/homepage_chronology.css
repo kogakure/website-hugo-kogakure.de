@@ -1,0 +1,126 @@
+/* Homepage Chronology
+ **********************/
+
+@supports (display: grid) {
+  .homepage-chronology {
+    display: grid;
+    grid-column-gap: 30px;
+    grid-template-columns: 1fr;
+
+    @media (--breakpoint-min-small) {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    }
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .homepage-chronology {
+    display: flex;
+  }
+}
+
+.homepage-chronology-gallery {
+  background: var(--color-dark-moderate-green);
+  box-shadow: 10px -15px 0 var(--color-greyish-green);
+  list-style: none;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 25px;
+  transition: box-shadow 750ms ease-in-out;
+
+  &:hover {
+    box-shadow: 0 5px 30px -10px var(--color-card-shadow);
+  }
+}
+
+@supports (display: grid) {
+  .homepage-chronology-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .homepage-chronology-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    width: 100%;
+  }
+}
+
+@supports (not (display: grid)) and (not (display: flex)) {
+  .homepage-chronology-gallery {
+    overflow: hidden;
+  }
+}
+
+.homepage-chronology-gallery-item {
+  background-position: left top;
+  background-size: cover;
+  min-height: 90px;
+
+  & span {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}
+
+@supports (not (display: grid)) and (display: flex) {
+  .homepage-chronology-gallery-item {
+    background-position: center top;
+    width: 33%;
+  }
+}
+
+@supports (not (display: grid)) and (not (display: flex)) {
+  .homepage-chronology-gallery-item {
+    float: left;
+
+    & span {
+      position: static;
+    }
+  }
+}
+
+.chronology--1999 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/homepage/history-1999.jpg);
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.chronology--2002 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/homepage/history-2002.jpg);
+  grid-column: 3 / 4;
+  grid-row: 1;
+}
+
+.chronology--2004 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/homepage/history-2004.jpg);
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.chronology--2008 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/homepage/history-2008.jpg);
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.chronology--2015 {
+  background-color: var(--color-strong-green);
+  background-image: url(/assets/images/homepage/history-2015.jpg);
+  grid-column: 2 / 4;
+  grid-row: 4 / span 2;
+}
