@@ -25,6 +25,9 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="format-detection" content="address=no">
 
+  <!-- Web Application Manifest -->
+  <link rel="manifest" href="/manifest.json">
+
   <!-- Prefetch -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
   <link rel="dns-prefetch" href="//www.google-analytics.com">
@@ -95,24 +98,25 @@
   <meta name="keywords" content="{{ if isset .Params "keywords" }}{{ .Params.keywords | plainify }}{{ else }}{{ .Site.Data.settings.seo.keywords }}{{ end }}">
 
   <!-- Icons -->
-  <link rel="apple-touch-icon-precomposed" href="{{ .Site.BaseURL }}assets/images/apple/touch-icon-iphone.png">
-  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ .Site.BaseURL }}assets/images/apple/touch-icon-ipad.png">
-  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ .Site.BaseURL }}assets/images/apple/touch-icon-iphone-retina.png">
-  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ .Site.BaseURL }}assets/images/apple/touch-icon-ipad-retina.png">
+  <link rel="apple-touch-icon-precomposed" href="{{ .Site.BaseURL }}assets/images/icons/touch-icon-iphone.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="{{ .Site.BaseURL }}assets/images/icons/touch-icon-ipad.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="{{ .Site.BaseURL }}assets/images/icons/touch-icon-iphone-retina.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="{{ .Site.BaseURL }}assets/images/icons/touch-icon-ipad-retina.png">
 
   <meta name="msapplication-TileImage" content="{{ .Site.BaseURL }}assets/images/ms/metro-tile.png">
   <meta name="msapplication-TileColor" content="#d76359">
+  <meta name="theme-color" content="#ffffff">
 
   <link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
   <link rel="icon" href="{{ .Site.BaseURL }}favicon.ico" type="image/x-icon">
 
-  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/apple/startup-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
-  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/apple/startup-ipad-landscape-retina.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2)">
-  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/apple/startup-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
-  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/apple/startup-ipad-portrait-retina.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2)">
-  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/apple/startup-iphone-retina.png" media="screen and (max-device-width: 320px) and (max-device-height: 1136px) and (-webkit-min-device-pixel-ratio: 2)">
-  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/apple/startup-iphone-old.png" media="screen and (max-device-width: 320px) and (max-device-height: 460px)">
-  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/apple/startup-iphone-old-retina.png" media="screen and (max-device-width: 320px) and (max-device-height: 460px) and (-webkit-min-device-pixel-ratio: 2)">
+  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/icons/startup-ipad-landscape.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape)">
+  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/icons/startup-ipad-landscape-retina.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) and (-webkit-min-device-pixel-ratio: 2)">
+  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/icons/startup-ipad-portrait.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait)">
+  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/icons/startup-ipad-portrait-retina.png" media="screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2)">
+  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/icons/startup-iphone-retina.png" media="screen and (max-device-width: 320px) and (max-device-height: 1136px) and (-webkit-min-device-pixel-ratio: 2)">
+  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/icons/startup-iphone-old.png" media="screen and (max-device-width: 320px) and (max-device-height: 460px)">
+  <link rel="apple-touch-startup-image" href="{{ .Site.BaseURL }}assets/images/icons/startup-iphone-old-retina.png" media="screen and (max-device-width: 320px) and (max-device-height: 460px) and (-webkit-min-device-pixel-ratio: 2)">
 
   <!-- Canonical -->
   <link rel="canonical" href="{{ .Permalink }}">

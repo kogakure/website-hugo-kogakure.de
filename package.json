@@ -1,5 +1,5 @@
 {
-  "name": "hugo-kogakure.de",
+  "name": "kogakure.de",
   "private": true,
   "version": "0.0.1",
   "description": "Relaunch of kogakure.de with Hugo",
@@ -13,6 +13,7 @@
     "crunch": "gulp optimize:images",
     "webp": "gulp webp",
     "loadcss": "gulp loadcss",
+    "pagespeed": "gulp pagespeed",
     "lint": "yarn run lint:js && yarn run lint:css",
     "lint:js": "eslint src/**/*.js",
     "lint:css": "stylelint src/**/*.css"
@@ -54,6 +55,7 @@
     "gulp-htmlmin": "^3.0.0",
     "gulp-image-resize": "^0.12.0",
     "gulp-imagemin": "^3.3.0",
+    "gulp-load-plugins": "^1.5.0",
     "gulp-plumber": "^1.1.0",
     "gulp-postcss": "6.1.1",
     "gulp-rev": "^8.0.0",
@@ -70,7 +72,10 @@
     "postcss-hexrgba": "^0.2.1",
     "postcss-import": "10.0.0",
     "postcss-reporter": "^1.4.1",
+    "psi": "^3.0.0",
     "stylelint": "7.1.0",
+    "sw-precache": "^5.2.0",
+    "sw-toolbox": "^3.6.0",
     "url-loader": "^0.5.7",
     "webpack": "^2.6.0",
     "whatwg-fetch": "^1.0.0"

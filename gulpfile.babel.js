@@ -1,41 +1,36 @@
-import gulp from 'gulp';
+'use strict';
+
+import { task, src, dest, watch, series, parallel } from 'gulp';
+import gulpLoadPlugins from 'gulp-load-plugins';
+
 import os from 'os';
-import {spawn} from 'child_process';
-import parallel from 'concurrent-transform';
-import gutil from 'gulp-util';
+import path from 'path';
+import pkg from './package.json';
+import { spawn } from 'child_process';
+import concurrent from 'concurrent-transform';
 import del from 'del';
+
 import BrowserSync from 'browser-sync';
-import plumber from 'gulp-plumber';
-import changed from 'gulp-changed';
-import svgSprite from 'gulp-svg-sprite';
-import resize from 'gulp-image-resize';
-import imagemin from 'gulp-imagemin';
-import webp from 'gulp-webp';
-import size from 'gulp-size';
-import postcss from 'gulp-postcss';
-import cssImport from 'postcss-import';
-import cssnext from 'postcss-cssnext';
-import hexRGBA from 'postcss-hexrgba';
-import sourcemaps from 'gulp-sourcemaps';
-import htmlmin from 'gulp-htmlmin';
-import csso from 'gulp-csso';
-import rev from 'gulp-rev';
-import revdel from 'gulp-rev-delete-original';
-import collect from 'gulp-rev-collector';
 import stylelint from 'stylelint';
-import eslint from 'gulp-eslint';
-import reporter from 'postcss-reporter';
+
 import webpack from 'webpack';
 import webpackConfig from './webpack.conf';
 
+import cssImport from 'postcss-import';
+import cssnext from 'postcss-cssnext';
+import hexRGBA from 'postcss-hexrgba';
+import reporter from 'postcss-reporter';
+
+import { output as pagespeed } from 'psi';
+import swPrecache from 'sw-precache';
+
+const $ = gulpLoadPlugins();
 const browserSync = BrowserSync.create();
 const hugoBin = 'hugo';
 const hugoArgsDefault = ['--config=config.toml'];
-const hugoArgsDev = ['--baseURL=http://0.0.0.0:8888/', '--buildDrafts', '--buildFuture'];
+const hugoArgsDev = ['--baseURL=http://localhost:8888/', '--buildDrafts', '--buildFuture'];
 
-const thumbFolder = 'app/static/assets/images/recommendations/thumbs/';
-const fullsizeImages = 'app/static/assets/images/recommendations/fullsize/**/*.{jpg,jpeg,png}';
-const allCssFiles = './src/css/**/*.css';
+const distDir = 'dist';
 
 /**
  * Run hugo and build the site
@@ -56,8 +51,51 @@ function buildSite(callback, options, enviroment = 'production') {
   });
 }
 
+/**
+ * Service Worker Configuration and writing
+ */
+function writeServiceWorkerFile(handleFetch, callback) {
+  var config = {
+    cacheId: pkg.name,
+    importScripts: [
+      'assets/js/sw/sw-toolbox.js',
+      'assets/js/sw/runtime-caching.js'
+    ],
+    handleFetch: handleFetch,
+    logger: $.util.log,
+    runtimeCaching: [{
+      urlPattern: /assets\/images\/articles/,
+      handler: 'networkFirst',
+      options: {
+        cache: {
+          maxEntries: 200,
+          name: 'article-images-cache'
+        }
+      }
+    }],
+    staticFileGlobs: [
+      `${distDir}/`,
+      `${distDir}/favicon.ico`,
+      `${distDir}/*.html`,
+      `${distDir}/**/*.html`,
+      `${distDir}/assets/css/*.css`,
+      `${distDir}/assets/js/*.js`,
+      `${distDir}/assets/images/svg/*.svg`,
+      `${distDir}/assets/images/stylesheets/**/*.{jpg,jpeg,png}`,
+      `${distDir}/assets/images/homepage/*.{jpg,jpeg,png}`,
+      `${distDir}/assets/images/chronology/*.{jpg,jpeg,png}`,
+      `${distDir}/assets/images/error/*.{jpg,jpeg,png}`,
+      `${distDir}/assets/images/recommendations/thumbs/**/*.{jpg,jpeg,png}`,
+    ],
+    stripPrefix: `${distDir}/`,
+    verbose: true
+  };
+
+  swPrecache.write(path.join(distDir, 'service-worker.js'), config, callback);
+}
+
 function onError(error) {
-  gutil.beep();
+  $.util.beep();
   console.log(error);
   this.emit('end');
 }
@@ -65,21 +103,21 @@ function onError(error) {
 /**
  * Build Hugo website
  */
-gulp.task('hugo', (callback) => buildSite(callback));
-gulp.task('hugo:dev', (callback) => buildSite(callback, hugoArgsDev, 'development'));
+task('hugo', (callback) => buildSite(callback));
+task('hugo:dev', (callback) => buildSite(callback, hugoArgsDev, 'development'));
 
 /**
  * Create CSS and Sourcemaps with PostCSS
  */
-gulp.task('css', () => {
-  return gulp.src('./src/css/*.css')
-    .pipe(plumber({
+task('css', () => {
+  return src('src/css/*.css')
+    .pipe($.plumber({
       errorHandler: onError
     }))
-    .pipe(sourcemaps.init())
-    .pipe(postcss([
+    .pipe($.sourcemaps.init())
+    .pipe($.postcss([
       cssImport({
-        from: './src/css/app.css'
+        from: 'src/css/app.css'
       }),
       cssnext({
         features: {
@@ -90,11 +128,15 @@ gulp.task('css', () => {
           autoprefixer: {
             grid: true,
             browsers: [
-              'last 2 versions',
-              'safari 5',
-              'opera 12.1',
-              'ios 6',
-              'android 4'
+              'Explorer >= 10',
+              'ExplorerMobile >= 10',
+              'Firefox >= 30',
+              'Chrome >= 34',
+              'Safari >= 7',
+              'Opera >= 23',
+              'iOS >= 7',
+              'Android >= 4.4',
+              'BlackBerry >= 10'
             ],
             cascade: true
           }
@@ -102,17 +144,17 @@ gulp.task('css', () => {
       }),
       hexRGBA()
     ]))
-    .pipe(sourcemaps.write('.'))
-    .pipe(gulp.dest('./dist/assets/css/'))
+    .pipe($.sourcemaps.write('.'))
+    .pipe(dest(`${distDir}/assets/css/`))
     .pipe(browserSync.stream());
 });
 
 /**
  * Lint CSS files with Stylelint
  */
-gulp.task('lint:css', () => {
-  return gulp.src(allCssFiles)
-    .pipe(postcss([
+task('lint:css', () => {
+  return src('src/css/**/*.css')
+    .pipe($.postcss([
       stylelint(),
       reporter({
         clearMessages: true
@@ -123,7 +165,7 @@ gulp.task('lint:css', () => {
 /**
  * Package JavaScript with Webpack
  */
-gulp.task('js', (callback) => {
+task('js', (callback) => {
   const myConfig = Object.assign({}, webpackConfig);
 
   if (process.env.NODE_ENV === 'production') {
@@ -138,9 +180,9 @@ gulp.task('js', (callback) => {
 
   webpack(myConfig, (error, stats) => {
     if (error) {
-      throw new gutil.PluginError('webpack', error);
+      throw new $.util.PluginError('webpack', error);
     }
-    gutil.log('[webpack]', stats.toString({
+    $.util.log('[webpack]', stats.toString({
       colors: true,
       progress: true
     }));
@@ -150,21 +192,32 @@ gulp.task('js', (callback) => {
 });
 
 /**
+ * Copy import scripts for Service Worker
+ */
+task('copy-sw-scripts', () => {
+  return src([
+    'node_modules/sw-toolbox/sw-toolbox.js',
+    'src/js/sw/runtime-caching.js'
+  ])
+    .pipe(dest(`${distDir}/assets/js/sw`))
+});
+
+/**
  * Lint JavaScript files with ESlint
  */
-gulp.task('lint:js', () => {
-  return gulp.src(['!node_modules/**', 'src/js/*.js'])
-    .pipe(eslint())
-    .pipe(eslint.format());
+task('lint:js', () => {
+  return src(['!node_modules/**', 'src/js/*.js'])
+    .pipe($.eslint())
+    .pipe($.eslint.format());
 });
 
 /**
  * Create SVG sprite map from SVG files
  */
-gulp.task('svg', () => {
-  return gulp.src('src/svg/*.svg')
-  .pipe(plumber())
-    .pipe(svgSprite({
+task('svg', () => {
+  return src('src/svg/*.svg')
+  .pipe($.plumber())
+    .pipe($.svgSprite({
       mode: {
         symbol: {
           dest: 'svg',
@@ -176,148 +229,181 @@ gulp.task('svg', () => {
         }
       }
     }))
-    .pipe(gulp.dest('app/layouts/partials'));
+    .pipe(dest('app/layouts/partials'));
 });
 
 /**
  * Generate thumbnails from images
  */
-gulp.task('thumbnails', () => {
-  return gulp.src(fullsizeImages)
-    .pipe(changed(thumbFolder))
-    .pipe(parallel(
-      resize({
+task('thumbnails', () => {
+  return src('app/static/assets/images/recommendations/fullsize/**/*.{jpg,jpeg,png}')
+    .pipe($.changed('app/static/assets/images/recommendations/thumbs/'))
+    .pipe(concurrent(
+      $.imageResize({
         width: 100
       }),
       os.cpus().length
     ))
-    .pipe(gulp.dest(thumbFolder));
+    .pipe(dest('app/static/assets/images/recommendations/thumbs/'));
 });
 
 /**
  * Optimize and minimize images
  */
-gulp.task('optimize:images', () => {
-  return gulp.src('app/static/assets/images/**/*.{jpg,jpeg,png,gif,svg}')
-    .pipe(imagemin({
+task('optimize:images', () => {
+  return src('app/static/assets/images/**/*.{jpg,jpeg,png,gif,svg}')
+    .pipe($.imagemin({
       optimizationLevel: 3,
       progressive: true,
       interlaced: true
     }))
-    .pipe(gulp.dest('app/static/assets/images/'))
-    .pipe(size());
+    .pipe(dest('app/static/assets/images/'))
+    .pipe($.size());
 });
 
 /**
  * Generate WebP images from image files
  */
-gulp.task('webp', () => {
-  return gulp.src('app/static/assets/images/**/*.{jpg,jpeg,png}')
-    .pipe(webp())
-    .pipe(gulp.dest('app/static/assets/images/'));
+task('webp', () => {
+  return src('app/static/assets/images/**/*.{jpg,jpeg,png}')
+    .pipe($.webp())
+    .pipe(dest('app/static/assets/images/'));
 });
 
 /**
  * Copy loadCSS JavaScript to project folder
  */
-gulp.task('loadcss', () => {
-  return gulp.src('node_modules/fg-loadcss/src/loadCSS.js')
-    .pipe(gulp.dest('app/layouts/partials/critical/'));
+task('loadcss', () => {
+  return src('node_modules/fg-loadcss/src/loadCSS.js')
+    .pipe(dest('app/layouts/partials/critical/'));
 });
 
 /**
  * Copy critical CSS files to project folder
  */
-gulp.task('criticalcss', () => {
-  return gulp.src('dist/assets/css/critical_*.css')
-    .pipe(gulp.dest('app/layouts/partials/critical/'));
+task('criticalcss', () => {
+  return src(`${distDir}/assets/css/critical_*.css`)
+    .pipe(dest('app/layouts/partials/critical/'));
 });
 
 /**
  * Clean up dist folder for production build
  */
-gulp.task('delete', (callback) => {
-  del(['dist/']);
+task('delete', (callback) => {
+  del([distDir]);
   callback();
 });
 
 /**
  * Minimize HTML and inline CSS and JavaScript
  */
-gulp.task('optimize:html', () => {
-  return gulp.src('dist/**/*.html')
-    .pipe(htmlmin({
-      collapseWhitespace: true,
-      conservativeCollapse: true,
+task('optimize:html', () => {
+  return src(`${distDir}/**/*.html`)
+    .pipe($.htmlmin({
       removeComments: true,
+      collapseWhitespace: true,
+      collapseBooleanAttributes: true,
+      conservativeCollapse: true,
+      removeAttributeQuotes: true,
+      removeRedundantAttributes: true,
+      removeEmptyAttributes: true,
+      removeScriptTypeAttributes: true,
+      removeStyleLinkTypeAttributes: true,
+      removeOptionalTags: true,
       minifyJS: true,
       minifyCSS: true,
       processScripts: ['application/ld+json']
     }))
-    .pipe(gulp.dest('dist/'));
+    .pipe(dest(distDir));
 });
 
 /**
  * Minimize CSS files
  */
-gulp.task('optimize:css', () => {
-  return gulp.src('dist/assets/css/*.css')
-    .pipe(csso())
-    .pipe(gulp.dest('dist/assets/css/'));
+task('optimize:css', () => {
+  return src(`${distDir}/assets/css/*.css`)
+    .pipe($.csso())
+    .pipe(dest(`${distDir}/assets/css/`));
 });
 
 /**
  * Create revisions and manifest file
  */
-gulp.task('revision', () => {
-  return gulp.src([
-    'dist/assets/css/*.css',
-    'dist/assets/js/*.js',
-    'dist/assets/images/**/*',
-    '!dist/assets/images/og/meta-image.jpg'
+task('revision', () => {
+  return src([
+    `${distDir}/assets/css/*.css`,
+    `${distDir}/assets/js/*.js`,
+    `${distDir}/assets/images/**/*`,
+    `!${distDir}/assets/images/og/*`,
+    `!${distDir}/assets/images/icons/*`,
+    `!${distDir}/assets/images/ms/*`
   ], {
-    base: 'dist/'
+    base: distDir
   })
-    .pipe(gulp.dest('dist/'))
-    .pipe(rev())
-    .pipe(revdel())
-    .pipe(gulp.dest('dist/'))
-    .pipe(rev.manifest({
+    .pipe(dest(distDir))
+    .pipe($.rev())
+    .pipe($.revDeleteOriginal())
+    .pipe(dest(distDir))
+    .pipe($.rev.manifest({
       path: 'revision.json'
     }))
-    .pipe(gulp.dest('dist/'));
+    .pipe(dest(distDir));
 });
 
 /**
  * Replace revisioned files
  */
-gulp.task('revision:collect', () => {
-  return gulp.src([
-    'dist/revision.json',
-    'dist/**/*.{html,css,js}'
+task('revision:collect', () => {
+  return src([
+    `${distDir}/revision.json`,
+    `${distDir}/**/*.{html,xml,css,js}`
   ])
-    .pipe(collect())
-    .pipe(gulp.dest('dist/'));
+    .pipe($.revCollector())
+    .pipe(dest(`${distDir}`));
 });
+
+/**
+ * Generate Service Worker
+ */
+task('generate-service-worker-dev', (callback) => {
+  writeServiceWorkerFile(false, callback);
+});
+
+task('generate-service-worker', (callback) => {
+  writeServiceWorkerFile(true, callback);
+});
+
+/**
+ * Run PageSpeed insights
+ */
+task('pagespeed', callback =>
+  pagespeed('kogakure.de', {
+    strategy: 'mobile'
+  }, callback)
+);
 
 /**
  * Run builds to generate CSS, JavaScript and HTML
  */
-gulp.task('build:dev', gulp.parallel('css', 'js', 'hugo:dev'));
-gulp.task('build', gulp.series(
-  gulp.series('delete', 'css', 'criticalcss', 'hugo'),
-  gulp.series('js'),
-  gulp.parallel('optimize:html', 'optimize:css'),
-  gulp.series('revision', 'revision:collect')
+task('build:dev', series(
+  parallel('css', 'js', 'hugo:dev'),
+  series('copy-sw-scripts', 'generate-service-worker-dev')
+));
+
+task('build', series(
+  series('delete', 'js', 'css', 'criticalcss', 'hugo'),
+  parallel('optimize:html', 'optimize:css'),
+  series('revision', 'revision:collect'),
+  series('copy-sw-scripts', 'generate-service-worker')
 ));
 
 /**
  * Start development server with BrowserSync and watch files for changes
  */
-gulp.task('server', gulp.series('build:dev', () => {
+task('server', series('build:dev', () => {
   browserSync.init({
     server: {
-      baseDir: './dist'
+      baseDir: distDir
     },
     open: false,
     port: 8888,
@@ -326,12 +412,12 @@ gulp.task('server', gulp.series('build:dev', () => {
     }
   });
 
-  gulp.watch(allCssFiles, gulp.series('css', 'lint:css'));
-  gulp.watch('./src/js/**/*.js', gulp.series('js', 'lint:js'));
-  gulp.watch('./app/**/*', gulp.series('hugo:dev'));
-  gulp.watch('./config.toml', gulp.series('hugo:dev'));
-  gulp.watch('./src/svg/*.svg', gulp.series('svg'));
-  gulp.watch(fullsizeImages, gulp.series('thumbnails'));
+  watch('src/css/**/*.css', series('css', 'lint:css'));
+  watch('./src/js/**/*.js', series('js', 'lint:js'));
+  watch('./app/**/*', series('hugo:dev'));
+  watch('./config.toml', series('hugo:dev'));
+  watch('./src/svg/*.svg', series('svg'));
+  watch('app/static/assets/images/recommendations/fullsize/**/*.{jpg,jpeg,png}', series('thumbnails'));
 }));
 
-gulp.task('default', gulp.parallel('server'));
+task('default', parallel('server'));
