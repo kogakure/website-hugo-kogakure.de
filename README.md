@@ -45,6 +45,7 @@ $ yarn run svg
 $ yarn run crunch
 $ yarn run webp
 $ yarn run loadcss
+$ yarn run pagespeed
 $ yarn run lint
 $ yarn run lint:js
 $ yarn run lint:css
@@ -57,6 +58,7 @@ $ yarn run lint:css
 - To minimize all images run `yarn run crunch`
 - To generate WebP images run `yarn run webp`
 - To copy the loadCSS JavaScript to the project run `yarn run loadcss`
+- To performe PageSpeed Insights with live website run `yarn run pagespeed`
 - To check JavaScript and CSS for errors run `yarn run lint`
 - To check JavaScript for errors run `yarn run lint:js`
 - To check CSS for errors run `yarn run lint:css`
@@ -65,7 +67,7 @@ $ yarn run lint:css
 
 To find out how long the relaunch took, I’ll use the [pomodoro technique][pomodoro] to work in focused bits of 25 minutes on my project, whenever I find some time:
 
-🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
+🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅🍅
 
 ## Licence
 
