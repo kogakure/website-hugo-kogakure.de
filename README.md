@@ -42,34 +42,20 @@ $ yarn install
 These tasks are provided:
 
 ```bash
-$ yarn start
-$ yarn run build
-$ yarn run build-preview
-$ yarn run build-branch
-$ yarn run build-dev
-$ yarn run svg
-$ yarn run crunch
-$ yarn run webp
-$ yarn run loadcss
-$ yarn run pagespeed
-$ yarn run lint
-$ yarn run lint-js
-$ yarn run lint-css
+$ yarn start             # Run development server and create development build
+$ yarn run build         # Create production build
+$ yarn run build-preview # Create preview build
+$ yarn run build-branch  # Create branch build
+$ yarn run build-dev     # Create development build
+$ yarn run svg           # Create SVG sprite from single SVG files
+$ yarn run crunch        # Minimize all images
+$ yarn run webp          # Generate WebP images
+$ yarn run loadcss       # Copy loadCSS JavaScript to project
+$ yarn run pagespeed     # Perform PageSpeed Insights against live website
+$ yarn run lint          # Check JavaScript and CSS for errors
+$ yarn run lint-js       # Check JavaScript for errors
+$ yarn run lint-css      # Check CSS for errors
 ```
-
-- To run a development server and create the development build run `yarn start`
-- To create a production build run `yarn run build`
-- To create a preview build with run `yarn run build-preview`
-- To create a branch build with run `yarn run build-branch`
-- To create a development build with run `yarn run build-dev`
-- To create a SVG sprite from single SVG files run `yarn run svg`
-- To minimize all images run `yarn run crunch`
-- To generate WebP images run `yarn run webp`
-- To copy the loadCSS JavaScript to the project run `yarn run loadcss`
-- To performe PageSpeed Insights with live website run `yarn run pagespeed`
-- To check JavaScript and CSS for errors run `yarn run lint`
-- To check JavaScript for errors run `yarn run lint-js`
-- To check CSS for errors run `yarn run lint-css`
 
 ## Time Counter
 
