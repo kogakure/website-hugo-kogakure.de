@@ -44,6 +44,8 @@ These tasks are provided:
 ```bash
 $ yarn start
 $ yarn run build
+$ yarn run build-preview
+$ yarn run build-branch
 $ yarn run build-dev
 $ yarn run svg
 $ yarn run crunch
@@ -57,15 +59,17 @@ $ yarn run lint-css
 
 - To run a development server and create the development build run `yarn start`
 - To create a production build run `yarn run build`
-- To create a development build with run `yarn run build:dev`
+- To create a preview build with run `yarn run build-preview`
+- To create a branch build with run `yarn run build-branch`
+- To create a development build with run `yarn run build-dev`
 - To create a SVG sprite from single SVG files run `yarn run svg`
 - To minimize all images run `yarn run crunch`
 - To generate WebP images run `yarn run webp`
 - To copy the loadCSS JavaScript to the project run `yarn run loadcss`
 - To performe PageSpeed Insights with live website run `yarn run pagespeed`
 - To check JavaScript and CSS for errors run `yarn run lint`
-- To check JavaScript for errors run `yarn run lint:js`
-- To check CSS for errors run `yarn run lint:css`
+- To check JavaScript for errors run `yarn run lint-js`
+- To check CSS for errors run `yarn run lint-css`
 
 ## Time Counter
 
