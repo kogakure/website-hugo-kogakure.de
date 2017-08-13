@@ -11,6 +11,6 @@ Location:    Hamburg, Germany
 /* SITE */
 Language:    German
 Doctype:     HTML5
-Standards:   HTML5, CSS3
-Components:  Hugo, PostCSS, CSS Grid Layout, JavaScript, Webpack, Gulp.js, Babel, Markdown, ...
-Software:    Vim, Affinity Designer, Photoshop, iTerm 2, Git, Chrome Developer Tools
+Standards:   HTML5, CSS3, SVG, ES6, CSS Grid Layout Module Level 1, Service Worker
+Components:  Hugo, PostCSS, cssnext, Yarn, Webpack, Gulp.js, Babel, Markdown, FastClick, FitVids
+Software:    Vim, Affinity Designer, Affinity Photo, iTerm 2, tmux, tmuxinator, Git, Chrome Developer Tools, Firefox Grid Inspector
