@@ -28,7 +28,9 @@ const $ = gulpLoadPlugins();
 const browserSync = BrowserSync.create();
 const hugoBin = 'hugo';
 const hugoArgsDefault = ['--config=config.toml'];
-const hugoArgsDev = ['--baseURL=http://localhost:8888/', '--buildDrafts', '--buildFuture'];
+const hugoArgsPreview = ['--baseURL=/', '--buildDrafts', '--buildFuture'];
+const hugoArgsBranch = ['--baseURL=/', '--buildDrafts', '--buildFuture'];
+const hugoArgsDev = ['--baseURL=/', '--buildDrafts', '--buildFuture'];
 
 const distDir = 'dist';
 
@@ -107,7 +109,9 @@ function onError(error) {
  * Build Hugo website
  */
 task('hugo', (callback) => buildSite(callback));
-task('hugo:dev', (callback) => buildSite(callback, hugoArgsDev, 'development'));
+task('hugo-preview', (callback) => buildSite(callback, hugoArgsPreview));
+task('hugo-branch', (callback) => buildSite(callback, hugoArgsBranch, 'development'));
+task('hugo-dev', (callback) => buildSite(callback, hugoArgsDev, 'development'));
 
 /**
  * Create CSS and Sourcemaps with PostCSS
@@ -155,7 +159,7 @@ task('css', () => {
 /**
  * Lint CSS files with Stylelint
  */
-task('lint:css', () => {
+task('lint-css', () => {
   return src('src/css/**/*.css')
     .pipe($.postcss([
       stylelint(),
@@ -208,7 +212,7 @@ task('copy-sw-scripts', () => {
 /**
  * Lint JavaScript files with ESlint
  */
-task('lint:js', () => {
+task('lint-js', () => {
   return src(['!node_modules/**', 'src/js/*.js'])
     .pipe($.eslint())
     .pipe($.eslint.format());
@@ -253,7 +257,7 @@ task('thumbnails', () => {
 /**
  * Optimize and minimize images
  */
-task('optimize:images', () => {
+task('optimize-images', () => {
   return src('app/static/assets/images/**/*.{jpg,jpeg,png,gif,svg}')
     .pipe($.imagemin({
       optimizationLevel: 3,
@@ -300,7 +304,7 @@ task('delete', (callback) => {
 /**
  * Minimize HTML and inline CSS and JavaScript
  */
-task('optimize:html', () => {
+task('optimize-html', () => {
   return src(`${distDir}/**/*.html`)
     .pipe($.htmlmin({
       removeComments: true,
@@ -323,7 +327,7 @@ task('optimize:html', () => {
 /**
  * Minimize CSS files
  */
-task('optimize:css', () => {
+task('optimize-css', () => {
   return src(`${distDir}/assets/css/*.css`)
     .pipe($.csso())
     .pipe(dest(`${distDir}/assets/css/`));
@@ -356,7 +360,7 @@ task('revision', () => {
 /**
  * Replace revisioned files
  */
-task('revision:collect', () => {
+task('revision-collect', () => {
   return src([
     `${distDir}/revision.json`,
     `${distDir}/**/*.{html,xml,css,js}`
@@ -386,29 +390,49 @@ task('pagespeed', callback =>
 );
 
 /**
- * Run build to generate CSS, JavaScript and HTML and Service Worker
- */
-task('build:dev', series(
-  parallel('css', 'js', 'hugo:dev'),
-  series('copy-sw-scripts', 'generate-service-worker-dev')
-));
-
-/**
  * Run production builds to generate CSS, JavaScript and HTML.
  * Optimize and minimize files, revision assets and generate
  * Service Worker.
  */
 task('build', series(
   series('delete', 'js', 'css', 'criticalcss', 'hugo'),
-  parallel('optimize:html', 'optimize:css'),
-  series('revision', 'revision:collect'),
+  parallel('optimize-html', 'optimize-css'),
+  series('revision', 'revision-collect'),
   series('copy-sw-scripts', 'generate-service-worker')
+));
+
+/**
+ * Run preview builds to generate CSS, JavaScript and HTML.
+ * Optimize and minimize files, revision assets and generate
+ * Service Worker.
+ */
+task('build-preview', series(
+  series('delete', 'js', 'css', 'criticalcss', 'hugo-preview'),
+  parallel('optimize-html', 'optimize-css'),
+  series('revision', 'revision-collect'),
+  series('copy-sw-scripts', 'generate-service-worker')
+));
+
+/**
+ * Run branch build to generate CSS, JavaScript and HTML and Service Worker
+ */
+task('build-branch', series(
+  parallel('css', 'js', 'hugo-branch'),
+  series('copy-sw-scripts', 'generate-service-worker-dev')
+));
+
+/**
+ * Run build to generate CSS, JavaScript and HTML and Service Worker
+ */
+task('build-dev', series(
+  parallel('css', 'js', 'hugo-dev'),
+  series('copy-sw-scripts', 'generate-service-worker-dev')
 ));
 
 /**
  * Start development server with BrowserSync and watch files for changes
  */
-task('server', series('build:dev', () => {
+task('server', series('build-dev', () => {
   browserSync.init({
     server: {
       baseDir: distDir
@@ -420,10 +444,10 @@ task('server', series('build:dev', () => {
     }
   });
 
-  watch('src/css/**/*.css', series('css', 'lint:css'));
-  watch('./src/js/**/*.js', series('js', 'lint:js'));
-  watch('./app/**/*', series('hugo:dev'));
-  watch('./config.toml', series('hugo:dev'));
+  watch('src/css/**/*.css', series('css', 'lint-css'));
+  watch('./src/js/**/*.js', series('js', 'lint-js'));
+  watch('./app/**/*', series('hugo-dev'));
+  watch('./config.toml', series('hugo-dev'));
   watch('./src/svg/*.svg', series('svg'));
   watch('app/static/assets/images/recommendations/fullsize/**/*.{jpg,jpeg,png}', series('thumbnails'));
 }));
