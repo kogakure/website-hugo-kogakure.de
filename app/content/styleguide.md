@@ -309,7 +309,7 @@ Tabellen sollten verwendet werden, um tabellarische Daten anzuzeigen. Die Elemen
 
 Ein Bild:
 
-![Example image](http://lorempixel.com/1000/500/nightlife/)
+![Example image](https://lorempixel.com/1000/500/nightlife/)
 
 
 ## Videos
