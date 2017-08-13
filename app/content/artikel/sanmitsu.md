@@ -71,7 +71,7 @@ Das *kuji kiri* oder *kuji goshin hō* stammt der Sage nach vom gottähnlichen K
 
 Dabei ahmt der Ninja das flammende Schwert des *fudōmyō* nach, des furchterregenden mythischen Beschützers des Willens, der Gesetze und der Integrität des Universums.
 
-![Kuji goshin hō](/assets/images/articles/kujikiri.jpg)
+![Kuji goshin hō](/assets/images/articles/kujikiri.jpg "Kuji goshin hō")
 
 Die rechte, positive und linke, negative Hand werden vor der Brust zusammengebracht und stellen das Schwert dar. Eine Beschwörungsformel wird mehrmals wiederholt und dann tritt der Ninja einen Schritt vor und zeichnet mit seinem symbolischen Schwert abwechselnd waagerechte und senkrechte Schnitte in die Luft. Die geistige Klinge wird abwechselnd von links nach rechts und von oben nach unten bewegt, bis die neun Schnitte ein Gitter bilden. Dabei spricht der Ninja die neun Silben des *kuji goshin hō*. Nach belieben kann noch eine weitere zehnte Silbe beigefügt werden, bevor das Gitter mit einem Handschlag zertrennt wird und das symbolische Schwert wieder zurück ins *saya* gesteckt wird.
 

@@ -55,18 +55,18 @@ categories:
 ## Techniken im Detail
 
 
-### Nuki ashi (lautloser Schritt)
+### Nuki ashi – lautloser Schritt
 
 Diese Technik erlaubt es dem Ninja sich geräuschlos über Holzplanken oder Strohmatten zu bewegen. Dabei hat er totale Kontrolle über sein Körpergewicht. Aus einer niedrigen Position werden die Balance und das Körpergewicht langsam auf das vordere Bein übertragen, bis das gesamte Gewicht auf dem Bein lastet. Dann wird das hintere Bein nachgezogen. Die Knöchel berühren dabei fast. Das Gewicht wird langsam auf den Fuß übertragen. Auf diese Weise kann der Ninja, den Fuß sofort zurückziehen, wenn er ein Geräusch hört.
 
-![Nuki ashi (lautloser Schritt) 1](/assets/images/articles/iri-nukiashi1.jpg)
+![Nuki ashi – lautloser Schritt 1](/assets/images/articles/iri-nukiashi1.jpg)
 
-![Nuki ashi (lautloser Schritt) 2](/assets/images/articles/iri-nukiashi2.jpg)
+![Nuki ashi – lautloser Schritt 2](/assets/images/articles/iri-nukiashi2.jpg)
 
-![Nuki ashi (lautloser Schritt) 3](/assets/images/articles/iri-nukiashi3.jpg)
+![Nuki ashi – lautloser Schritt 3](/assets/images/articles/iri-nukiashi3.jpg)
 
 
-### Chōkyori kyōsō (Langstreckenlauf)
+### Chōkyori kyōsō – Langstreckenlauf
 
 Diese Laufmethode gehörte zur Grundmethode aller Ninja, sie wurde jedoch von jedem einzelnen Läufer an die eigene Statur, Schrittlänge und Armhaltung angepasst.
 
@@ -75,27 +75,27 @@ Der Läufer hält den Oberkörper aufrecht, den Kopf gerade und fixiert einen Pu
 Es gibt Geschichten, die berichten Ninja seien fähig gewesen die 560 km zwischen Edo (Tōkyō) und Osaka in drei Tagen zurückzulegen.
 
 
-### Ko ashi (kleiner Schritt)
+### Ko ashi – kleiner Schritt
 
-![Ko ashi (kleiner Schritt)](/assets/images/articles/iri-koashi.jpg)
+![Ko ashi – kleiner Schritt](/assets/images/articles/iri-koashi.jpg)
 
 Dieser kleine, stechende Schritt wird benutzt, wenn man durch seichtes Wasser oder Blätter gehen muss, ohne Geräusche zu erzeugen. Aus einer Position mit abgesenkter Hüfte, das Gewicht lagert auf dem vorderen Fuß, zieht der Ninja den hintern Fuß nach und zieht ihn hoch. Dann hält er ihn über die Stelle, an dem er den Fuß senken will berührt er die Stelle vorsichtig mit der Fußspitze, wenn die Stelle sicher ist senkt er den Hacken ab. Diese Stellung ähnelt einem Kranich, der seinen Weg durch die Wildnis macht.
 
 
-### Yoko aruki (seitliches Gehen)
+### Yoko aruki – seitliches Gehen
 
 Diese Technik wird angewendet, um sich leise im Schatten von Gebäuden oder Gängen zu bewegen. Die Hüften sind seitlich zum Ziel der Bewegung ausgerichtet. Das Gewicht wird auf den Vorderfuß verlagert und der hintere Fuß wird vor den vorderen Fuß gesetzt. Das Körpergewicht wird verlagert und der hintere Fuß nach vorne an seine neue Position gesetzt. Die Bewegung wird gleitend und gleichmäßig ausgeführt und ähnelt einer Krabbe die sich seitlich den Strand entlang bewegt.
 
 Manchmal ist eine stehende Bewegung nicht mehr möglich, dann muss der Ninja kriechen.
 
-![Yoko aruki (seitliches Gehen) 1](/assets/images/articles/iri-yokoaruki1.jpg)
+![Yoko aruki – seitliches Gehen 1](/assets/images/articles/iri-yokoaruki1.jpg)
 
-![Yoko aruki (seitliches Gehen) 2](/assets/images/articles/iri-yokoaruki2.jpg)
+![Yoko aruki – seitliches Gehen 2](/assets/images/articles/iri-yokoaruki2.jpg)
 
 
-### Heipo (Der Weg des Salamanders)
+### Heipo – Der Weg des Salamanders
 
-![Heipo (Der Weg des Salamanders)](/assets/images/articles/iri-salamander.jpg)
+![Heipo – Der Weg des Salamanders](/assets/images/articles/iri-salamander.jpg)
 
 Diese Technik ermöglicht es dem Ninja, sich über eine kurze Distanz völlig geräuschlos zu bewegen. Der Ninja liegt flach auf dem Boden und bewegt sich nur auf den Handflächen und Fußspitzen. Anstatt der Handflächen lässt sich diese Technik auch auf den fingern ausführen.
 

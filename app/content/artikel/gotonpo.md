@@ -10,7 +10,7 @@ categories:
 - Taktik
 ---
 
-## Suiton (Gebrauch des Wassers zur Flucht)
+## Suiton – Gebrauch des Wassers zur Flucht
 
 - Ausnutzung von stehenden und fließenden Gewässern zur Flucht
 - Schwimm- und Tauchtechniken
@@ -26,7 +26,7 @@ categories:
 - Wassernavigation
 
 
-## Mokuton (Gebrauch von Holz zur Flucht)
+## Mokuton – Gebrauch von Holz zur Flucht
 
 - Gebrauch von Holz und Pflanzen für die Flucht
 - Erklettern von Bäumen und Masten (*tanuki gakure no jutsu*, dt. Die Kunst sich wie ein Waschbär zu verstecken)
@@ -38,7 +38,7 @@ categories:
 - Klettern mit Seilen und Leitern
 
 
-## Katon (Gebrauch von Feuer zur Flucht)
+## Katon – Gebrauch von Feuer zur Flucht
 
 - Gebrauch von Feuer
 - Gebrauch von Feuerwaffen, Granaten, Minen, Kanonen und Sprengstoffen
@@ -54,7 +54,7 @@ categories:
 - Ausräuchern
 
 
-## Doton (Gebrauch von Erde zur Flucht)
+## Doton – Gebrauch von Erde zur Flucht
 
 - Gebrauch von Erde, Felsen, Steinen und Mauern zur Flucht
 - Verbergen in Erdlöchern, Höhlen, Mulden und hinter Steinen
@@ -67,7 +67,7 @@ categories:
 - Fahrzeugkunde
 
 
-## Kinton (Gebrauch von Metall zur Flucht)
+## Kinton – Gebrauch von Metall zur Flucht
 
 - Gebrauch von Metall zur Flucht
 - Gebrauch von Waffen (u. a. *shuriken*, *tetsubishi*).
