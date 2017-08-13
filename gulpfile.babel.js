@@ -29,6 +29,7 @@ const browserSync = BrowserSync.create();
 const hugoBin = 'hugo';
 const hugoArgsDefault = ['--config=config.toml'];
 const hugoArgsPreview = ['--baseURL=/', '--buildDrafts', '--buildFuture'];
+const hugoArgsBranch = ['--baseURL=/', '--buildDrafts', '--buildFuture'];
 const hugoArgsDev = ['--baseURL=/', '--buildDrafts', '--buildFuture'];
 
 const distDir = 'dist';
@@ -109,6 +110,7 @@ function onError(error) {
  */
 task('hugo', (callback) => buildSite(callback));
 task('hugo-preview', (callback) => buildSite(callback, hugoArgsPreview));
+task('hugo-branch', (callback) => buildSite(callback, hugoArgsBranch, 'development'));
 task('hugo-dev', (callback) => buildSite(callback, hugoArgsDev, 'development'));
 
 /**
@@ -409,6 +411,14 @@ task('build-preview', series(
   parallel('optimize-html', 'optimize-css'),
   series('revision', 'revision-collect'),
   series('copy-sw-scripts', 'generate-service-worker')
+));
+
+/**
+ * Run branch build to generate CSS, JavaScript and HTML and Service Worker
+ */
+task('build-branch', series(
+  parallel('css', 'js', 'hugo-branch'),
+  series('copy-sw-scripts', 'generate-service-worker-dev')
 ));
 
 /**

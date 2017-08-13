@@ -9,6 +9,7 @@
     "start": "gulp",
     "build": "gulp build",
     "build-preview": "gulp build-preview",
+    "build-branch": "gulp build-branch",
     "build-dev": "gulp build-dev",
     "svg": "gulp svg",
     "crunch": "gulp optimize-images",
