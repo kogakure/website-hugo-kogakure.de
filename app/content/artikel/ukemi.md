@@ -17,7 +17,7 @@ Ein Ninja muss in der Lage sein von einem Laster abzuspringen, eine hohe Mauer z
 
 Zuerst werden die Techniken aus einer tiefen, hockenden Stellung im Zeitlupentempo auf einer Matte ausgeführt. Wichtige Punkte sind das Senken des Körperschwerpunktes, das Ausatmen und die Körperentspannung. Später wird auf einer Wiese trainiert, dann auf hartem Boden, Asphalt, Treppen usw.
 
-## Zenpō kaiten – Vorwärtsrolle)
+## Zenpō kaiten – Vorwärtsrolle
 
 ![Zenpō kaiten – Vorwärtsrolle](/assets/images/articles/ukemi-zenpokaiten.jpg)
 
@@ -28,7 +28,7 @@ Aus der Abwehrstellung heraus wird der Körper nach vorne gebeugt, so dass er, v
 - ohne Hände (*mūte*)
 
 
-## Kōhō kaiten – Rückwärtsrolle)
+## Kōhō kaiten – Rückwärtsrolle
 
 ![Kōhō kaiten – Rückwärtsrolle](/assets/images/articles/ukemi-kohokaiten.jpg)
 
@@ -39,7 +39,7 @@ Aus der Abwehrstellung heraus lässt man sich senkrecht zu Boden fallen. Dabei w
 - ohne Hände (*mūte*)
 
 
-## Sokuhō kaiten – Seitwärtsrolle)
+## Sokuhō kaiten – Seitwärtsrolle
 
 ![Sokuhō kaiten](/assets/images/articles/ukemi-sokuhokaiten.jpg)
 
@@ -50,7 +50,7 @@ Aus der Abwehrstellung heraus bringt man den Körperschwerpunkt über eines der 
 - ohne Hände (*mūte*)
 
 
-## Zenpō ukemi – Vorwärtsfall)
+## Zenpō ukemi – Vorwärtsfall
 
 ![Zenpō ukemi – Vorwärtsfall](/assets/images/articles/ukemi-zenpoukemi.jpg)
 
@@ -62,7 +62,7 @@ Wenn man beginnt den Vorwärtsfall zu üben, so sollte man dies auf Knien machen
 - im Stehen einhändig (*katate*)
 
 
-## Kōhōukemi – Rückwärtsfall)
+## Kōhōukemi – Rückwärtsfall
 
 ![Kōhōukemi – Rückwärtsfall](/assets/images/articles/ukemi-kohoukemi.jpg)
 
@@ -72,7 +72,7 @@ Beim Rückwärtsfall schlägt man mit Armen und Händen im Winkel von 45° neben
 - im Stehen zweihändig (*ryōte*)
 
 
-## Sokuhō ukemi – Seitwärtsfall)
+## Sokuhō ukemi – Seitwärtsfall
 
 ![Sokuhō ukemi – Seitwärtsfall](/assets/images/articles/ukemi-sokuhoukemi.jpg)
 
@@ -82,7 +82,7 @@ Beim Seitwärtsfall schlägt man seitlich mit einem in einem Winkel von 45° vom
 - im Stehen zur rechten Seite (*migi katate*)
 
 
-## Nagare – Fließendes Wasser)
+## Nagare – Fließendes Wasser
 
 ![Nagare – Fließendes Wasser](/assets/images/articles/ukemi-nagare.jpg)
 
@@ -97,7 +97,7 @@ Beim Seitwärtsfall schlägt man seitlich mit einem in einem Winkel von 45° vom
 - Aus *ichimonji no kamae* (*gyaku nagare*)
 
 
-## Shihō tenchi tobi – In vier Richtungen, zum Himmel und zur Erde springen)
+## Shihō tenchi tobi – In vier Richtungen, zum Himmel und zur Erde springen
 
 ![Shihō tenchi tobi – In vier Richtungen, zum Himmel und zur Erde springen](/assets/images/articles/ukemi-shihotenchitobi.jpg)
 
@@ -111,7 +111,7 @@ Die Sprünge im Ninjutsu werden leicht und locker ausgeführt, damit sie nahezu 
 - nach unten (*chi*)
 
 
-## Oten – Radschlag)
+## Oten – Radschlag
 
 Um einem Angriff von der Seite zu entkommen oder sich aus einem Hebel zu befreien kann ein Radschlag genutzt werden.
 
@@ -120,7 +120,7 @@ Um einem Angriff von der Seite zu entkommen oder sich aus einem Hebel zu befreie
 - Ohne Zuhilfenahme der Hände (*mūte*)
 
 
-## Kiten – Handsprung)
+## Kiten – Handsprung
 
 ![Kiten – Handsprung](/assets/images/articles/ukemi-kiten.jpg)
 
@@ -134,7 +134,7 @@ Aus einer aufrechten Stellung springt man mit ausgestreckten Armen nach vorne, h
 - einhändig seitwärts nach rechts/links (*migi/hidari katate*)
 
 
-## Kūten – Luftwende)
+## Kūten – Luftwende
 
 ![Kūten – Luftwende](/assets/images/articles/ukemi-kuten.jpg)
 
@@ -144,14 +144,14 @@ Wenn man den Handstandüberschlag beherrscht kann man auf die Luftwende übergeh
 - rückwärts (*kōhō*)
 
 
-## Kūhi – Luftsprung)
+## Kūhi – Luftsprung
 
 ![Kūhi – Luftsprung](/assets/images/articles/ukemi-kuhi.jpg)
 
 Den Luftsprung führt man aus, wenn man sich auf einen Gegner stürzt oder wenn man ein Hindernis überspringt. Man kann entweder abrollen oder den Sturz mit den Händen und Unterarmen abfangen.
 
 
-## Shōten no jutsu – Die Kunst, in den Himmel zu steigen)
+## Shōten no jutsu – Die Kunst, in den Himmel zu steigen
 
 ![Shōten no jutsu – Die Kunst, in den Himmel zu steigen](/assets/images/articles/ukemi-shotennojutsu.jpg)
 
