@@ -68,9 +68,9 @@
 
   <!-- Twitter Card -->
   {{ if .IsHome }}
-    <meta name="twitter:card" content="summary">
-  {{ else }}
     <meta name="twitter:card" content="summary_large_image">
+  {{ else }}
+    <meta name="twitter:card" content="summary">
   {{ end }}
   <meta name="twitter:site" content="{{ .Site.Data.settings.social.twitter }}">
   <meta name="twitter:url" content="{{ .Permalink }}">
