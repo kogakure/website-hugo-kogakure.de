@@ -1,4 +1,4 @@
-# Relaunch of kogakure.de with Hugo
+# kogakure.de
 
 This is the source of my [martial arts website][kogakure] build with [Hugo][hugo] and [Gulp.js][gulp].
 
