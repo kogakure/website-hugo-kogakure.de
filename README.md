@@ -1,3 +1,5 @@
+![GitHub tag](https://img.shields.io/github/tag/kogakure/website-hugo-kogakure.de.svg)
+
 # kogakure.de
 
 This is the source of my [martial arts website][kogakure] build with [Hugo][hugo] and [Gulp.js][gulp].
