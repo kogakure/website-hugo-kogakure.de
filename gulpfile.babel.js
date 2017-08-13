@@ -94,6 +94,9 @@ function writeServiceWorkerFile(handleFetch, callback) {
   swPrecache.write(path.join(distDir, 'service-worker.js'), config, callback);
 }
 
+/**
+ * Error handling
+ */
 function onError(error) {
   $.util.beep();
   console.log(error);
@@ -363,7 +366,7 @@ task('revision:collect', () => {
 });
 
 /**
- * Generate Service Worker
+ * Generate Service Worker (Development/Production)
  */
 task('generate-service-worker-dev', (callback) => {
   writeServiceWorkerFile(false, callback);
@@ -383,13 +386,18 @@ task('pagespeed', callback =>
 );
 
 /**
- * Run builds to generate CSS, JavaScript and HTML
+ * Run build to generate CSS, JavaScript and HTML and Service Worker
  */
 task('build:dev', series(
   parallel('css', 'js', 'hugo:dev'),
   series('copy-sw-scripts', 'generate-service-worker-dev')
 ));
 
+/**
+ * Run production builds to generate CSS, JavaScript and HTML.
+ * Optimize and minimize files, revision assets and generate
+ * Service Worker.
+ */
 task('build', series(
   series('delete', 'js', 'css', 'criticalcss', 'hugo'),
   parallel('optimize:html', 'optimize:css'),
