@@ -1,3 +1,4 @@
+![Maintenance](https://img.shields.io/maintenance/yes/2017.svg)
 ![GitHub tag](https://img.shields.io/github/tag/kogakure/website-hugo-kogakure.de.svg)
 
 # kogakure.de
