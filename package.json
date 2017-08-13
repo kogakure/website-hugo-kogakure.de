@@ -8,15 +8,16 @@
   "scripts": {
     "start": "gulp",
     "build": "gulp build",
-    "build:dev": "gulp build-dev",
+    "build-preview": "gulp build-preview",
+    "build-dev": "gulp build-dev",
     "svg": "gulp svg",
-    "crunch": "gulp optimize:images",
+    "crunch": "gulp optimize-images",
     "webp": "gulp webp",
     "loadcss": "gulp loadcss",
     "pagespeed": "gulp pagespeed",
-    "lint": "yarn run lint:js && yarn run lint:css",
-    "lint:js": "eslint src/**/*.js",
-    "lint:css": "stylelint src/**/*.css"
+    "lint": "yarn run lint-js && yarn run lint-css",
+    "lint-js": "eslint src/**/*.js",
+    "lint-css": "stylelint src/**/*.css"
   },
   "keywords": [
     "hugo"

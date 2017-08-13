@@ -40,15 +40,15 @@ These tasks are provided:
 ```bash
 $ yarn start
 $ yarn run build
-$ yarn run build:dev
+$ yarn run build-dev
 $ yarn run svg
 $ yarn run crunch
 $ yarn run webp
 $ yarn run loadcss
 $ yarn run pagespeed
 $ yarn run lint
-$ yarn run lint:js
-$ yarn run lint:css
+$ yarn run lint-js
+$ yarn run lint-css
 ```
 
 - To run a development server and create the development build run `yarn start`
