@@ -1,7 +1,7 @@
 {
   "name": "kogakure.de",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Relaunch of kogakure.de with Hugo",
   "author": "Stefan Imhoff",
   "license": "CC-BY-NC-SA",
