@@ -18,7 +18,8 @@
     "pagespeed": "gulp pagespeed",
     "lint": "yarn run lint-js && yarn run lint-css",
     "lint-js": "eslint src/**/*.js",
-    "lint-css": "stylelint src/**/*.css"
+    "lint-css": "stylelint src/**/*.css",
+    "cz": "git-cz"
   },
   "keywords": [
     "hugo"
@@ -40,8 +41,10 @@
     "babel-plugin-transform-object-rest-spread": "6.8.0",
     "babel-preset-es2015": "^6.24.1",
     "browser-sync": "^2.18.12",
+    "commitizen": "^2.9.6",
     "concurrent-transform": "^1.0.0",
     "css-loader": "^0.28.2",
+    "cz-conventional-changelog": "^2.1.0",
     "del": "^3.0.0",
     "escope": "^3.6.0",
     "eslint": "4.1.1",
@@ -85,5 +88,10 @@
   "dependencies": {
     "fastclick": "^1.0.6",
     "fitvids": "^2.0.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
