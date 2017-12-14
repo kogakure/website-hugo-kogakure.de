@@ -19,3 +19,519 @@
 
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.26"
+
+[[redirects]]
+from = "/artikel/der-verraeterische-geist/"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/ninjakleidung/Wurde/"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/hiragana.html"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/kanji.html"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/katakana.html"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/kurzmeldungen/*"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/lexikon/kuma/"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/mint/pepper/*"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/service/journal/*"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/shortstat/"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/tag/*"
+to = "/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/a.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/abhaertung.html"
+to = "/artikel/abhaertung/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/archiv/"
+to = "/artikel/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/atemi/"
+to = "/artikel/atemi-te/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/atemite/"
+to = "/artikel/atemi-te/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/das-erbe-der-ninja/bujinkan/"
+to = "/artikel/bujinkan/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/das-erbe-der-ninja/hatsumi-masaaki/"
+to = "/artikel/hatsumi-masaaki/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/das-erbe-der-ninja/kukishinden-ryu/"
+to = "/artikel/kukishinden-ryu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/das-erbe-der-ninja/togakure-ryu/"
+to = "/artikel/togakure-ryu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/geistige-kraefte/kujiin/"
+to = "/artikel/kujiin/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/geschichte/"
+to = "/artikel/moderne-geschichte/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/geschichte/bansenshukai/"
+to = "/artikel/bansenshukai/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/geschichte/iga-no-ran/"
+to = "/artikel/iga-no-ran/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/geschichte/kunoichi/"
+to = "/artikel/kunoichi/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/hatsumi/"
+to = "/artikel/hatsumi-masaaki/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/kriegskunst/atemi-te/"
+to = "/artikel/atemi-te/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/kriegskunst/kamae/"
+to = "/artikel/kamae/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/kriegskunst/koerperwaffen/"
+to = "/artikel/koerperwaffen/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/kriegskunst/shinobi-iri/"
+to = "/artikel/shinobi-iri/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/kriegskunst/taijutsu/"
+to = "/artikel/taijutsu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/kriegskunst/ukemi/"
+to = "/artikel/ukemi/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/kujiin/"
+to = "/artikel/kuji-in/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/lexikon-und-sprache/"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/shinden/"
+to = "/artikel/shinden-fudo-ryu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/strategie-und-taktik/gotonpo/"
+to = "/artikel/gotonpo/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/strategie-und-taktik/onshinjutsu/"
+to = "/artikel/onshinjutsu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/uebersicht/"
+to = "/artikel/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/vorwort/"
+to = "/artikel/ninjutsu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/waffen-und-werkzeuge/"
+to = "/artikel/waffen/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/waffen-und-werkzeuge/kletterwerkzeuge/"
+to = "/artikel/kletterwerkzeuge/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/waffen-und-werkzeuge/waffen/"
+to = "/artikel/waffen/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/artikel/waffen/waffen/"
+to = "/artikel/waffen/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/atemite.html"
+to = "/artikel/atemi-te/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/atikel/atemi-te/"
+to = "/artikel/atemi-te/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/ausbildung.html"
+to = "/artikel/ausbildung-der-ninja/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/b.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/bansenshukai.html"
+to = "/artikel/bansenshukai/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/bujinkan.htm"
+to = "/artikel/bujinkan/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/d.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/f.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/g.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/gotonpo.html"
+to = "/artikel/gotonpo/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/gyokko.html"
+to = "/artikel/gyokko-ryu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/gyokkoryu.html"
+to = "/artikel/gyokko-ryu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/h.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/hatsumi.html"
+to = "/artikel/hatsumi-masaaki/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/i.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/iganoran.html"
+to = "/artikel/iga-no-ran/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/inhalt/"
+to = "/artikel/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/k.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/kogaryu.html"
+to = "/artikel/koga-ryu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/kontakt/"
+to = "/info/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/kukishinden.html"
+to = "/artikel/kukishinden-ryu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/kunoichi.html"
+to = "/artikel/kunoichi/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/m.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/mikkyo.html"
+to = "/artikel/mikkyo/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/n.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/ninja.html"
+to = "/artikel/ninjutsu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/o.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/onshinjutsu.html"
+to = "/artikel/onshinjutsu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/r.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/s.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/shindenfudo.html"
+to = "/artikel/shinden-fudo-ryu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/shinobiiri.html"
+to = "/artikel/shinobi-iri/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/sitemap.html"
+to = "/artikel/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/sprueche/"
+to = "/zitate/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/t.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/taijutsu.html"
+to = "/artikel/taijutsu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/taoismus.html"
+to = "/artikel/taoismus/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/themen/"
+to = "/kategorie/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/togakure.html"
+to = "/artikel/togakure-ryu/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/u.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/waffen.html"
+to = "/artikel/waffen/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/y.html"
+to = "/lexikon/"
+status = 301
+force = false
+
+[[redirects]]
+from = "/z.html"
+to = "/lexikon/"
+status = 301
+force = false
