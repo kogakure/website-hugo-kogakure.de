@@ -147,9 +147,9 @@ Danach ging Takamatsu nach China zurück.
 
 Er blieb zehn Jahre lang in Nord-China und der Mandschurei.
 
-{% aside %}
-  <p>Hier ist nicht ganz klar ersichtlich und es gibt wiedersprechende Berichte, ob Takamatsu nun Geld genommen hat, oder dem Banditen Schmerzensgeld gezahlt hat.</p>
-{% endaside %}
+{{% aside %}}
+Hier ist nicht ganz klar ersichtlich und es gibt wiedersprechende Berichte, ob Takamatsu nun Geld genommen hat, oder dem Banditen Schmerzensgeld gezahlt hat.
+{{% /aside %}}
 
 In den Bergen von China wurde er einmal von einigen Banditen angegriffen. Einer der Übeltäter ergriff ihn an der Taille. Plötzlich begann er zu schreien und hielt sich das Gesicht. Takamatsu wusste nicht, was er dem Mann getan hatte, doch dann fühlte er etwas weiches, warmes in seiner Hand und er erkannte, dass es das Auge des Banditen war. Er gab dem Banditen Erste Hilfe und nahm dann Geld für die Hilfe entgegen.
 
