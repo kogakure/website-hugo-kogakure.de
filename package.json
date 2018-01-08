@@ -86,7 +86,6 @@
     "whatwg-fetch": "^1.0.0"
   },
   "dependencies": {
-    "fastclick": "^1.0.6",
     "fitvids": "^2.0.0"
   },
   "config": {
