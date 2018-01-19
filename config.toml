@@ -23,6 +23,7 @@ publishdir   = "dist"
 [outputs]
 home = ["html", "rss", "jsonfeed"]
 page = ["html", "json"]
+section = ["html", "json"]
 
 [outputFormats.jsonfeed]
 mediaType   = "application/json"

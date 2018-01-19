@@ -1,0 +1,14 @@
+{
+  "posts": [{{ range $index, $item := where .Data.Pages.ByTitle "Type" "artikel" }}{{if $index}},{{end}}
+    {
+      "id": "{{ .Slug }}",
+      "title": "{{ .Title }}",
+      "author": "{{ .Params.author }}",
+      "date_published": "{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}",
+      "date_modified": "{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}",
+      "url": "{{ .Permalink }}",
+      "excerpt": "{{ .Params.excerpt }}",
+      "content_html": "{{ replace .Content "\n" "\\n" | replaceRE "\"" "\\\""}}"
+    }{{ end }}
+  ]
+}
