@@ -114,7 +114,7 @@ Bei *goku no kamae* dreht man den Körper aus *shizen no kamae* um 45° vom Gegn
 
 ### Hira (ichimonji) no kamae
 
-![Hira (ichimonji) no kamae](/assets/images/articles/kamae-hira.jpg "Hira (ichimonji)")
+![Hira (ichimonji) no kamae](/assets/images/articles/kamae-hira.jpg)
 
 Die *hira ichimonji no kamae* Stellung ist eine ausbalancierte, stehende Position, von der aus der Körper ausweichen kann. Das Körpergewicht ruht zu gleichen Teilen auf beiden Füßen, beide Arme sind zu den Seiten ausgestreckt. Sie können zum fegen, greifen oder abfangen von Schlägen benutzt werden.
 
