@@ -28,7 +28,7 @@
         {{ end }}
 
         {{ if and (.imdb) (not .asin) }}
-          <a class="homepage-recommendations-link" href="https://www.imdb.com/title/{{ .imdb }}" target="_blank" rel="noopener">
+          <a class="homepage-recommendations-link" href="http://www.imdb.com/title/{{ .imdb }}" target="_blank" rel="noopener">
             <img class="homepage-recommendations-image" width="100" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}">
           </a>
         {{ end }}
