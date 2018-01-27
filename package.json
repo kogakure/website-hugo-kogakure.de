@@ -19,11 +19,10 @@
     "lint": "yarn run lint-js && yarn run lint-css",
     "lint-js": "eslint src/**/*.js",
     "lint-css": "stylelint src/**/*.css",
+    "test": "yarn run lint",
     "cz": "git-cz"
   },
-  "keywords": [
-    "hugo"
-  ],
+  "keywords": ["hugo"],
   "homepage": "https://kogakure.de",
   "repository": {
     "type": "git",
