@@ -75,7 +75,7 @@ In easier words: **This is not a free theme**. Learn from it. Remix. Reuse. Buil
 
 [kogakure]: https://kogakure.de
 [hugo]: http://gohugo.io/
-[gulp]: http://gulpjs.com/
+[gulp]: https://gulpjs.com/
 [yarn]: https://yarnpkg.com
 [si]: https://stefanimhoff.de
 [pomodoro]: https://cirillocompany.de/pages/pomodoro-technique
