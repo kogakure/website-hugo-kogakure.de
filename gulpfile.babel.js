@@ -1,12 +1,10 @@
-'use strict';
-
-import { task, src, dest, watch, series, parallel } from 'gulp';
+import {task, src, dest, watch, series, parallel} from 'gulp';
 import gulpLoadPlugins from 'gulp-load-plugins';
 
 import os from 'os';
 import path from 'path';
 import pkg from './package.json';
-import { spawn } from 'child_process';
+import {spawn} from 'child_process';
 import concurrent from 'concurrent-transform';
 import del from 'del';
 
@@ -21,7 +19,7 @@ import cssnext from 'postcss-cssnext';
 import hexRGBA from 'postcss-hexrgba';
 import reporter from 'postcss-reporter';
 
-import { output as pagespeed } from 'psi';
+import {output as pagespeed} from 'psi';
 import swPrecache from 'sw-precache';
 
 const $ = gulpLoadPlugins();
@@ -42,7 +40,7 @@ function buildSite(callback, options, enviroment = 'production') {
 
   process.env.NODE_ENV = enviroment;
 
-  return spawn(hugoBin, args, { stdio: 'inherit' }).on('close', (code) => {
+  return spawn(hugoBin, args, {stdio: 'inherit'}).on('close', (code) => {
     if (code === 0) {
       browserSync.reload();
       callback();
@@ -59,22 +57,21 @@ function buildSite(callback, options, enviroment = 'production') {
 function writeServiceWorkerFile(handleFetch, callback) {
   var config = {
     cacheId: pkg.name,
-    importScripts: [
-      'assets/js/sw/sw-toolbox.js',
-      'assets/js/sw/runtime-caching.js'
-    ],
+    importScripts: ['assets/js/sw/sw-toolbox.js', 'assets/js/sw/runtime-caching.js'],
     handleFetch: handleFetch,
     logger: $.util.log,
-    runtimeCaching: [{
-      urlPattern: /assets\/images\/articles/,
-      handler: 'networkFirst',
-      options: {
-        cache: {
-          maxEntries: 200,
-          name: 'article-images-cache'
+    runtimeCaching: [
+      {
+        urlPattern: /assets\/images\/articles/,
+        handler: 'networkFirst',
+        options: {
+          cache: {
+            maxEntries: 200,
+            name: 'article-images-cache'
+          }
         }
       }
-    }],
+    ],
     staticFileGlobs: [
       `${distDir}/`,
       `${distDir}/favicon.ico`,
@@ -87,7 +84,7 @@ function writeServiceWorkerFile(handleFetch, callback) {
       `${distDir}/assets/images/homepage/*.{jpg,jpeg,png}`,
       `${distDir}/assets/images/chronology/*.{jpg,jpeg,png}`,
       `${distDir}/assets/images/error/*.{jpg,jpeg,png}`,
-      `${distDir}/assets/images/recommendations/thumbs/**/*.{jpg,jpeg,png}`,
+      `${distDir}/assets/images/recommendations/thumbs/**/*.{jpg,jpeg,png}`
     ],
     stripPrefix: `${distDir}/`,
     verbose: true
@@ -101,7 +98,7 @@ function writeServiceWorkerFile(handleFetch, callback) {
  */
 function onError(error) {
   $.util.beep();
-  console.log(error);
+  console.log(error); // eslint-disable-line
   this.emit('end');
 }
 
@@ -118,39 +115,43 @@ task('hugo-dev', (callback) => buildSite(callback, hugoArgsDev, 'development'));
  */
 task('css', () => {
   return src('src/css/*.css')
-    .pipe($.plumber({
-      errorHandler: onError
-    }))
+    .pipe(
+      $.plumber({
+        errorHandler: onError
+      })
+    )
     .pipe($.sourcemaps.init())
-    .pipe($.postcss([
-      cssImport({
-        from: 'src/css/app.css'
-      }),
-      cssnext({
-        features: {
-          customProperties: {
-            preserve: false,
-            warnings: false
-          },
-          autoprefixer: {
-            grid: true,
-            browsers: [
-              'Explorer >= 10',
-              'ExplorerMobile >= 10',
-              'Firefox >= 30',
-              'Chrome >= 34',
-              'Safari >= 7',
-              'Opera >= 23',
-              'iOS >= 7',
-              'Android >= 4.4',
-              'BlackBerry >= 10'
-            ],
-            cascade: true
+    .pipe(
+      $.postcss([
+        cssImport({
+          from: 'src/css/app.css'
+        }),
+        cssnext({
+          features: {
+            customProperties: {
+              preserve: false,
+              warnings: false
+            },
+            autoprefixer: {
+              grid: true,
+              browsers: [
+                'Explorer >= 10',
+                'ExplorerMobile >= 10',
+                'Firefox >= 30',
+                'Chrome >= 34',
+                'Safari >= 7',
+                'Opera >= 23',
+                'iOS >= 7',
+                'Android >= 4.4',
+                'BlackBerry >= 10'
+              ],
+              cascade: true
+            }
           }
-        },
-      }),
-      hexRGBA()
-    ]))
+        }),
+        hexRGBA()
+      ])
+    )
     .pipe($.sourcemaps.write('.'))
     .pipe(dest(`${distDir}/assets/css/`))
     .pipe(browserSync.stream());
@@ -160,13 +161,14 @@ task('css', () => {
  * Lint CSS files with Stylelint
  */
 task('lint-css', () => {
-  return src('src/css/**/*.css')
-    .pipe($.postcss([
+  return src('src/css/**/*.css').pipe(
+    $.postcss([
       stylelint(),
       reporter({
         clearMessages: true
       })
-    ]));
+    ])
+  );
 });
 
 /**
@@ -176,23 +178,21 @@ task('js', (callback) => {
   const myConfig = Object.assign({}, webpackConfig);
 
   if (process.env.NODE_ENV === 'production') {
-    myConfig.plugins = myConfig.plugins.concat(
-      new webpack.optimize.UglifyJsPlugin({
-        output: {
-          comments: false
-        }
-      })
-    );
+    myConfig.mode = 'production';
+    myConfig.optimization.minimize = true;
   }
 
   webpack(myConfig, (error, stats) => {
     if (error) {
       throw new $.util.PluginError('webpack', error);
     }
-    $.util.log('[webpack]', stats.toString({
-      colors: true,
-      progress: true
-    }));
+    $.util.log(
+      '[webpack]',
+      stats.toString({
+        colors: true,
+        progress: true
+      })
+    );
     browserSync.reload();
     callback();
   });
@@ -202,11 +202,7 @@ task('js', (callback) => {
  * Copy import scripts for Service Worker
  */
 task('copy-sw-scripts', () => {
-  return src([
-    'node_modules/sw-toolbox/sw-toolbox.js',
-    'src/js/sw/runtime-caching.js'
-  ])
-    .pipe(dest(`${distDir}/assets/js/sw`))
+  return src(['node_modules/sw-toolbox/sw-toolbox.js', 'src/js/sw/runtime-caching.js']).pipe(dest(`${distDir}/assets/js/sw`));
 });
 
 /**
@@ -223,19 +219,21 @@ task('lint-js', () => {
  */
 task('svg', () => {
   return src('src/svg/*.svg')
-  .pipe($.plumber())
-    .pipe($.svgSprite({
-      mode: {
-        symbol: {
-          dest: 'svg',
-          sprite: 'icons.svg'
-        },
-        svg: {
-          xmlDeclaration: false,
-          doctypeDeclaration: false
+    .pipe($.plumber())
+    .pipe(
+      $.svgSprite({
+        mode: {
+          symbol: {
+            dest: 'svg',
+            sprite: 'icons.svg'
+          },
+          svg: {
+            xmlDeclaration: false,
+            doctypeDeclaration: false
+          }
         }
-      }
-    }))
+      })
+    )
     .pipe(dest('app/layouts/partials'));
 });
 
@@ -245,12 +243,14 @@ task('svg', () => {
 task('thumbnails', () => {
   return src('app/static/assets/images/recommendations/fullsize/**/*.{jpg,jpeg,png}')
     .pipe($.changed('app/static/assets/images/recommendations/thumbs/'))
-    .pipe(concurrent(
-      $.imageResize({
-        width: 100
-      }),
-      os.cpus().length
-    ))
+    .pipe(
+      concurrent(
+        $.imageResize({
+          width: 100
+        }),
+        os.cpus().length
+      )
+    )
     .pipe(dest('app/static/assets/images/recommendations/thumbs/'));
 });
 
@@ -259,11 +259,13 @@ task('thumbnails', () => {
  */
 task('optimize-images', () => {
   return src('app/static/assets/images/**/*.{jpg,jpeg,png,gif,svg}')
-    .pipe($.imagemin({
-      optimizationLevel: 3,
-      progressive: true,
-      interlaced: true
-    }))
+    .pipe(
+      $.imagemin({
+        optimizationLevel: 3,
+        progressive: true,
+        interlaced: true
+      })
+    )
     .pipe(dest('app/static/assets/images/'))
     .pipe($.size());
 });
@@ -281,16 +283,14 @@ task('webp', () => {
  * Copy loadCSS JavaScript to project folder
  */
 task('loadcss', () => {
-  return src('node_modules/fg-loadcss/src/loadCSS.js')
-    .pipe(dest('app/layouts/partials/critical/'));
+  return src('node_modules/fg-loadcss/src/loadCSS.js').pipe(dest('app/layouts/partials/critical/'));
 });
 
 /**
  * Copy critical CSS files to project folder
  */
 task('criticalcss', () => {
-  return src(`${distDir}/assets/css/critical_*.css`)
-    .pipe(dest('app/layouts/partials/critical/'));
+  return src(`${distDir}/assets/css/critical_*.css`).pipe(dest('app/layouts/partials/critical/'));
 });
 
 /**
@@ -306,21 +306,23 @@ task('delete', (callback) => {
  */
 task('optimize-html', () => {
   return src(`${distDir}/**/*.html`)
-    .pipe($.htmlmin({
-      removeComments: true,
-      collapseWhitespace: true,
-      collapseBooleanAttributes: true,
-      conservativeCollapse: true,
-      removeAttributeQuotes: true,
-      removeRedundantAttributes: true,
-      removeEmptyAttributes: true,
-      removeScriptTypeAttributes: true,
-      removeStyleLinkTypeAttributes: true,
-      removeOptionalTags: true,
-      minifyJS: true,
-      minifyCSS: true,
-      processScripts: ['application/ld+json']
-    }))
+    .pipe(
+      $.htmlmin({
+        removeComments: true,
+        collapseWhitespace: true,
+        collapseBooleanAttributes: true,
+        conservativeCollapse: true,
+        removeAttributeQuotes: true,
+        removeRedundantAttributes: true,
+        removeEmptyAttributes: true,
+        removeScriptTypeAttributes: true,
+        removeStyleLinkTypeAttributes: true,
+        removeOptionalTags: true,
+        minifyJS: true,
+        minifyCSS: true,
+        processScripts: ['application/ld+json']
+      })
+    )
     .pipe(dest(distDir));
 });
 
@@ -337,23 +339,28 @@ task('optimize-css', () => {
  * Create revisions and manifest file
  */
 task('revision', () => {
-  return src([
-    `${distDir}/assets/css/*.css`,
-    `${distDir}/assets/js/*.js`,
-    `${distDir}/assets/images/**/*`,
-    `!${distDir}/assets/images/og/*`,
-    `!${distDir}/assets/images/icons/*`,
-    `!${distDir}/assets/images/ms/*`
-  ], {
-    base: distDir
-  })
+  return src(
+    [
+      `${distDir}/assets/css/*.css`,
+      `${distDir}/assets/js/*.js`,
+      `${distDir}/assets/images/**/*`,
+      `!${distDir}/assets/images/og/*`,
+      `!${distDir}/assets/images/icons/*`,
+      `!${distDir}/assets/images/ms/*`
+    ],
+    {
+      base: distDir
+    }
+  )
     .pipe(dest(distDir))
     .pipe($.rev())
     .pipe($.revDeleteOriginal())
     .pipe(dest(distDir))
-    .pipe($.rev.manifest({
-      path: 'revision.json'
-    }))
+    .pipe(
+      $.rev.manifest({
+        path: 'revision.json'
+      })
+    )
     .pipe(dest(distDir));
 });
 
@@ -361,10 +368,7 @@ task('revision', () => {
  * Replace revisioned files
  */
 task('revision-collect', () => {
-  return src([
-    `${distDir}/revision.json`,
-    `${distDir}/**/*.{html,xml,css,js}`
-  ])
+  return src([`${distDir}/revision.json`, `${distDir}/**/*.{html,xml,css,js}`])
     .pipe($.revCollector())
     .pipe(dest(`${distDir}`));
 });
@@ -383,10 +387,14 @@ task('generate-service-worker', (callback) => {
 /**
  * Run PageSpeed insights
  */
-task('pagespeed', callback =>
-  pagespeed('kogakure.de', {
-    strategy: 'mobile'
-  }, callback)
+task('pagespeed', (callback) =>
+  pagespeed(
+    'kogakure.de',
+    {
+      strategy: 'mobile'
+    },
+    callback
+  )
 );
 
 /**
@@ -394,62 +402,65 @@ task('pagespeed', callback =>
  * Optimize and minimize files, revision assets and generate
  * Service Worker.
  */
-task('build', series(
-  series('delete', 'js', 'css', 'criticalcss', 'hugo'),
-  parallel('optimize-html', 'optimize-css'),
-  series('revision', 'revision-collect'),
-  series('copy-sw-scripts', 'generate-service-worker')
-));
+task(
+  'build',
+  series(
+    series('delete', 'js', 'css', 'criticalcss', 'hugo'),
+    parallel('optimize-html', 'optimize-css'),
+    series('revision', 'revision-collect'),
+    series('copy-sw-scripts', 'generate-service-worker')
+  )
+);
 
 /**
  * Run preview builds to generate CSS, JavaScript and HTML.
  * Optimize and minimize files, revision assets and generate
  * Service Worker.
  */
-task('build-preview', series(
-  series('delete', 'js', 'css', 'criticalcss', 'hugo-preview'),
-  parallel('optimize-html', 'optimize-css'),
-  series('revision', 'revision-collect'),
-  series('copy-sw-scripts', 'generate-service-worker')
-));
+task(
+  'build-preview',
+  series(
+    series('delete', 'js', 'css', 'criticalcss', 'hugo-preview'),
+    parallel('optimize-html', 'optimize-css'),
+    series('revision', 'revision-collect'),
+    series('copy-sw-scripts', 'generate-service-worker')
+  )
+);
 
 /**
  * Run branch build to generate CSS, JavaScript and HTML and Service Worker
  */
-task('build-branch', series(
-  parallel('css', 'js', 'hugo-branch'),
-  series('copy-sw-scripts', 'generate-service-worker-dev')
-));
+task('build-branch', series(parallel('css', 'js', 'hugo-branch'), series('copy-sw-scripts', 'generate-service-worker-dev')));
 
 /**
  * Run build to generate CSS, JavaScript and HTML and Service Worker
  */
-task('build-dev', series(
-  parallel('css', 'js', 'hugo-dev'),
-  series('copy-sw-scripts', 'generate-service-worker-dev')
-));
+task('build-dev', series(parallel('css', 'js', 'hugo-dev'), series('copy-sw-scripts', 'generate-service-worker-dev')));
 
 /**
  * Start development server with BrowserSync and watch files for changes
  */
-task('server', series('build-dev', () => {
-  browserSync.init({
-    server: {
-      baseDir: distDir
-    },
-    open: false,
-    port: 8888,
-    ui: {
-      port: 8887
-    }
-  });
+task(
+  'server',
+  series('build-dev', () => {
+    browserSync.init({
+      server: {
+        baseDir: distDir
+      },
+      open: false,
+      port: 8888,
+      ui: {
+        port: 8887
+      }
+    });
 
-  watch('src/css/**/*.css', series('css', 'lint-css'));
-  watch('./src/js/**/*.js', series('js', 'lint-js'));
-  watch('./app/**/*', series('hugo-dev'));
-  watch('./config.toml', series('hugo-dev'));
-  watch('./src/svg/*.svg', series('svg'));
-  watch('app/static/assets/images/recommendations/fullsize/**/*.{jpg,jpeg,png}', series('thumbnails'));
-}));
+    watch('src/css/**/*.css', series('css', 'lint-css'));
+    watch('./src/js/**/*.js', series('js', 'lint-js'));
+    watch('./app/**/*', series('hugo-dev'));
+    watch('./config.toml', series('hugo-dev'));
+    watch('./src/svg/*.svg', series('svg'));
+    watch('app/static/assets/images/recommendations/fullsize/**/*.{jpg,jpeg,png}', series('thumbnails'));
+  })
+);
 
 task('default', parallel('server'));
