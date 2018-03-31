@@ -3,22 +3,22 @@
   publish = "dist"
 
 [build.environment]
-  HUGO_VERSION = "0.36.1"
+  HUGO_VERSION = "0.37.1"
 
 [context.production.environment]
-  HUGO_VERSION = "0.36.1"
+  HUGO_VERSION = "0.37.1"
 
 [context.deploy-preview]
   command = "yarn run build-preview"
 
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.36.1"
+  HUGO_VERSION = "0.37.1"
 
 [context.branch-deploy]
   command = "yarn run build-branch"
 
 [context.branch-deploy.environment]
-  HUGO_VERSION = "0.36.1"
+  HUGO_VERSION = "0.37.1"
 
 [[redirects]]
 from = "/artikel/der-verraeterische-geist/"
