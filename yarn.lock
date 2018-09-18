@@ -7609,9 +7609,9 @@ postcss-font-variant@^3.0.0:
   dependencies:
     postcss "^6.0.1"
 
-postcss-hexrgba@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-hexrgba/-/postcss-hexrgba-1.0.0.tgz#b2ab6289221ddc7af400aae11d8c4ce8adffdd85"
+postcss-hexrgba@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-hexrgba/-/postcss-hexrgba-1.0.1.tgz#d82256b7b5116e5f582026fce549fec21db816e0"
   dependencies:
     postcss "^6.0.7"
 
