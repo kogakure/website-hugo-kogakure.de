@@ -83,7 +83,7 @@
     "stylelint-order": "^0.8.1",
     "sw-precache": "^5.2.1",
     "sw-toolbox": "^3.6.0",
-    "url-loader": "^1.0.1",
+    "url-loader": "^1.1.1",
     "webpack": "^4.19.1",
     "whatwg-fetch": "^2.0.4"
   },
