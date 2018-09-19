@@ -69,7 +69,7 @@
     "gulp-rev-delete-original": "^0.2.3",
     "gulp-size": "^3.0.0",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-svg-sprite": "^1.4.0",
+    "gulp-svg-sprite": "^1.5.0",
     "gulp-util": "^3.0.7",
     "gulp-webp": "^3.0.0",
     "imports-loader": "^0.8.0",
