@@ -1,11 +1,5 @@
-'use strict';
-
-const container = document.querySelector('div.container');
 const url = window.location.href;
-const overlay = document.querySelector('div.overlay');
-const triggerBttn = document.querySelector('.nav-btn');
 const navigationLinks = '.nav-link';
-const INVISIBLE = 'invisible';
 
 module.exports = {
   /**

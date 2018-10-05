@@ -30,7 +30,6 @@
 
   <!-- Prefetch -->
   <link rel="dns-prefetch" href="//fonts.googleapis.com">
-  <link rel="dns-prefetch" href="//www.google-analytics.com">
   {{ if not .IsHome }}
     <link rel="prerender" href="{{ .Site.BaseURL }}">
   {{ end }}
@@ -145,7 +144,4 @@
       "url": "//kogakure.de"
     }
   </script>
-
-  <!-- Tracking -->
-  {{ partial "tracking" . }}
 </head>

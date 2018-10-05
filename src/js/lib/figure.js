@@ -1,5 +1,3 @@
-'use strict';
-
 const images = document.querySelectorAll('.main img');
 const figure = document.createElement('figure');
 let content, temp;

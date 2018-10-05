@@ -2,23 +2,15 @@ import fitvids from 'fitvids';
 
 import navigation from './lib/navigation';
 import figure from './lib/figure';
-import tracking from './lib/tracking';
-
-const trackingLinks = document.querySelectorAll('a');
 
 // https://github.com/google/web-starter-kit/
 const isLocalhost = Boolean(
   window.location.hostname === 'localhost' ||
     window.location.hostname === '[::1]' ||
-    window.location.hostname.match(
-      /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/,
-    ),
+    window.location.hostname.match(/^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/)
 );
 
-if (
-  'serviceWorker' in navigator &&
-  (window.location.protocol === 'https:' || isLocalhost)
-) {
+if ('serviceWorker' in navigator && (window.location.protocol === 'https:' || isLocalhost)) {
   navigator.serviceWorker
     .register('/service-worker.js')
     .then(function(registration) {
@@ -32,9 +24,7 @@ if (
                 break;
 
               case 'redundant':
-                throw new Error(
-                  'The installing ' + 'service worker became redundant.',
-                );
+                throw new Error('The installing ' + 'service worker became redundant.');
 
               default:
               // Ignore
@@ -60,15 +50,5 @@ if ('querySelector' in document && 'addEventListener' in window) {
 
     // Figurize
     figure.figurizeImage();
-
-    // Tracking
-    for (let i = 0, len = trackingLinks.length; i < len; i++) {
-      const trackingLink = trackingLinks[i];
-
-      trackingLink.addEventListener(
-        'click',
-        tracking.trackLinksWithGoogleAnalytics,
-      );
-    }
   });
 }
