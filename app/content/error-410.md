@@ -1,9 +1,10 @@
 ---
 layout: error
 title: Seite entfernt!
-url: "/410.html"
-robots: "noindex,follow"
-body_class: "page-error-410"
+url: '/410.html'
+date: 2006-01-01T18:00:00+02:00
+robots: 'noindex,follow'
+body_class: 'page-error-410'
 error_page_410: true
 sitemap_exclude: true
 ---
