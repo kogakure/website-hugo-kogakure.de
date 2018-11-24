@@ -68,7 +68,7 @@
         {{ end }}
 
         {{ if and (.imdb) (not .asin) }}
-        <a class="recommendations-link" href="http://www.imdb.com/title/{{ .imdb }}" rel="noopener" target="_blank">
+        <a class="recommendations-link" href="https://www.imdb.com/title/{{ .imdb }}" rel="noopener" target="_blank">
           <img class="recommendations-image" src="/assets/images/{{ .thumbnail }}" alt="{{ .title }}" itemprop="image">
         </a>
         {{ end }}
