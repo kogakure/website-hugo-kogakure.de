@@ -1,5 +1,6 @@
 ---
 title: 'Informationen'
+date: 2006-01-01T18:00:00+02:00
 description: 'Informationen über diese Seite, warum es sie gibt, was der Domain-Name bedeutet, wie ich kontaktiert werden kann, FAQs und mit welchen Tools die Website erstellt wurde.'
 url: '/info/'
 body_class: 'grid--small'

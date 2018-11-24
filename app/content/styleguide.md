@@ -1,5 +1,6 @@
 ---
 title: "Styleguide"
+date: 2006-01-01T18:00:00+02:00
 description: "Der Styleguide dieser Seite"
 url: "/styleguide/"
 body_class: "grid--small"

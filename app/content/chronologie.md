@@ -1,5 +1,6 @@
 ---
 title: 'Chronolgie der Website'
+date: 2006-01-01T18:00:00+02:00
 description: ''
 url: '/chronologie/'
 body_class: 'grid--small'
