@@ -12,7 +12,7 @@ Dies ist kogakure.de. Seit 1999 kann man hier Artikel, Textsammlungen und Übers
 
 Die Idee dazu wurde von [Stefan Imhoff], einem Designer, Entwickler und Kampfkünstler aus Wolfsburg (heute aus Hamburg) entwickelt und umgesetzt.
 
-[stefan imhoff]: https://stefanimhoff.de/
+[stefan imhoff]: https://www.stefanimhoff.de/
 
 ## Und warum?
 
@@ -100,7 +100,7 @@ Alle Arbeiten wurden auf einem [Apple Macintosh] erstellt, die Grafiken wurden m
 [apple macintosh]: https://www.apple.com/de/
 [affinity photo]: https://affinity.serif.com/de/photo/
 [affinity designer]: https://affinity.serif.com/de/designer/
-[vim]: http://www.vim.org/
+[vim]: https://www.vim.org/
 [git]: https://git-scm.com/
 [hugo]: https://gohugo.io/
 [gulp.js]: https://gulpjs.com/

@@ -140,7 +140,7 @@ Ich hatte mich von Django verabschiedet, da ich beruflich mit Ruby zu tun hatte 
 
 Glücklicherweise hatten das auch viele andere Entwickler erkannt und immer mehr Personen hatten begonnen ihre Websites und Blogs auf statische Seiten umzustellen. Es gibt eine fast unbegrenzte Anzahl von [Statischen Seitengeneratoren](https://www.staticgen.com/), die es ermöglichen mit Templates, Logik und Daten zu arbeiten und am Ende dann trotzdem pure statische HTML-Seiten auszuwerfen. So kann auch niemand die Website hacken. Und es ist keine Datenbank oder teure und komplizierte Serversoftware nötig, sondern die Seiten können quasi überall gehostet werden und skalieren fantastisch. Selbst ein paar tausend Zugriffe pro Sekunde werden keinen Server in Bedrängnis bringen.
 
-Ich setze [Jekyll ](https://jekyllrb.com/) als Seitengenerator ein, verwende [PostCSS](http://postcss.org/) für mein CSS, [Browserify](http://browserify.org/) für mein JavaScript und [Gulp.js](https://gulpjs.com/) als Build-Tool.
+Ich setze [Jekyll ](https://jekyllrb.com/) als Seitengenerator ein, verwende [PostCSS](https://postcss.org/) für mein CSS, [Browserify](http://browserify.org/) für mein JavaScript und [Gulp.js](https://gulpjs.com/) als Build-Tool.
 
 Die ganze Website ist mobil-optimiert und läuft auf jedem Device.
 
@@ -164,7 +164,7 @@ Im Rahmen der Überarbeitung behebe ich zahlreiche Fehler, schaue über jeden Ar
 
 ### 13. August 2017
 
-Da Jekyll sehr langsam rendert und ich auch schon meine [private Website](https://stefanimhoff.de) mit dem statischen Seitengenerator [Hugo](https://gohugo.io/) ersetzt hatte, war es nur der nächste logische Schritt das auch für kogakure.de zu machen.
+Da Jekyll sehr langsam rendert und ich auch schon meine [private Website](https://www.stefanimhoff.de) mit dem statischen Seitengenerator [Hugo](https://gohugo.io/) ersetzt hatte, war es nur der nächste logische Schritt das auch für kogakure.de zu machen.
 
 Gleichzeitig konnte ich die ganze Website noch einmal überarbeiten, einige kleinere grafische Änderungen vornehmen und die Homepage komplett neu gestalten.
 

@@ -1,4 +1,4 @@
-[![Live](https://img.shields.io/badge/live-kogakure.de-green.svg)](https://kogakure.de/)
+[![Live](https://img.shields.io/badge/live-kogakure.de-green.svg)](https://www.kogakure.de/)
 ![Maintenance](https://img.shields.io/maintenance/yes/2018.svg)
 ![GitHub tag](https://img.shields.io/github/tag/kogakure/website-hugo-kogakure.de.svg)
 
@@ -14,7 +14,7 @@ You will need [Hugo][hugo] to run this website (e. g. with Homebrew):
 $ brew install hugo
 ```
 
-You will need to install *GraphicsMagick* for thumbnail generation:
+You will need to install _GraphicsMagick_ for thumbnail generation:
 
 ```bash
 $ brew install graphicsmagick
@@ -73,9 +73,9 @@ All content is copyrighted by [Stefan Imhoff][si] unless otherwise stated. Feel 
 
 In easier words: **This is not a free theme**. Learn from it. Remix. Reuse. Build your own stuff.
 
-[kogakure]: https://kogakure.de
+[kogakure]: https://www.kogakure.de
 [hugo]: http://gohugo.io/
 [gulp]: https://gulpjs.com/
 [yarn]: https://yarnpkg.com
-[si]: https://stefanimhoff.de
+[si]: https://www.stefanimhoff.de
 [pomodoro]: https://cirillocompany.de/pages/pomodoro-technique

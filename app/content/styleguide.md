@@ -81,11 +81,11 @@ Drei Ringe den Elben, hoch im Licht. Sieben den Zwergen in ihren Hallen aus Stei
 Flying is learning how to throw yourself at the ground and miss.
 {{% /blockquote %}}
 
-{{% blockquote author="Seth Godin" url="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" cite="Welcome to Island Marketing" %}}
+{{% blockquote author="Seth Godin" url="https://seths.blog/2009/07/welcome-to-island-marketing" cite="Welcome to Island Marketing" %}}
 Every interaction is both precious and an opportunity to delight.
 {{% /blockquote %}}
 
-{{% blockquote author="Winston Churchill" url="http://hansard.millbanksystems.com/commons/1947/nov/11/parliament-bill#column_206a" cite="Speech to the House of Commons" %}}
+{{% blockquote author="Winston Churchill" url="https://api.parliament.uk/historic-hansard/commons/1947/nov/11/parliament-bill" cite="Speech to the House of Commons" %}}
 Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
 {{% /blockquote %}}
 
@@ -205,7 +205,7 @@ Es gibt eine Vielzahl von Inline-HTML-Elementen, die überall in anderen Element
 
 Das Element `a` wird verwendet um Text zu verlinken, ob auf eine andere Seite, ein benanntes Fragment der aktuellen Seite oder auf einen anderen Ort im Internet:
 
-[Gehe zur Startseite zurück](/),  [Springe zum Anfang der Seite](#top) oder besuche eine [fantastische Website im Internet](https://kogakure.de).
+[Gehe zur Startseite zurück](/),  [Springe zum Anfang der Seite](#top) oder besuche eine [fantastische Website im Internet](https://www.kogakure.de).
 
 
 ### Betonte Texte
