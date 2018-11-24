@@ -477,12 +477,6 @@ status = 301
 force = false
 
 [[redirects]]
-from = "/sprueche/"
-to = "/zitate/"
-status = 301
-force = false
-
-[[redirects]]
 from = "/t.html"
 to = "/lexikon/"
 status = 301
