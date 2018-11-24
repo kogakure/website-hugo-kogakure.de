@@ -1,8 +1,9 @@
 ---
-title: "Chronolgie der Website"
-description: ""
-url: "/chronologie/"
-body_class: "grid--small"
+title: 'Chronolgie der Website'
+date: 2006-01-01T18:00:00+02:00
+description: ''
+url: '/chronologie/'
+body_class: 'grid--small'
 ---
 
 ## 1999
@@ -13,21 +14,21 @@ Meine Ninjutsu-Website geht am 22. Dezember 1999 online. Zuerst auf einem Shared
 
 Ich erinnere mich noch, wie ich in einem sehr dicken, japanischen Wörterbuch nach einem Begriff gesucht habe, den es im Internet noch nicht gab und der auch eine Bedeutung hat.
 
-Das Design hatte *natürlich* animierte Ninja-Sterne, unlesbare Schrift und einen Page Counter.
+Das Design hatte _natürlich_ animierte Ninja-Sterne, unlesbare Schrift und einen Page Counter.
 
 ![Website 1999](/assets/images/chronology/history-1999.jpg)
 
-------------------------------------------------------------------------------
+---
 
 ## 2001
 
 ### Januar 2001
 
-Die Website hatte eigentlich nur als Sammlung von Notizen angefangen, sich in den nächsten zwei Jahren aber langsam zu einer größeren Website entwickelt. Im Januar 2001 war die Arbeit an der Website fast abgeschlossen. Zu dieser Zeit hatte ich eine geradezu aberwitzige Menge an Stunden in die Recherche und das Schreiben der Artikel investiert. Außerdem hatte ich zahlreiche komplizierte 3D-Modelle von Waffen, Werkzeugen und Techniken in *Poser* und *3d Studio Max* erstellt.
+Die Website hatte eigentlich nur als Sammlung von Notizen angefangen, sich in den nächsten zwei Jahren aber langsam zu einer größeren Website entwickelt. Im Januar 2001 war die Arbeit an der Website fast abgeschlossen. Zu dieser Zeit hatte ich eine geradezu aberwitzige Menge an Stunden in die Recherche und das Schreiben der Artikel investiert. Außerdem hatte ich zahlreiche komplizierte 3D-Modelle von Waffen, Werkzeugen und Techniken in _Poser_ und _3d Studio Max_ erstellt.
 
 ![Website 2001](/assets/images/chronology/history-2001.jpg)
 
-------------------------------------------------------------------------------
+---
 
 ## 2002
 
@@ -37,20 +38,19 @@ Im Januar 2002 stelle ich eine neues Design (Version 2) der Website online. Die 
 
 Die zweite Version hatte ich auch schon in Teilen mit PHP erstellt, um wiederkehrende Teile nur einmal pflegen zu müssen.
 
-Ich hatte zu dieser Zeit auch noch ein Gästebuch, ein Forum und einen Counter, wie es damals auf vielen Seiten üblich war. Die Navigation hatte ich mit JavaScript erstellt und sie war sehr schlecht zu bedienen. Außerdem hatte ich zeitweise Flash für einen *tollen* Lichteffekt und eine pure Flash-Startseite mit Musik und Animationen im Einsatz.
+Ich hatte zu dieser Zeit auch noch ein Gästebuch, ein Forum und einen Counter, wie es damals auf vielen Seiten üblich war. Die Navigation hatte ich mit JavaScript erstellt und sie war sehr schlecht zu bedienen. Außerdem hatte ich zeitweise Flash für einen _tollen_ Lichteffekt und eine pure Flash-Startseite mit Musik und Animationen im Einsatz.
 
-Neben einer fragwürdigen Auswahl an Schriften und *hippem* Stil hatte ich damals erstmals den Bambus als Markenzeichen meiner Website eingeführt.
-
+Neben einer fragwürdigen Auswahl an Schriften und _hippem_ Stil hatte ich damals erstmals den Bambus als Markenzeichen meiner Website eingeführt.
 
 ![Website 2002](/assets/images/chronology/history-2002.jpg)
 
-------------------------------------------------------------------------------
+---
 
 ## 2004
 
 ### September 2004
 
-Im September 2004 erstellte ich die Version 3 der Website. Da ich langsam mehr Verständnis von Design erlangt hatte, sah die Website auch nicht mehr grauenvoll aus. Ich hatte anstatt eines riesigen Header-Bildes jetzt einen stilisierten Bambus im Einsatz, den ich aufgrund fehlenden handwerklichen Fähigkeiten irgendwo im Internet *gefunden* hatte und dann zum Schutz vor Copyright-Brüchen durch diverse Fotofilter und Veränderungen so weit verändert hatte, bis es als *eigene Kreation* durchgehen könnte.
+Im September 2004 erstellte ich die Version 3 der Website. Da ich langsam mehr Verständnis von Design erlangt hatte, sah die Website auch nicht mehr grauenvoll aus. Ich hatte anstatt eines riesigen Header-Bildes jetzt einen stilisierten Bambus im Einsatz, den ich aufgrund fehlenden handwerklichen Fähigkeiten irgendwo im Internet _gefunden_ hatte und dann zum Schutz vor Copyright-Brüchen durch diverse Fotofilter und Veränderungen so weit verändert hatte, bis es als _eigene Kreation_ durchgehen könnte.
 
 Außerdem hatte ich mir bei einem Künstler über das Internet einen japanischen Siegenstein schnitzen lassen. Ich erinnere mich, dass es ihn eine Menge Mühe gekostet hatte, die Schriftzeichen von kogakure in der chinesischen Siegelschrift zu finden.
 
@@ -58,7 +58,7 @@ Technisch hatte ich hier zum ersten Mal ein semantisches CSS-Layout eingesetzt, 
 
 ![Website 2004](/assets/images/chronology/history-2004.jpg)
 
-------------------------------------------------------------------------------
+---
 
 ## 2006
 
@@ -70,18 +70,17 @@ Für Version 4 meiner Website hatte ich in Adobe Illustrator mit dem Verlaufsgit
 
 Außerdem gab es Verbesserungen an den Schriften und das Design wurde insgesamt leichter und frischer.
 
-
 ![Website 2006](/assets/images/chronology/history-2006.jpg)
 
 ### 25. August 2006
 
 #### Nominierung für das Webdesignbook
 
-Die Website wurde für das **Webdesignbook** nominiert. Das Webdesignbook war ein Projekt, das beeindruckende Designs auszeichnet. Die nominierten Seiten mussten  in tabellenlosem Layout, mit validem Markup und CSS umgesetzt sein. Einmal im Jahr wurden 150 Websites von einer namenhaften Jury ausgewählt und irgendwann im Herbst des Jahres in Buchform auf rund 248 Seiten publiziert. Zusätzlich wird das Buch Interviews mit Designern enthalten, Artikel über Designer, die Designs werden nach Farbe, Stil und Autor geordnet sein. In diesem Jahr bestand die Jury aus Andy Budd, Tammie Lister, John Oxton, Marco van Hylckama Vlieg, James Archer, Kyle Neath, Chris J. Davis und Thomas Silkjær.
+Die Website wurde für das **Webdesignbook** nominiert. Das Webdesignbook war ein Projekt, das beeindruckende Designs auszeichnet. Die nominierten Seiten mussten in tabellenlosem Layout, mit validem Markup und CSS umgesetzt sein. Einmal im Jahr wurden 150 Websites von einer namenhaften Jury ausgewählt und irgendwann im Herbst des Jahres in Buchform auf rund 248 Seiten publiziert. Zusätzlich wird das Buch Interviews mit Designern enthalten, Artikel über Designer, die Designs werden nach Farbe, Stil und Autor geordnet sein. In diesem Jahr bestand die Jury aus Andy Budd, Tammie Lister, John Oxton, Marco van Hylckama Vlieg, James Archer, Kyle Neath, Chris J. Davis und Thomas Silkjær.
 
 ### 29. Oktober 2006
 
-#### Bujinkan bei *Welt der Wunder*
+#### Bujinkan bei _Welt der Wunder_
 
 Am Sonntag, 29. Oktober 2006 um 19:00 Uhr wurde in der Sendung **Welt der Wunder** auf RTL2 eine Fernsehreportage über die Ninja ausgestrahlt.
 
@@ -89,7 +88,7 @@ Das Welt der Wunder-Team hat dafür Hatsumi Sensei in Japan besucht und stellte 
 
 Ich hatte das Vergnügen die Redakteure mit dem theoretischen Fachwissen zu versorgen, bevor die Filmarbeiten begannen.
 
-------------------------------------------------------------------------------
+---
 
 ## 2007
 
@@ -99,9 +98,9 @@ Ich hatte das Vergnügen die Redakteure mit dem theoretischen Fachwissen zu vers
 
 Am 25. Januar 2007 hatte meine Website ihren 100.000 Besucher seit Beginn der Zählung im Oktober 2005 die Seite besucht. Insgesamt hatten 100.015 Besucher 497.349 Seiten seit diesem Zeitpunkt aufgerufen.
 
-Die Beiträge über Ninja auf RTL2 (**Welt der Wunder**) und PRO7 (**Galileo Mystery**) hatten Spitzenwerte erzeugt. Das Interesse an den Artikeln war bei den Besuchern nach dem *Welt der Wunder*-Beitrag um ein vielfaches größer als bei den Besuchern des Beitrag von *Galileo Mystery*.
+Die Beiträge über Ninja auf RTL2 (**Welt der Wunder**) und PRO7 (**Galileo Mystery**) hatten Spitzenwerte erzeugt. Das Interesse an den Artikeln war bei den Besuchern nach dem _Welt der Wunder_-Beitrag um ein vielfaches größer als bei den Besuchern des Beitrag von _Galileo Mystery_.
 
-------------------------------------------------------------------------------
+---
 
 ## 2008
 
@@ -113,7 +112,7 @@ Ich setzte dazu zum ersten Mal ein Web-Framework ein, wodurch ich jede einzelne 
 
 ![Website 2008](/assets/images/chronology/history-2008.jpg)
 
-------------------------------------------------------------------------------
+---
 
 ## 2010
 
@@ -129,7 +128,7 @@ Das es sich hier um **gewerbsmäßige Abmahnungen** handelte wurde mir klar, als
 
 Leider war ich nach dieser Erfahrung gezwungen, die Sprüche ganz von der Website zu nehmen, da ich nicht für jeden Spruch zweifelsfrei feststellen konnte, ob der Urheber schon länger als 70 Jahre unter der Erde liegt.
 
-------------------------------------------------------------------------------
+---
 
 ## 2015
 
@@ -149,7 +148,7 @@ Den Bambus erstellt ich in [Affinity Designer](https://affinity.serif.com/design
 
 ![Website 2015](/assets/images/chronology/history-2015.jpg)
 
-------------------------------------------------------------------------------
+---
 
 ## 2017
 
@@ -173,6 +172,6 @@ Außerdem konnte ich zum ersten Mal das [CSS Grid Layout](https://gridbyexample.
 
 Die Website hat jetzt auch einen Service Worker und kann sogar ohne Internetverbindung angesehen werden.
 
-Ich nutze jetzt [Netlify](https://www.netlify.com/) als Hoster für meine Website, und veröffentliche Änderungen automatisch  direkt über [GitHub](https://github.com/).
+Ich nutze jetzt [Netlify](https://www.netlify.com/) als Hoster für meine Website, und veröffentliche Änderungen automatisch direkt über [GitHub](https://github.com/).
 
 ![Website 2017](/assets/images/chronology/history-2017.jpg)

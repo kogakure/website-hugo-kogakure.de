@@ -1,5 +1,6 @@
 ---
 title: "Styleguide"
+date: 2006-01-01T18:00:00+02:00
 description: "Der Styleguide dieser Seite"
 url: "/styleguide/"
 body_class: "grid--small"
@@ -299,10 +300,10 @@ Das Japanische Kino hat einige Meisterwerke hervorgebracht, sowohl in Farbe als 
 Tabellen sollten verwendet werden, um tabellarische Daten anzuzeigen. Die Elemente `thead`, `tbody` und `tfoot` sind dafür da Reihen in der Tabelle zu gruppieren.
 
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| First Header | Second Header |
+| ------------ | ------------- |
+| Content Cell | Content Cell  |
+| Content Cell | Content Cell  |
 
 
 ## Bilder

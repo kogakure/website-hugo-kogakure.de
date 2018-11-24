@@ -1,8 +1,9 @@
 ---
-title: "Impressum"
-description: "Das Impressum dieser Seite, mit Kontaktinformationen, Haftungshinweis und Quellenangabe für verwendete Grafiken. Außerdem Hinweise zu Datenschutz, Cookies, Auskunftsrecht und Webanalyse."
-url: "/impressum/"
-robots: "noindex,follow"
+title: 'Impressum'
+date: 2006-01-01T18:00:00+02:00
+description: 'Das Impressum dieser Seite, mit Kontaktinformationen, Haftungshinweis und Quellenangabe für verwendete Grafiken. Außerdem Hinweise zu Datenschutz, Cookies, Auskunftsrecht und Webanalyse.'
+url: '/impressum/'
+robots: 'noindex,follow'
 ---
 
 Stefan Imhoff  
@@ -20,14 +21,14 @@ Sollten Sie einen Link finden, der auf eine Webseite verlinkt, die gegen geltend
 
 ## Verwendete Grafiken
 
-Diese Seite verwendet einige Hintergrundmuster von *Subtle Patterns*: [Bright Squares] von [Waseem Dahman].
+Diese Seite verwendet einige Hintergrundmuster von _Subtle Patterns_: [Bright Squares] von [Waseem Dahman].
 
-  [Bright Squares]: https://www.toptal.com/designers/subtlepatterns/bright-squares/
-  [Waseem Dahman]: https://twitter.com/dwaseem
+[bright squares]: https://www.toptal.com/designers/subtlepatterns/bright-squares/
+[waseem dahman]: https://twitter.com/dwaseem
 
 ## Datenschutz
 
-Ich, der Betreiber dieser Website, Stefan Imhoff, nehme den Schutz Ihrer persönlichen Daten sehr ernst und halte mich strikt an die Regeln der Datenschutzgesetze. Es werden auf dieser Website *keine personenbezogenen Daten* erfasst oder gespeichert. Außerdem werden in keinem Fall erhobene Daten verkauft oder aus anderen Gründen an Dritte weitergegeben.
+Ich, der Betreiber dieser Website, Stefan Imhoff, nehme den Schutz Ihrer persönlichen Daten sehr ernst und halte mich strikt an die Regeln der Datenschutzgesetze. Es werden auf dieser Website _keine personenbezogenen Daten_ erfasst oder gespeichert. Außerdem werden in keinem Fall erhobene Daten verkauft oder aus anderen Gründen an Dritte weitergegeben.
 
 Die nachfolgende Erklärung gibt Ihnen einen Überblick darüber, wie ich diesen Schutz gewährleiste und welche Art von Daten zu welchem Zweck erhoben werden.
 
@@ -35,23 +36,23 @@ Die nachfolgende Erklärung gibt Ihnen einen Überblick darüber, wie ich diesen
 
 kogakure.de erhebt und speichert automatisch in ihren Server Log Files Informationen, die Ihr Browser an mich übermittelt. Dies sind:
 
-* Browsertyp/-version
-* verwendetes Betriebssystem
-* Referrer URL (die zuvor besuchte Seite)
-* Hostname des zugreifenden Rechners (IP Adresse)
-* Uhrzeit der Serveranfrage.
+- Browsertyp/-version
+- verwendetes Betriebssystem
+- Referrer URL (die zuvor besuchte Seite)
+- Hostname des zugreifenden Rechners (IP Adresse)
+- Uhrzeit der Serveranfrage.
 
 Diese Daten sind für mich nicht bestimmten Personen zuordenbar. Eine Zusammenführung dieser Daten mit anderen Datenquellen wird nicht vorgenommen.
 
 ### Cookies
 
-Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie dienen dazu, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Die meisten der von mir verwendeten Cookies sind so genannte *Session-Cookies*. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.
+Die Internetseiten verwenden an mehreren Stellen so genannte Cookies. Sie dienen dazu, das Angebot nutzerfreundlicher, effektiver und sicherer zu machen. Cookies sind kleine Textdateien, die auf Ihrem Rechner abgelegt werden und die Ihr Browser speichert. Die meisten der von mir verwendeten Cookies sind so genannte _Session-Cookies_. Sie werden nach Ende Ihres Besuchs automatisch gelöscht. Cookies richten auf Ihrem Rechner keinen Schaden an und enthalten keine Viren.
 
 ### Auskunftsrecht
 
 Sie haben jederzeit das Recht auf Auskunft über die bezüglich Ihrer Person gespeicherten Daten, deren Herkunft und Empfänger sowie den Zweck der Datenverarbeitung. Auskunft über die gespeicherten Daten gebe ich Ihnen jederzeit gerne. Sie können mich über das [Impressum] dieser Seite erreichen.
 
-  [Impressum]: /impressum/
+[impressum]: /impressum/
 
 ### Weitere Informationen
 
