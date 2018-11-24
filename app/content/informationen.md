@@ -68,13 +68,6 @@ Seit es Buchversender wie z. B. [Amazon] gibt, sollte es keine Problem mehr dar
 [amazon]: http://www.amazon.de/exec/obidos/redirect?link_code=ur2&camp=1638&tag=kogakurede-21&creative=6742&path=tg%2Fbrowse%2F-%2F301128%3Fsite-redirect%3Dde 'Amazon.de'
 [empfehlungen]: /empfehlungen/
 
-### Wo bekomme ich Ausrüstung her?
-
-Spezielle Ausrüstung, Waffen und Kleidung für Bujinkan z. B. im [Bujinkan-Shop]. Allgemeinere Kampfsportartikel kann man auch im [Budoshop Online] oder in anderen Online-Shops für Sportartikel finden.
-
-[bujinkan-shop]: http://www.bujinkan-shop.de/
-[budoshop online]: http://www.budoten.com/partner.php?pid=kogakure
-
 ### Ich möchte auf eine Seite verlinken. Was ist zu beachten?
 
 Es ist generell untersagt die Verlinkung in einem Frame zu verwirklichen, bei dem **kogakure.de** nicht mehr als Urheber erkennbar ist. Du darfst gerne auf jede Seite dieser Domain verlinken.
