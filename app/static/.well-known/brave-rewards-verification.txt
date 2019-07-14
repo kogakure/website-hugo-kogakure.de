@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: kogakure.de
+Token: 4c17e515a4650cccf42939d2954857dbd2f2458ad11c453b9b43862c9c0dbf24
