@@ -6,10 +6,10 @@ author: "Stefan Imhoff"
 excerpt: "Das Ziel des Ninjutsu ist es sein Leben so zu organisieren, dass es erst gar nicht zu Konfliktsituationen kommt, da Kampf nur das letzte Mittel zur Lösung eines Konfliktes ist."
 body_class: "grid--small"
 categories:
-- Philosophie
-- Strategie
-- Taktik
-- Training
+  - Philosophie
+  - Strategie
+  - Taktik
+  - Training
 ---
 
 {{% blockquote author="Qin Shi Huang Di" cite="Hero" %}}
@@ -21,7 +21,6 @@ Das höchste Ziel der Kunst des Schwertkampfes aber ist, sowohl auf das Schwert 
 
 Im Herzen sollte man das Wohl der Welt tragen. Und das bedeutet nicht töten, das bedeutet Frieden.
 {{% /blockquote %}}
-
 
 ## Erste Regel
 
@@ -35,21 +34,19 @@ Ich darf mich nicht fürchten. Die Furcht tötet das Bewusstsein. Die Furcht fü
 
 Normalerweise verspürt man ein starkes Unbehagen, bis eine gefährliche Situation an einem vorbeigezogen ist. Wenn man sich aber erhebt und der Bedrohung ein schnelles Ende bereitet kann man schnell wieder in eine entspannte, ruhige Lage zurückkehren.
 
-Das Erlernen und Ertragen solcher Situationen, in denen man Niederlagen, Angst oder Demütigungen hinnehmen muss, um das zu erreichen was man will sind tiefverwurzelt im Ninjutsu. Die Silbe *nin* bedeutet Ausdauer, ausharren, ertragen, zurechtkommen mit. Dies ist einer der schwersten Übungen, denn vor allem im Angesicht des Todes auszuharren fordert sehr viel Überwindung.
-
+Das Erlernen und Ertragen solcher Situationen, in denen man Niederlagen, Angst oder Demütigungen hinnehmen muss, um das zu erreichen was man will sind tiefverwurzelt im Ninjutsu. Die Silbe _nin_ bedeutet Ausdauer, ausharren, ertragen, zurechtkommen mit. Dies ist einer der schwersten Übungen, denn vor allem im Angesicht des Todes auszuharren fordert sehr viel Überwindung.
 
 ## Zweite Regel
 
 Es ist wichtig die eigenen Gefühle zu überwinden, damit man sich nicht automatisch verteidigt, wenn eine Verteidigung überhaupt nicht notwendig ist. Dieses Ziel erreicht man durch geistiges Training. Wenn man es nicht schafft die Bedrohung schon im Keim zu ersticken, oder wenigsten die Bedrohung ohne negative Nachwirkung an sich vorbeiziehen zu lassen, dann werden aktive Verteidigungsmaßnahmen in Betracht gezogen.
 
-Hierbei zählt das Prinzip **Schützte deinen Gegner**. Einen Gegner schwer zu verwunden ist oft leichter, als ihn nur ins Leere laufen zu lassen, oder mehrere Gegner gegeneinander laufen zu lassen. Wenn wir den Gegner versuchen zu schützten, d. h. vor seinen eigenen Taten, so werden wir auch nicht als Übeltäter hingestellt werden können, wenn der Gegner sich verletzt. Verletzt er sich *selbst*, so haben wir eine reine Weste.
+Hierbei zählt das Prinzip **Schützte deinen Gegner**. Einen Gegner schwer zu verwunden ist oft leichter, als ihn nur ins Leere laufen zu lassen, oder mehrere Gegner gegeneinander laufen zu lassen. Wenn wir den Gegner versuchen zu schützen, d. h. vor seinen eigenen Taten, so werden wir auch nicht als Übeltäter hingestellt werden können, wenn der Gegner sich verletzt. Verletzt er sich _selbst_, so haben wir eine reine Weste.
 
 Viele Leute denken, wenn sie Ninjutsu betrachten zuerst an körperliche Kampftechniken. Doch in Wirklichkeit kommen sie erst an dritter Stelle. Kampf ist die am wenigsten geeignete Methode, um ein harmonisches und natürliches Leben zu verleben. Wenn der Kampf beginnt, hat man schon eine Niederlage eingesteckt. Und **wer mit Gewalt lebt, wird durch Gewalt sterben**.
 
 Die Ausbildung im Ninjutsu beginnt meist trotzdem mit dem körperlichen Training, da eine solide Kenntnis der physischen Gegebenheiten eine notwendige Voraussetzung für geistiges Wachstum sind. Das Nahkampftraining kann dazu verwendet werden, um die eigenen Gefühle und Stimmungen in Auseinandersetzungen kennenzulernen und zu verstehen.
 
 Trotzdem wäre es wünschenswert, wenn viele Kämpfer sich den geistigen Aspekten ihrer Kunst schon früher widmen würden.
-
 
 ## Dritte Regel
 
@@ -58,7 +55,6 @@ Die eigenen körperlichen Fähigkeiten so zu vervollkommnen, dass jede Auseinand
 Ninjutsu beinhaltet zahlreiche Elemente der Selbstverteidigung und eine ganze Reihe von körpereigenen Waffen, die im Zusammenspiel mit Waffentechniken, Dynamik, Energiegewinnung und anderen Aspekten zu einem einzigartigen Kampfsystem verschmolzen werden. Es ist das gleiche Gefühl, wenn man einen Halbkreisfußtritt ausführt, als wenn man einen Schwerthieb ausführt. Ninjutsu ist daher eher eine Reihe von Gefühlen, als eine Techniksammlung.
 
 Da jeder Mensch einzigartig ist, sowohl in Statur und geistiger Verfassung, zwingt das Ninjutsu seine Schüler nicht starre Bewegungsreihen nachzuahmen. Es werden eher Leitlinien gegeben, die natürlichen gefühlsmäßigen und körperlichen Reaktionen zu entwickeln.
-
 
 ## Hinweise für einen Kampf
 
